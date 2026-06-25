@@ -1,0 +1,17 @@
+
+@media (max-width: 560px) {
+  :root { --shell: calc(100vw - 22px); }
+  .brand-type { display: none; }
+  .hero h1, .page-hero h1 { font-size: 48px; }.hero-actions { flex-direction: column; align-items: stretch; }.hero-actions .button, .page-hero-actions .button { width: 100%; }.hero-proof { gap: 10px 20px; }.hero-proof span:nth-child(2)::after { display: none; }
+  .command-panel { min-height: 500px; border-radius: 18px; }.panel-header { padding: 0 12px; }.panel-header > span { display: none; }.panel-map { height: 306px; }.map-node { width: 96px; }.map-node span { display: none; }.core-node { width: 86px; height: 86px; }.panel-log p { grid-template-columns: 66px 14px 1fr; font-size: 8px; }.panel-footer span:nth-child(2) { display: none; }
+  .section { padding: 75px 0; }.section-heading h2 { font-size: 37px; }.manifesto-statement p { font-size: 18px; }.flagship-copy h3 { font-size: 50px; }.flagship-actions { align-items: flex-start; flex-direction: column; }.agent-console { min-height: 500px; }.console-top { grid-template-columns: 1fr auto; }.console-top > span { display: none; }.console-lines { padding: 18px 12px 10px; }.console-lines p { grid-template-columns: 65px 38px 1fr; font-size: 8px; }.topology-preview { height: 230px; margin-inline: 10px; }.topology-preview > div { width: 40px; height: 40px; }.topology-preview .sw { left: calc(50% - 20px); }
+  .ecosystem-visual { height: 740px; }.eco-node { min-width: 118px; }.eco-a,.eco-e { left: 3%; }.eco-b,.eco-f { right: 3%; }.eco-c { left: 2%; }.eco-d { right: 2%; }.eco-node b { font-size: 11px; }
+  .founder-copy { padding: 33px 22px; }.founder-copy h2 { font-size: 42px; }.contact-panel { border-radius: 20px; }.form-row { grid-template-columns: 1fr; }
+  .page-hero { min-height: 540px; }.product-status-grid { grid-template-columns: 1fr; }.product-status-grid > div { border-right: 0; }.execution-flow { grid-template-columns: 1fr; }.architecture-stack article { padding: 21px 18px; grid-template-columns: 34px 1fr; }.research-page-grid article { min-height: 360px; padding: 27px 22px; }.research-page-grid h2 { margin-top: 70px; font-size: 33px; }.security-grid { grid-template-columns: 1fr; }.contact-page-layout .contact-form { padding: 24px 18px; }.founder-story-copy h2 { font-size: 40px; }.footer-columns { grid-template-columns: 1fr; }.footer-bottom span:nth-child(2) { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .boot-sequence { display: none; }
+}
