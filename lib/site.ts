@@ -6,7 +6,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   founder: "Syed Saad",
   location: "Karachi, Pakistan",
-  email: "ivylyla37@gmail.com",
+  email: "omniaseclabs@hyu.me",
   github: "https://github.com/Syedsaadhhh",
   linkedin: "",
 };
