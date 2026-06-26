@@ -3,7 +3,9 @@ export const site = {
   shortName: "OMNIA",
   description:
     "An independent agentic AI and cybersecurity lab building secure autonomous systems for infrastructure and real-world operations.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://omniaseclabsai.vercel.app",
   founder: "Syed Saad",
   location: "Karachi, Pakistan",
   email: "omniaseclabs@hyu.me",
