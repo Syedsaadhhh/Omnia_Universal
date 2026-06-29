@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">AI Seekho 2026 Certificate of Achievement</title>
+  <desc id="desc">Certificate summary for Syed Muhammad Saad, Regional Shortlist, AI Seekho 2026 Google Antigravity National Hackathon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070912"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151029"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="0.52" stop-color="#6687ff"/>
+      <stop offset="1" stop-color="#b86cff"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ea4e57"/>
+      <stop offset="1" stop-color="#6687ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200"/>
+    <path d="M120 0V760M240 0V760M360 0V760M480 0V760M600 0V760M720 0V760M840 0V760M960 0V760M1080 0V760"/>
+  </g>
+  <circle cx="990" cy="115" r="210" fill="#6687ff" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="180" cy="640" r="230" fill="#b86cff" opacity="0.10" filter="url(#glow)"/>
+  <rect x="52" y="52" width="1096" height="656" rx="34" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="84" y="84" width="1032" height="592" rx="28" fill="rgba(4,7,13,0.52)" stroke="rgba(103,232,249,0.24)"/>
+  <text x="110" y="130" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#67e8f9" letter-spacing="5">GOOGLE AI SEEKHO 2026</text>
+  <text x="110" y="168" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#8f9bb8" letter-spacing="3">GOOGLE ANTIGRAVITY NATIONAL HACKATHON</text>
+  <g transform="translate(930 92)">
+    <rect width="142" height="142" rx="30" fill="rgba(103,232,249,0.06)" stroke="rgba(103,232,249,0.30)"/>
+    <path d="M71 22 110 45v45c0 25-16 42-39 50-23-8-39-25-39-50V45l39-23Z" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M66 55c-15 2-26 14-26 30s12 29 27 31V98c-6-2-10-7-10-13s4-11 9-13V55Zm10 0c15 2 26 14 26 30s-12 29-27 31V98c6-2 10-7 10-13s-4-11-9-13V55Z" fill="url(#accent)"/>
+    <circle cx="71" cy="85" r="7" fill="#fff"/>
+  </g>
+  <text x="600" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="#ffffff" letter-spacing="-2">Certificate of Achievement</text>
+  <rect x="432" y="306" width="336" height="3" rx="2" fill="url(#accent)"/>
+  <text x="600" y="365" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#aeb8cf">Presented to</text>
+  <text x="600" y="433" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" fill="#ffffff">Syed Muhammad Saad</text>
+  <rect x="458" y="468" width="284" height="58" rx="15" fill="url(#badge)" stroke="rgba(255,255,255,0.22)"/>
+  <text x="600" y="505" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Regional Shortlist</text>
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#d9e2f5">For outstanding performance and securing a coveted spot in the regional shortlist.</text>
+  <text x="600" y="615" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#99a6c2">Case-study evidence for CIRO - Team Zero Trace / Google AI Seekho 2026</text>
+  <text x="110" y="656" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8f9bb8" letter-spacing="2">CERTIFICATE SUMMARY CARD</text>
+  <text x="1090" y="656" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8f9bb8" letter-spacing="2">OMNIA SEC AI LABS</text>
+</svg>
