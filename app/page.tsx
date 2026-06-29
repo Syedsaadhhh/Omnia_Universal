@@ -4,7 +4,7 @@ import { CommandPanel } from "@/components/CommandPanel";
 import { ContactForm } from "@/components/ContactForm";
 import { NetworkCanvas } from "@/components/NetworkCanvas";
 import { SectionHeading } from "@/components/SectionHeading";
-import { projects, researchQuestions } from "@/lib/site";
+import { labTools, researchQuestions } from "@/lib/site";
 
 export default function HomePage() {
   return (
@@ -69,8 +69,7 @@ export default function HomePage() {
           </div>
         </article>
         <div className="project-teasers">
-          {projects.slice(1).map((project) => <article key={project.title}><div><span>{project.kind}</span><b>{project.number}</b></div><h3>{project.title}</h3><p>{project.description}</p><div className="tag-row">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div><Link href={project.href}>Examine project ↗</Link></article>)}
-          <article className="open-system"><div><span>OPEN SYSTEM</span><b>004</b></div><h3>The next hard problem</h3><p>A reserved slot for a problem worthy of becoming part of the Omnia ecosystem.</p><Link href="/contact">Propose a problem ↗</Link></article>
+          {labTools.map((tool) => <article key={tool.title}><div><span>{tool.kind}</span><b>{tool.number}</b></div><h3>{tool.title}</h3><p>{tool.description}</p><div className="tag-row">{tool.tags.map((tag) => <span key={tag}>{tag}</span>)}</div><Link href={`/projects#${tool.title.toLowerCase().replaceAll(" ", "-")}`}>View lab tool ↗</Link></article>)}
         </div>
       </section>
 
