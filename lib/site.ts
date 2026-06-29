@@ -33,17 +33,17 @@ export const projects = [
     tags: ["GNS3", "Infrastructure", "Agentic AI", "Python"],
   },
   {
-    number: "002",
+    number: "CS-01",
     title: "CIRO",
-    status: "Regional finalist",
-    kind: "Operational prototype",
+    status: "Google AI Seekho 2026",
+    kind: "Team-built event case study",
     description:
-      "A multi-agent crisis intelligence and response orchestrator that turns fragmented civic reports into validated, operator-reviewable action.",
+      "A crisis intelligence and response prototype built with Team Zero Trace for Google AI Seekho 2026, preserved as a case study rather than an Omnia-owned service.",
     href: "/projects#ciro",
-    tags: ["Gemini", "FastAPI", "Realtime", "Geospatial"],
+    tags: ["Team Zero Trace", "Gemini", "FastAPI", "Realtime"],
   },
   {
-    number: "003",
+    number: "R-01",
     title: "CASEMIND",
     status: "Research concept",
     kind: "DFIR exploration",
@@ -51,6 +51,48 @@ export const projects = [
       "An investigation assistant concept for reconstructing cyber incidents, organizing timelines, evaluating attacker hypotheses, and planning response.",
     href: "/projects#casemind",
     tags: ["DFIR", "Reasoning", "Incident response"],
+  },
+];
+
+export const labTools = [
+  {
+    number: "OLT-01",
+    title: "CredScan Lite",
+    repo: "https://github.com/Syedsaadhhh/credscan-lite",
+    status: "Public prototype",
+    kind: "Security education tool",
+    deployStatus: "Offline CLI today · web demo candidate",
+    description:
+      "A local credential-dump analyzer for cybersecurity students, SOC trainees, digital-forensics learners, privacy researchers, and small security teams.",
+    proof:
+      "Detects weak, reused, numeric-only, short, and duplicate credentials with zero runtime dependencies.",
+    tags: ["Cybersecurity", "Credential hygiene", "Offline", "Python"],
+  },
+  {
+    number: "OLT-02",
+    title: "ActionScribe Local",
+    repo: "https://github.com/Syedsaadhhh/actionscribe-local",
+    status: "Public prototype",
+    kind: "Local-first productivity agent",
+    deployStatus: "CLI + Streamlit today · hosted demo candidate",
+    description:
+      "An offline meeting, lecture, and voice-note action extractor for students, teams, and emerging-market workflows.",
+    proof:
+      "Turns transcripts into action items, deadlines, responsibilities, summaries, Markdown, and JSON exports.",
+    tags: ["Local-first AI", "Students", "Operations", "Streamlit"],
+  },
+  {
+    number: "OLT-03",
+    title: "Revise Lite",
+    repo: "https://github.com/Syedsaadhhh/revise-lite",
+    status: "Public prototype",
+    kind: "Study automation tool",
+    deployStatus: "Offline CLI today · student web tool candidate",
+    description:
+      "An offline study-note summarizer that converts raw lecture notes into revision-ready sheets for exam preparation.",
+    proof:
+      "Extracts key sentences, keyword frequency, and instant revision sheets without external dependencies.",
+    tags: ["Education", "Offline", "Revision", "Python"],
   },
 ];
 
