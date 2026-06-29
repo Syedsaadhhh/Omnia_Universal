@@ -78,7 +78,10 @@ export default function ProjectsPage() {
               <h2>{ciro.title}</h2>
               <p>{ciro.description}</p>
               <p className="project-detail">Built for Google AI Seekho 2026 with Team Zero Trace as a Karachi-first crisis intelligence prototype. The case study highlights the architecture, execution discipline, and learning outcomes without claiming it as an Omnia-owned product.</p>
-              <p className="project-detail"><strong>Certificate slot:</strong> Google AI Seekho certificate will be displayed here once uploaded.</p>
+              <div style={{ marginTop: 24, marginBottom: 24, padding: 14, border: "1px solid rgba(152, 166, 205, 0.16)", borderRadius: 18, background: "rgba(255,255,255,.015)" }}>
+                <img src="/certificates/ai-seekho-regional-shortlist.svg" alt="AI Seekho 2026 certificate summary card for Syed Muhammad Saad" style={{ width: "100%", borderRadius: 14, boxShadow: "0 18px 45px rgba(0,0,0,.28)" }} />
+                <p className="project-detail" style={{ marginTop: 14 }}><strong>Certificate evidence:</strong> Syed Muhammad Saad received a Certificate of Achievement as Regional Shortlist for the AI Seekho 2026 Google Antigravity National Hackathon.</p>
+              </div>
               <div className="tag-row">{ciro.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
               <a className="text-link" href="https://github.com/Syedsaadhhh/ciro-khi" target="_blank" rel="noreferrer">View CIRO repository →</a>
             </div>
