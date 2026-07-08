@@ -18,8 +18,11 @@
 .passport-chain span { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
 .passport-chain i { width: 22px; height: 1px; background: rgba(103,232,249,.28); }
 .founder-photo { padding: 26px; }
-.founder-photo img { position: relative; z-index: 1; width: min(88%, 430px); max-height: 76%; object-fit: cover; border-radius: 34px; box-shadow: 0 34px 95px rgba(0,0,0,.46), 0 0 80px rgba(103,232,249,.08); }
+.founder-photo img { position: relative; z-index: 1; width: min(88%, 430px); max-height: 76%; object-fit: cover; object-position: center top; border-radius: 34px; box-shadow: 0 34px 95px rgba(0,0,0,.46), 0 0 80px rgba(103,232,249,.08); }
 .founder-photo .portrait-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.026) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.026) 1px, transparent 1px); background-size: 38px 38px; opacity: .55; }
+.founder-story-photo { padding: 0; min-height: 560px; }
+.founder-story-photo img { width: min(92%, 450px); max-height: 82%; }
+.founder-story-photo > span, .founder-photo > span { display: none !important; }
 @media (max-width: 900px) {
   .venture-card, .gns3-card { grid-template-columns: 1fr; }
   .reproforge-passport { border-left: 0; border-top: 1px solid var(--line); min-height: 500px; }
@@ -30,4 +33,6 @@
   .passport-claim { font-size: 29px; }
   .passport-chain { align-items: flex-start; flex-direction: column; }
   .passport-chain i { width: 1px; height: 18px; }
+  .founder-story-photo { min-height: 520px; }
+  .founder-story-photo img { width: min(92%, 330px); max-height: 78%; }
 }
