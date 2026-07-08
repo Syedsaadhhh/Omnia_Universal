@@ -18,13 +18,13 @@ export default function HomePage() {
         <div className="hero-shell">
           <div className="hero-copy">
             <div className="eyebrow"><i /> Independent AI & cybersecurity lab · Karachi</div>
-            <h1>Building the intelligence layer for <span>autonomous systems.</span></h1>
-            <p>Omnia Sec AI Labs creates agents, security tooling, and operational software that transform human intent into secure, observable execution.</p>
+            <h1>Building the intelligence layer for <span>verified autonomy.</span></h1>
+            <p>Omnia Sec AI Labs is a pre-seed independent lab building agentic AI, cybersecurity tooling, and claim-to-evidence systems that turn ambitious demos into traceable, reviewable execution.</p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/gns3-agent">Explore GNS3 Agent <span aria-hidden="true">↗</span></Link>
+              <Link className="button button-primary" href="/projects#reproforge">View ReproForge <span aria-hidden="true">↗</span></Link>
               <Link className="button button-secondary" href="#manifesto">Read the manifesto</Link>
             </div>
-            <div className="hero-proof" aria-label="Core focus areas"><span>Agentic AI</span><span>Cybersecurity</span><span>Infrastructure automation</span><span>Digital forensics</span></div>
+            <div className="hero-proof" aria-label="Core focus areas"><span>Agentic AI</span><span>Cybersecurity</span><span>Verification</span><span>Digital forensics</span></div>
           </div>
           <div className="hero-visual"><CommandPanel /></div>
         </div>
@@ -47,10 +47,36 @@ export default function HomePage() {
       </section>
 
       <section className="section active-work">
-        <SectionHeading index="02" label="Active work" title={<>Proof before promises.</>} copy="The flagship is narrow by design: prove reliable autonomy in one difficult technical environment, then extract the reusable system beneath it." />
-        <article className="flagship-card">
+        <SectionHeading index="02" label="Active work" title={<>Proof before promises.</>} copy="The lab now runs on two honest tracks: solo Omnia infrastructure products, and FrontierOps hackathon execution where ReproForge is being built as a venture-grade verification layer." />
+        <article className="flagship-card venture-card" id="reproforge">
           <div className="flagship-copy">
-            <div className="project-meta"><span className="live-chip"><i /> ACTIVE DEVELOPMENT</span><span>FLAGSHIP / 001</span></div>
+            <div className="project-meta"><span className="live-chip"><i /> ACTIVE BUILD</span><span>FRONTIEROPS / LABLAB</span></div>
+            <h3>ReproForge</h3>
+            <p>A claim-to-evidence verification layer for AI/ML demos, benchmarks, papers, and hackathon claims. ReproForge reruns claims inside controlled sandboxes and produces signed reproducibility passports with logs, runtime details, blocked commands, limitations, and evidence chains.</p>
+            <div className="capability-list">
+              <div><b>01</b><span><strong>Verify</strong> AI claims by rerunning code, prompts, configs, and artifacts in controlled execution environments.</span></div>
+              <div><b>02</b><span><strong>Capture</strong> terminal traces, policy events, approval gates, hashes, dependencies, and runtime metadata.</span></div>
+              <div><b>03</b><span><strong>Report</strong> signed reproducibility passports for judges, investors, researchers, and technical reviewers.</span></div>
+              <div><b>04</b><span><strong>Disclose</strong> AMD/ROCm proof only when verified, with limitations clearly marked instead of inflated claims.</span></div>
+            </div>
+            <div className="flagship-actions"><Link className="button button-primary" href="/projects#reproforge">Open venture card ↗</Link><a className="text-link" href="https://github.com/Syedsaadhhh" target="_blank" rel="noreferrer">GitHub build track →</a></div>
+          </div>
+          <div className="reproforge-passport" aria-label="ReproForge passport preview">
+            <div className="passport-top"><span>REPROFORGE PASSPORT</span><b>PRE-SEED BUILD</b></div>
+            <div className="passport-verdict"><i /> CLAIM STATUS: UNDER VERIFICATION</div>
+            <div className="passport-claim">“This AI result is reproducible under the declared runtime, data, and hardware constraints.”</div>
+            <div className="passport-grid">
+              <div><span>TEAM</span><b>FrontierOps</b></div>
+              <div><span>EVENT</span><b>lablab.ai build track</b></div>
+              <div><span>MODE</span><b>Sandbox rerun</b></div>
+              <div><span>OUTPUT</span><b>PDF · JSON · Share link</b></div>
+            </div>
+            <div className="passport-chain"><span /> ingest claim <i /> rerun sandbox <i /> capture evidence <i /> sign report</div>
+          </div>
+        </article>
+        <article className="flagship-card gns3-card">
+          <div className="flagship-copy">
+            <div className="project-meta"><span className="live-chip"><i /> ACTIVE DEVELOPMENT</span><span>OMNIA / 001</span></div>
             <h3>GNS3 Agent</h3>
             <p>A Windows-first diagnostic and automation agent for network labs. It connects to the real GNS3 API, inspects the environment, explains failures, and builds toward safe execution, evidence capture, and reporting.</p>
             <div className="capability-list">
@@ -81,14 +107,14 @@ export default function HomePage() {
 
       <section className="section roadmap-section">
         <SectionHeading index="04" label="Roadmap" title={<>From one useful agent<br />to a governed autonomous platform.</>} />
-        <div className="roadmap-list">{[["NOW", "GNS3 Agent", "Harden diagnostics, API connectivity, read-only inspection, and the first safe execution workflows.", "Document intelligence · GNS3 operations · evidence · reports"],["NEXT", "Reusable agent infrastructure", "Extract execution, policy, trace, recovery, and plugin layers from the flagship product.", "Runtime · observability · local-first controls · connectors"],["LATER", "Multi-agent ecosystem", "Coordinate security, infrastructure, research, and operations agents around shared governance.", "Shared context · verification gates · orchestration"],["VISION", "Secure autonomous platform", "Translate high-level human objectives into observable, bounded, real-world execution.", "Human control · enterprise governance · continuous learning"]].map(([phase,title,copy,detail],index) => <article key={phase}><div className="roadmap-phase"><span>0{index + 1}</span><b>{phase}</b></div><div className="roadmap-marker"><i /></div><div><h3>{title}</h3><p>{copy}</p><small>{detail}</small></div></article>)}</div>
+        <div className="roadmap-list">{[["NOW", "ReproForge + GNS3 Agent", "Build the public venture layer around reproducibility verification while continuing GNS3 diagnostics and evidence-reporting infrastructure.", "FrontierOps · Omnia · evidence · reports"],["NEXT", "Reusable verification infrastructure", "Extract sandboxing, policy, trace, recovery, signing, and passport-generation layers from the flagship builds.", "Runtime · observability · local-first controls · connectors"],["LATER", "Multi-agent ecosystem", "Coordinate security, infrastructure, research, and operations agents around shared governance.", "Shared context · verification gates · orchestration"],["VISION", "Secure autonomous platform", "Translate high-level human objectives into observable, bounded, real-world execution.", "Human control · enterprise governance · continuous learning"]].map(([phase,title,copy,detail],index) => <article key={phase}><div className="roadmap-phase"><span>0{index + 1}</span><b>{phase}</b></div><div className="roadmap-marker"><i /></div><div><h3>{title}</h3><p>{copy}</p><small>{detail}</small></div></article>)}</div>
       </section>
 
-      <section className="section founder-preview"><div className="founder-card"><div className="founder-portrait"><div className="portrait-grid" /><div className="portrait-monogram">SS</div><div className="portrait-scan" /><span><i /> BUILDING FROM KARACHI</span></div><div className="founder-copy"><div className="section-kicker">05 / Founder</div><h2>Credible ambition under constraint.</h2><p>I’m <strong>Syed Saad</strong>, a Digital Forensics and Cyber Security student at Hamdard University. I build where agentic AI, infrastructure, cloud security, and DFIR intersect.</p><p>Omnia exists because isolated demos are not enough. Each project should create reusable knowledge and infrastructure for the next—until the ecosystem becomes real.</p><blockquote>“The ambition is long-term. The work is daily.”</blockquote><div className="founder-facts"><div><b>Current focus</b><span>GNS3 Agent · Secure autonomy</span></div><div><b>Background</b><span>DFIR · Cybersecurity · AI</span></div><div><b>Operating model</b><span>Student founder · Independent lab</span></div><div><b>Long-term direction</b><span>Cloud security + autonomous systems</span></div></div><Link className="text-link" href="/about">Read the founder story →</Link></div></div></section>
+      <section className="section founder-preview"><div className="founder-card"><div className="founder-portrait founder-photo"><div className="portrait-grid" /><img src="/founder-syed-saad.svg" alt="Syed Saad, founder of Omnia Sec AI Labs" /><div className="portrait-scan" /><span><i /> BUILDING FROM KARACHI</span></div><div className="founder-copy"><div className="section-kicker">05 / Founder</div><h2>Credible ambition under constraint.</h2><p>I’m <strong>Syed Saad</strong>, a Digital Forensics and Cyber Security student at Hamdard University. I build where agentic AI, infrastructure, cloud security, and DFIR intersect.</p><p>Omnia exists as the startup home for serious experiments: solo infrastructure tools, cybersecurity utilities, and FrontierOps hackathon work around ReproForge.</p><blockquote>“The ambition is long-term. The work is daily.”</blockquote><div className="founder-facts"><div><b>Current focus</b><span>ReproForge · GNS3 Agent</span></div><div><b>Team track</b><span>FrontierOps · lablab.ai</span></div><div><b>Operating model</b><span>Student founder · Pre-seed lab</span></div><div><b>Long-term direction</b><span>Cloud security + autonomous systems</span></div></div><Link className="text-link" href="/about">Read the founder story →</Link></div></div></section>
 
       <section className="section research-preview"><SectionHeading index="06" label="Research direction" title="Questions worth building toward." copy="The research agenda stays attached to product reality: action, verification, orchestration, security, and human control." /><div className="research-grid">{researchQuestions.map((item) => <article key={item.id}><span>{item.id}</span><h3>{item.title}</h3><p>{item.question}</p></article>)}</div><div className="section-link"><Link className="button button-secondary" href="/research">Open research direction ↗</Link></div></section>
 
-      <section className="section contact-preview"><div className="contact-panel"><div className="contact-copy"><div className="section-kicker">07 / Contact</div><h2>Bring a difficult problem.</h2><p>Open to serious conversations around GNS3 Agent, research collaboration, technical partnerships, cybersecurity, and agentic infrastructure.</p><div className="contact-pills"><span>Early access</span><span>Research</span><span>Partnerships</span><span>Technical discussion</span></div><small>Direct founder response · Karachi / PKT (UTC+5)</small></div><ContactForm compact /></div></section>
+      <section className="section contact-preview"><div className="contact-panel"><div className="contact-copy"><div className="section-kicker">07 / Contact</div><h2>Bring a difficult problem.</h2><p>Open to serious conversations around ReproForge, GNS3 Agent, research collaboration, technical partnerships, cybersecurity, and agentic infrastructure.</p><div className="contact-pills"><span>Early access</span><span>Research</span><span>Partnerships</span><span>Technical discussion</span></div><small>Direct founder response · Karachi / PKT (UTC+5)</small></div><ContactForm compact /></div></section>
     </>
   );
 }
