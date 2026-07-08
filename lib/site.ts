@@ -2,7 +2,7 @@ export const site = {
   name: "Omnia Sec AI Labs",
   shortName: "OMNIA",
   description:
-    "An independent agentic AI and cybersecurity lab building secure autonomous systems for infrastructure and real-world operations.",
+    "An independent agentic AI and cybersecurity lab building secure autonomous systems, reproducibility tooling, and evidence-driven infrastructure for real-world operations.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://omniaseclabsai.vercel.app",
@@ -14,10 +14,10 @@ export const site = {
 };
 
 export const navItems = [
+  { href: "/projects#reproforge", label: "ReproForge" },
   { href: "/gns3-agent", label: "GNS3 Agent" },
   { href: "/projects", label: "Projects" },
   { href: "/research", label: "Research" },
-  { href: "/build-log", label: "Build Log" },
   { href: "/about", label: "Founder" },
 ];
 
@@ -31,6 +31,16 @@ export const projects = [
       "A Windows-first diagnostic and automation agent for GNS3 labs, infrastructure inspection, evidence capture, troubleshooting, and report generation.",
     href: "/gns3-agent",
     tags: ["GNS3", "Infrastructure", "Agentic AI", "Python"],
+  },
+  {
+    number: "VF-01",
+    title: "ReproForge",
+    status: "FrontierOps active build",
+    kind: "Startup + hackathon venture",
+    description:
+      "A claim-to-evidence verification layer that reruns AI/ML claims inside controlled sandboxes and generates signed reproducibility passports for demos, benchmarks, research artifacts, and technical due diligence.",
+    href: "/projects#reproforge",
+    tags: ["FrontierOps", "lablab.ai", "AI verification", "Reproducibility"],
   },
   {
     number: "CS-01",
@@ -105,9 +115,9 @@ export const researchQuestions = [
   },
   {
     id: "R/02",
-    title: "Local-first intelligence",
+    title: "Reproducible AI claims",
     question:
-      "How much useful autonomy can run on modest hardware with minimal dependence on paid APIs?",
+      "What evidence is enough for a model, benchmark, or demo claim to be trusted by a technical reviewer?",
   },
   {
     id: "R/03",
