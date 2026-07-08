@@ -10,7 +10,11 @@ export default function AboutPage() {
     <>
       <PageHero eyebrow="FOUNDER / SYED SAAD" title={<>Start before permission.<br /><span>Compound the work.</span></>} copy="Omnia is being built by a Digital Forensics and Cyber Security student in Karachi with a long horizon, limited resources, and an unwillingness to treat those constraints as an excuse." />
       <section className="section founder-story">
-        <div className="founder-story-visual"><div className="founder-large-monogram">SS</div><span>KARACHI / PKT / UTC+5</span></div>
+        <div className="founder-story-visual founder-photo founder-story-photo">
+          <div className="portrait-grid" />
+          <img src="/founder-syed-saad.svg" alt="Syed Saad, founder of Omnia Sec AI Labs" />
+          <div className="portrait-scan" />
+        </div>
         <div className="founder-story-copy">
           <h2>I am building the lab I want to grow into.</h2>
           <p>I’m Syed Saad, studying Digital Forensics and Cyber Security at Hamdard University. My strongest interests sit at the intersection of agentic AI, cloud security, infrastructure, digital forensics, and systems that can perform real technical work.</p>
