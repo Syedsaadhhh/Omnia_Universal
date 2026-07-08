@@ -6,11 +6,12 @@ import { labTools, projects } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Flagship Omnia products, lab tools, research concepts, and clearly labeled team-built case studies.",
+    "Flagship Omnia products, ReproForge, lab tools, research concepts, and clearly labeled team-built case studies.",
 };
 
 export default function ProjectsPage() {
-  const flagship = projects[0];
+  const flagship = projects.find((project) => project.title === "GNS3 Agent") || projects[0];
+  const reproforge = projects.find((project) => project.title === "ReproForge");
   const ciro = projects.find((project) => project.title === "CIRO");
   const casemind = projects.find((project) => project.title === "CASEMIND");
 
@@ -19,7 +20,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="PROJECT ARCHIVE"
         title={<>Systems built to <span>compound.</span></>}
-        copy="Omnia separates flagship products, solo-built lab tools, research concepts, and team event work so every project is presented honestly and professionally."
+        copy="Omnia separates startup venture work, flagship products, solo-built lab tools, research concepts, and team event work so every project is presented honestly and professionally."
       />
 
       <section className="section projects-page-list">
@@ -37,10 +38,36 @@ export default function ProjectsPage() {
         </article>
       </section>
 
+      {reproforge && (
+        <section className="section projects-page-list">
+          <div className="section-heading">
+            <div>
+              <div className="section-kicker">02 / Startup + Hackathon Track</div>
+              <h2>ReproForge is the venture-grade bet.</h2>
+            </div>
+            <p>Built with FrontierOps on lablab.ai, ReproForge is framed as an active pre-seed verification product: ambitious, current, and honest about what is implemented versus what is being validated.</p>
+          </div>
+          <article id="reproforge" className="project-page-card reproforge-project-card">
+            <div className="project-page-index">{reproforge.number}</div>
+            <div className="project-page-main">
+              <div className="project-meta"><span>{reproforge.kind}</span><b>{reproforge.status}</b></div>
+              <h2>{reproforge.title}</h2>
+              <p>{reproforge.description}</p>
+              <p className="project-detail"><strong>Team:</strong> FrontierOps — the lablab team currently building the ReproForge hackathon prototype and venture narrative.</p>
+              <p className="project-detail"><strong>Core artifact:</strong> a signed Reproducibility Passport that can include claim summary, sandbox policy, runtime environment, evidence chain, limitations, hashes, exportable PDF/JSON, and optional AMD/ROCm proof only after verification.</p>
+              <p className="project-detail"><strong>Positioning:</strong> startup-grade claim verification for judges, researchers, investors, AI teams, and technical due diligence workflows.</p>
+              <div className="tag-row">{reproforge.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+              <a className="text-link" href="https://github.com/Syedsaadhhh" target="_blank" rel="noreferrer">Open GitHub build profile →</a>
+            </div>
+            <div className="project-glyph glyph-2" aria-hidden="true"><span>R</span><i /><i /></div>
+          </article>
+        </section>
+      )}
+
       <section className="section projects-page-list">
         <div className="section-heading">
           <div>
-            <div className="section-kicker">02 / Omnia Lab Tools</div>
+            <div className="section-kicker">03 / Omnia Lab Tools</div>
             <h2>Small tools with service potential.</h2>
           </div>
           <p>These solo-built prototypes can become hosted utilities, student tools, cybersecurity demos, or future Omnia micro-services after hardening.</p>
@@ -57,7 +84,7 @@ export default function ProjectsPage() {
               <div className="tag-row">{tool.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
               <a className="text-link" href={tool.repo} target="_blank" rel="noreferrer">View GitHub repo →</a>
             </div>
-            <div className={`project-glyph glyph-${index + 2}`} aria-hidden="true"><span>{tool.title.charAt(0)}</span><i /><i /></div>
+            <div className={`project-glyph glyph-${index + 3}`} aria-hidden="true"><span>{tool.title.charAt(0)}</span><i /><i /></div>
           </article>
         ))}
       </section>
@@ -66,7 +93,7 @@ export default function ProjectsPage() {
         <section className="section projects-page-list">
           <div className="section-heading">
             <div>
-              <div className="section-kicker">03 / Case Study</div>
+              <div className="section-kicker">04 / Case Study</div>
               <h2>Team-built event work stays credited.</h2>
             </div>
             <p>CIRO is preserved as a Google AI Seekho 2026 / Team Zero Trace case study. It should not be framed as a standalone Omnia service.</p>
@@ -94,7 +121,7 @@ export default function ProjectsPage() {
         <section className="section projects-page-list">
           <div className="section-heading">
             <div>
-              <div className="section-kicker">04 / Research Concepts</div>
+              <div className="section-kicker">05 / Research Concepts</div>
               <h2>Ideas under evaluation.</h2>
             </div>
             <p>Research concepts remain clearly marked until they become implemented software with working repositories and evidence.</p>
