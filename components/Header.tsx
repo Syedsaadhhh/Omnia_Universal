@@ -36,7 +36,7 @@ export function Header() {
           ))}
         </nav>
         <div className="header-actions">
-          <Link className="button button-ghost button-small desktop-cta" href="/contact">
+          <Link className="button button-primary button-small desktop-cta" href="/contact">
             Start a conversation <span aria-hidden="true">↗</span>
           </Link>
           <button
@@ -53,9 +53,8 @@ export function Header() {
       </div>
       <div className={`mobile-menu ${open ? "open" : ""}`}>
         <nav aria-label="Mobile navigation">
-          {navItems.map((item, index) => (
+          {navItems.map((item) => (
             <Link key={item.href} href={item.href}>
-              <span>0{index + 1}</span>
               {item.label}
               <i aria-hidden="true">↗</i>
             </Link>

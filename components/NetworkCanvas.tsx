@@ -16,13 +16,8 @@ export function NetworkCanvas() {
     let height = 0;
     let dpr = 1;
     const pointer = { x: -1000, y: -1000 };
-    const particles = Array.from({ length: 54 }, () => ({
-      x: Math.random(),
-      y: Math.random(),
-      vx: (Math.random() - 0.5) * 0.00018,
-      vy: (Math.random() - 0.5) * 0.00018,
-      r: Math.random() * 1.2 + 0.45,
-    }));
+    let particles: Array<{ x: number; y: number; vx: number; vy: number; r: number }> = [];
+    let initialized = false;
 
     const resize = () => {
       width = canvas.clientWidth;
@@ -81,14 +76,28 @@ export function NetworkCanvas() {
       frame = requestAnimationFrame(draw);
     };
 
-    resize();
-    window.addEventListener("resize", resize);
-    window.addEventListener("pointermove", onPointer, { passive: true });
-    frame = requestAnimationFrame(draw);
+    const initialize = () => {
+      particles = Array.from({ length: 42 }, () => ({
+        x: Math.random(),
+        y: Math.random(),
+        vx: (Math.random() - 0.5) * 0.00018,
+        vy: (Math.random() - 0.5) * 0.00018,
+        r: Math.random() * 1.2 + 0.45,
+      }));
+      resize();
+      window.addEventListener("resize", resize);
+      window.addEventListener("pointermove", onPointer, { passive: true });
+      initialized = true;
+      frame = requestAnimationFrame(draw);
+    };
+
+    frame = requestAnimationFrame(initialize);
     return () => {
       cancelAnimationFrame(frame);
-      window.removeEventListener("resize", resize);
-      window.removeEventListener("pointermove", onPointer);
+      if (initialized) {
+        window.removeEventListener("resize", resize);
+        window.removeEventListener("pointermove", onPointer);
+      }
     };
   }, []);
 

@@ -14,11 +14,91 @@ export const site = {
 };
 
 export const navItems = [
-  { href: "/projects#reproforge", label: "ReproForge" },
-  { href: "/gns3-agent", label: "GNS3 Agent" },
   { href: "/projects", label: "Projects" },
   { href: "/research", label: "Research" },
-  { href: "/about", label: "Founder" },
+  { href: "/build-log", label: "Build Log" },
+  { href: "/about", label: "About" },
+];
+
+export type ProjectCategory = "Flagship" | "Hackathons" | "Security Tools";
+
+export type ProjectShowcaseItem = {
+  title: string;
+  event: string;
+  summary: string;
+  status: string;
+  categories: ProjectCategory[];
+  tags: string[];
+  primary: { label: string; href: string };
+  github?: string;
+};
+
+export const projectShowcase: ProjectShowcaseItem[] = [
+  {
+    title: "ReproForge",
+    event: "AMD ACT II · FrontierOps",
+    summary: "Turns ambitious AI claims into rerunnable evidence and signed reproducibility passports.",
+    status: "Active Build",
+    categories: ["Flagship", "Hackathons", "Security Tools"],
+    tags: ["Next.js", "FastAPI", "ROCm", "SHA-256"],
+    primary: { label: "View demo ↗", href: "https://reproforge-sentinel.onrender.com" },
+    github: "https://github.com/Syedsaadhhh/reproforge-sentinel",
+  },
+  {
+    title: "GNS3 Agent",
+    event: "Omnia Flagship · 001",
+    summary: "Diagnoses Windows-first network labs and produces visible, reviewable execution evidence.",
+    status: "Active Build",
+    categories: ["Flagship", "Security Tools"],
+    tags: ["GNS3", "Python", "REST API", "DFIR"],
+    primary: { label: "View architecture →", href: "/gns3-agent" },
+  },
+  {
+    title: "CIRO",
+    event: "Google AI Seekho 2026",
+    summary: "A team-built crisis intelligence prototype preserved with clear credit and evidence.",
+    status: "Regional Shortlist",
+    categories: ["Hackathons"],
+    tags: ["Gemini", "FastAPI", "Realtime", "Team Zero Trace"],
+    primary: { label: "View case study →", href: "/projects#ciro" },
+    github: "https://github.com/Syedsaadhhh/ciro-khi",
+  },
+  {
+    title: "CredScan Lite",
+    event: "Omnia Lab Tool · OLT-01",
+    summary: "Finds weak, reused, short, and duplicate credentials without sending data off-device.",
+    status: "Public Prototype",
+    categories: ["Security Tools"],
+    tags: ["Python", "Offline", "Credential Hygiene"],
+    primary: { label: "View GitHub ↗", href: "https://github.com/Syedsaadhhh/credscan-lite" },
+  },
+  {
+    title: "ActionScribe Local",
+    event: "Omnia Lab Tool · OLT-02",
+    summary: "Converts local meeting or lecture transcripts into actions, owners, and deadlines.",
+    status: "Public Prototype",
+    categories: [],
+    tags: ["Local-first AI", "Streamlit", "Operations"],
+    primary: { label: "View GitHub ↗", href: "https://github.com/Syedsaadhhh/actionscribe-local" },
+  },
+  {
+    title: "Revise Lite",
+    event: "Omnia Lab Tool · OLT-03",
+    summary: "Turns rough lecture notes into compact revision sheets with no external dependency.",
+    status: "Public Prototype",
+    categories: [],
+    tags: ["Education", "Offline", "Python"],
+    primary: { label: "View GitHub ↗", href: "https://github.com/Syedsaadhhh/revise-lite" },
+  },
+  {
+    title: "CASEMIND",
+    event: "DFIR Research Concept · R-01",
+    summary: "Explores evidence-led incident timelines, attacker hypotheses, and response planning.",
+    status: "Research",
+    categories: ["Security Tools"],
+    tags: ["DFIR", "Incident Response", "Reasoning"],
+    primary: { label: "Discuss concept →", href: "/contact?interest=Technical%20discussion" },
+  },
 ];
 
 export const projects = [

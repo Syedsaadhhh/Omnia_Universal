@@ -29,6 +29,15 @@ export function CommandPanel() {
         <p><time>00:01.902</time><span>↯</span> Specialized agent selected</p>
         <p className="active"><time>00:02.441</time><span /> Executing with traceability</p>
       </div>
+      <details className="mobile-trace">
+        <summary><span className="status-badge status-verified">Verified</span> View execution trace</summary>
+        <div className="mobile-trace-lines">
+          <p><time>00:01.024</time><span className="ok">PASS</span> Human objective accepted</p>
+          <p><time>00:01.318</time><span>POLICY</span> Boundary loaded</p>
+          <p><time>00:01.902</time><span>AGENT</span> Specialist selected</p>
+          <p><time>00:02.441</time><span className="ok">PASS</span> Traceability active</p>
+        </div>
+      </details>
       <div className="panel-footer"><span>SECURE AUTONOMY</span><span>HUMAN OVERSIGHT</span><span>LOCAL-FIRST</span></div>
     </div>
   );

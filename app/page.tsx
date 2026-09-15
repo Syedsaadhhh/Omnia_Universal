@@ -1,15 +1,13 @@
 import Link from "next/link";
-import { BootSequence } from "@/components/BootSequence";
 import { CommandPanel } from "@/components/CommandPanel";
 import { ContactForm } from "@/components/ContactForm";
 import { NetworkCanvas } from "@/components/NetworkCanvas";
 import { SectionHeading } from "@/components/SectionHeading";
-import { labTools, researchQuestions } from "@/lib/site";
+import { researchQuestions } from "@/lib/site";
 
 export default function HomePage() {
   return (
     <>
-      <BootSequence />
       <section className="hero" id="top">
         <NetworkCanvas />
         <div className="hero-grid" aria-hidden="true" />
@@ -22,7 +20,7 @@ export default function HomePage() {
             <p>Omnia Sec AI Labs is a pre-seed independent lab building agentic AI, cybersecurity tooling, and claim-to-evidence systems that turn ambitious demos into traceable, reviewable execution.</p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/projects#reproforge">View ReproForge <span aria-hidden="true">↗</span></Link>
-              <Link className="button button-secondary" href="#manifesto">Read the manifesto</Link>
+              <Link className="button button-secondary" href="#manifesto">Read Manifesto <span aria-hidden="true">→</span></Link>
             </div>
             <div className="hero-proof" aria-label="Core focus areas"><span>Agentic AI</span><span>Cybersecurity</span><span>Verification</span><span>Digital forensics</span></div>
           </div>
@@ -90,13 +88,12 @@ export default function HomePage() {
           <div className="agent-console" aria-label="GNS3 Agent diagnostic preview">
             <div className="console-top"><span><i /><i /><i /></span><b>omnia://gns3-agent/doctor</b><em>LIVE TRACE</em></div>
             <div className="console-lines"><p><time>00:00.131</time><span className="ok">PASS</span> Python runtime located</p><p><time>00:00.284</time><span className="ok">PASS</span> GNS3 install path resolved</p><p><time>00:00.517</time><span className="ok">PASS</span> Port 3080 reachable</p><p><time>00:00.863</time><span className="ok">PASS</span> REST API authenticated</p><p><time>00:01.106</time><span className="warn">INFO</span> 4 projects · 12 templates</p><p className="running"><time>00:01.449</time><span>RUN</span> Building diagnostic report<i /></p></div>
+            <details className="mobile-trace console-mobile-trace"><summary><span className="status-badge status-pass">PASS</span> View diagnostic log</summary><div className="mobile-trace-lines"><p><time>00:00.131</time><span className="ok">PASS</span> Runtime located</p><p><time>00:00.517</time><span className="ok">PASS</span> Port reachable</p><p><time>00:00.863</time><span className="ok">PASS</span> API authenticated</p><p><time>00:01.449</time><span>RUN</span> Report building</p></div></details>
             <div className="topology-preview"><div className="router r1">R1</div><div className="router r2">R2</div><div className="switch sw">SW1</div><div className="host h1">PC1</div><div className="host h2">PC2</div><svg viewBox="0 0 500 190" aria-hidden="true"><path d="M112 52H238"/><path d="M288 52H412"/><path d="M263 76V124"/><path d="M263 149H112"/><path d="M263 149H412"/></svg></div>
             <div className="console-progress"><span /></div><div className="console-bottom"><span>REPORT: JSON + MARKDOWN</span><b>82%</b></div>
           </div>
         </article>
-        <div className="project-teasers">
-          {labTools.map((tool) => <article key={tool.title}><div><span>{tool.kind}</span><b>{tool.number}</b></div><h3>{tool.title}</h3><p>{tool.description}</p><div className="tag-row">{tool.tags.map((tag) => <span key={tag}>{tag}</span>)}</div><Link href={`/projects#${tool.title.toLowerCase().replaceAll(" ", "-")}`}>View lab tool ↗</Link></article>)}
-        </div>
+        <div className="projects-index-cta"><p>Explore every flagship, hackathon build, and security tool in one scannable archive.</p><Link className="button button-secondary" href="/projects">Browse all projects <span aria-hidden="true">→</span></Link></div>
       </section>
 
       <section className="section ecosystem-section">
