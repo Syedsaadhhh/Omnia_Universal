@@ -9,7 +9,7 @@ type ProjectFilter = (typeof filters)[number];
 
 function statusClass(status: string) {
   if (status === "Active Build") return "status-active";
-  if (status === "Regional Shortlist") return "status-verified";
+  if (status === "Regional Shortlist" || status.startsWith("Verified")) return "status-verified";
   if (status === "Public Prototype") return "status-pass";
   return "status-research";
 }

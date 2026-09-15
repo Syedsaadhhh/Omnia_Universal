@@ -6,7 +6,7 @@ import { ProjectsGallery } from "@/components/ProjectsGallery";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Explore Omnia flagship products, hackathon builds, and security tools with clear status, evidence, and links.",
+    "Explore Omnia flagship products, public-interest hackathon builds, and resilient security tools with clear status, evidence, and links.",
 };
 
 export default function ProjectsPage() {
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="PROJECTS / VERIFIED WORK"
         title={<>Built in public.<br /><span>Judged by evidence.</span></>}
-        copy="A focused archive of flagship systems, hackathon execution, and compact security tools—each clearly labeled by maturity, context, and proof."
+        copy="A focused archive of flagship systems, public-interest hackathon work, and compact security tools—each clearly labeled by maturity, context, and proof."
       />
 
       <section className="section projects-gallery-section">

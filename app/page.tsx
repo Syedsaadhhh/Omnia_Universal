@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { CommandPanel } from "@/components/CommandPanel";
-import { ContactForm } from "@/components/ContactForm";
 import { NetworkCanvas } from "@/components/NetworkCanvas";
 import { SectionHeading } from "@/components/SectionHeading";
-import { researchQuestions } from "@/lib/site";
 
 export default function HomePage() {
   return (
@@ -17,101 +15,87 @@ export default function HomePage() {
           <div className="hero-copy">
             <div className="eyebrow"><i /> Independent AI & cybersecurity lab · Karachi</div>
             <h1>Building the intelligence layer for <span>verified autonomy.</span></h1>
-            <p>Omnia Sec AI Labs is a pre-seed independent lab building agentic AI, cybersecurity tooling, and claim-to-evidence systems that turn ambitious demos into traceable, reviewable execution.</p>
+            <p>Omnia builds public-interest systems that keep working when plans, infrastructure, or evidence break—without giving up human control.</p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/projects#reproforge">View ReproForge <span aria-hidden="true">↗</span></Link>
               <Link className="button button-secondary" href="#manifesto">Read Manifesto <span aria-hidden="true">→</span></Link>
             </div>
-            <div className="hero-proof" aria-label="Core focus areas"><span>Agentic AI</span><span>Cybersecurity</span><span>Verification</span><span>Digital forensics</span></div>
+            <div className="hero-proof" aria-label="Core focus areas"><span>Resilient agents</span><span>Cybersecurity</span><span>Public-interest systems</span><span>Verifiable outcomes</span></div>
           </div>
           <div className="hero-visual"><CommandPanel /></div>
         </div>
         <div className="scroll-indicator"><span /> Scroll to enter the lab</div>
       </section>
 
-      <section className="signal-strip" aria-label="Omnia system statement"><div><span>INTELLIGENT SYSTEMS</span><i>✦</i><span>SECURE FUTURES</span><i>✦</i><span>OBSERVABLE AUTONOMY</span><i>✦</i><span>REAL-WORLD EXECUTION</span><i>✦</i><span>INTELLIGENT SYSTEMS</span><i>✦</i><span>SECURE FUTURES</span><i>✦</i><span>OBSERVABLE AUTONOMY</span><i>✦</i><span>REAL-WORLD EXECUTION</span><i>✦</i></div></section>
+      <section className="signal-strip" aria-label="Omnia system statement"><div><span>HUMAN CONTROL</span><i>✦</i><span>SAFE RECOVERY</span><i>✦</i><span>PUBLIC BENEFIT</span><i>✦</i><span>VERIFIABLE OUTCOMES</span><i>✦</i><span>HUMAN CONTROL</span><i>✦</i><span>SAFE RECOVERY</span><i>✦</i><span>PUBLIC BENEFIT</span><i>✦</i><span>VERIFIABLE OUTCOMES</span><i>✦</i></div></section>
 
-      <section className="section manifesto" id="manifesto">
-        <SectionHeading index="01" label="Manifesto" title={<>Software should carry the complexity.<br /><span>People should carry the vision.</span></>} />
-        <div className="manifesto-layout">
-          <div className="manifesto-statement"><p>Most AI still waits inside a chat box. Omnia is interested in what happens when intelligence leaves the box and enters the workflow.</p><p>We build systems that can observe, reason, act, verify, and recover—without abandoning security, traceability, or human control.</p></div>
-          <div className="principle-grid">
-            <article><span>01</span><h3>Build relentlessly</h3><p>Useful systems emerge through prototypes, evidence, failure, and another iteration.</p></article>
-            <article><span>02</span><h3>Automate responsibly</h3><p>Autonomy needs boundaries, approval points, audit trails, and a clear stop button.</p></article>
-            <article><span>03</span><h3>Solve reality</h3><p>Every product must reduce a genuine operational burden beyond the demo.</p></article>
-            <article><span>04</span><h3>Design for constraint</h3><p>Low-cost, local-first architecture is not a compromise; it is an engineering discipline.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section active-work">
-        <SectionHeading index="02" label="Active work" title={<>Proof before promises.</>} copy="The lab now runs on two honest tracks: solo Omnia infrastructure products, and FrontierOps hackathon execution where ReproForge is being built as a venture-grade verification layer." />
+      <section className="section active-work homepage-active-work">
+        <SectionHeading index="01" label="Active work" title={<>Proof before promises.</>} copy="ReproForge is the flagship verification layer: it reruns claims, captures evidence, and makes the limits visible before a result is trusted." />
         <article className="flagship-card venture-card" id="reproforge">
           <div className="flagship-copy">
-            <div className="project-meta"><span className="live-chip"><i /> ACTIVE BUILD</span><span>FRONTIEROPS / LABLAB</span></div>
+            <div className="project-meta"><span className="live-chip"><i /> ACTIVE BUILD</span><span>FRONTIEROPS / AMD ACT II</span></div>
             <h3>ReproForge</h3>
-            <p>A claim-to-evidence verification layer for AI/ML demos, benchmarks, papers, and hackathon claims. ReproForge reruns claims inside controlled sandboxes and produces signed reproducibility passports with logs, runtime details, blocked commands, limitations, and evidence chains.</p>
+            <p>A claim-to-evidence system for AI demos, benchmarks, and research. Controlled reruns produce signed reproducibility passports with execution traces, policy events, hashes, limitations, and exportable proof.</p>
             <div className="capability-list">
-              <div><b>01</b><span><strong>Verify</strong> AI claims by rerunning code, prompts, configs, and artifacts in controlled execution environments.</span></div>
-              <div><b>02</b><span><strong>Capture</strong> terminal traces, policy events, approval gates, hashes, dependencies, and runtime metadata.</span></div>
-              <div><b>03</b><span><strong>Report</strong> signed reproducibility passports for judges, investors, researchers, and technical reviewers.</span></div>
-              <div><b>04</b><span><strong>Disclose</strong> AMD/ROCm proof only when verified, with limitations clearly marked instead of inflated claims.</span></div>
+              <div><b>01</b><span><strong>Rerun</strong> declared code, prompts, data, and configuration inside bounded environments.</span></div>
+              <div><b>02</b><span><strong>Capture</strong> runtime details, blocked commands, approvals, and evidence integrity.</span></div>
+              <div><b>03</b><span><strong>Report</strong> what passed, what failed, and what remains unverified.</span></div>
             </div>
-            <div className="flagship-actions"><Link className="button button-primary" href="/projects#reproforge">Open venture card ↗</Link><a className="text-link" href="https://github.com/Syedsaadhhh" target="_blank" rel="noreferrer">GitHub build track →</a></div>
+            <div className="flagship-actions"><a className="button button-primary" href="https://reproforge-sentinel.onrender.com" target="_blank" rel="noreferrer">Open live demo ↗</a><Link className="text-link" href="/projects">View all resilient systems →</Link></div>
           </div>
           <div className="reproforge-passport" aria-label="ReproForge passport preview">
             <div className="passport-top"><span>REPROFORGE PASSPORT</span><b>PRE-SEED BUILD</b></div>
             <div className="passport-verdict"><i /> CLAIM STATUS: UNDER VERIFICATION</div>
-            <div className="passport-claim">“This AI result is reproducible under the declared runtime, data, and hardware constraints.”</div>
+            <div className="passport-claim">“A result should carry enough evidence to be challenged, rerun, and trusted.”</div>
             <div className="passport-grid">
               <div><span>TEAM</span><b>FrontierOps</b></div>
-              <div><span>EVENT</span><b>lablab.ai build track</b></div>
-              <div><span>MODE</span><b>Sandbox rerun</b></div>
+              <div><span>EVENT</span><b>AMD ACT II</b></div>
+              <div><span>MODE</span><b>Bounded rerun</b></div>
               <div><span>OUTPUT</span><b>PDF · JSON · Share link</b></div>
             </div>
-            <div className="passport-chain"><span /> ingest claim <i /> rerun sandbox <i /> capture evidence <i /> sign report</div>
+            <div className="passport-chain"><span /> ingest claim <i /> rerun safely <i /> capture evidence <i /> sign report</div>
           </div>
         </article>
-        <article className="flagship-card gns3-card">
-          <div className="flagship-copy">
-            <div className="project-meta"><span className="live-chip"><i /> ACTIVE DEVELOPMENT</span><span>OMNIA / 001</span></div>
-            <h3>GNS3 Agent</h3>
-            <p>A Windows-first diagnostic and automation agent for network labs. It connects to the real GNS3 API, inspects the environment, explains failures, and builds toward safe execution, evidence capture, and reporting.</p>
-            <div className="capability-list">
-              <div><b>01</b><span><strong>Diagnose</strong> Python, packages, GNS3 processes, ports, API access, paths, and virtualization.</span></div>
-              <div><b>02</b><span><strong>Inspect</strong> projects, templates, server state, configuration, and read-only lab artifacts.</span></div>
-              <div><b>03</b><span><strong>Execute</strong> future lab workflows with visible steps, checkpoints, and recovery boundaries.</span></div>
-              <div><b>04</b><span><strong>Document</strong> evidence and outcomes as traceable technical reports.</span></div>
-            </div>
-            <div className="flagship-actions"><Link className="button button-primary" href="/gns3-agent">View product architecture ↗</Link><Link className="text-link" href="/contact?interest=GNS3%20Agent%20early%20access">Request early access →</Link></div>
-          </div>
-          <div className="agent-console" aria-label="GNS3 Agent diagnostic preview">
-            <div className="console-top"><span><i /><i /><i /></span><b>omnia://gns3-agent/doctor</b><em>LIVE TRACE</em></div>
-            <div className="console-lines"><p><time>00:00.131</time><span className="ok">PASS</span> Python runtime located</p><p><time>00:00.284</time><span className="ok">PASS</span> GNS3 install path resolved</p><p><time>00:00.517</time><span className="ok">PASS</span> Port 3080 reachable</p><p><time>00:00.863</time><span className="ok">PASS</span> REST API authenticated</p><p><time>00:01.106</time><span className="warn">INFO</span> 4 projects · 12 templates</p><p className="running"><time>00:01.449</time><span>RUN</span> Building diagnostic report<i /></p></div>
-            <details className="mobile-trace console-mobile-trace"><summary><span className="status-badge status-pass">PASS</span> View diagnostic log</summary><div className="mobile-trace-lines"><p><time>00:00.131</time><span className="ok">PASS</span> Runtime located</p><p><time>00:00.517</time><span className="ok">PASS</span> Port reachable</p><p><time>00:00.863</time><span className="ok">PASS</span> API authenticated</p><p><time>00:01.449</time><span>RUN</span> Report building</p></div></details>
-            <div className="topology-preview"><div className="router r1">R1</div><div className="router r2">R2</div><div className="switch sw">SW1</div><div className="host h1">PC1</div><div className="host h2">PC2</div><svg viewBox="0 0 500 190" aria-hidden="true"><path d="M112 52H238"/><path d="M288 52H412"/><path d="M263 76V124"/><path d="M263 149H112"/><path d="M263 149H412"/></svg></div>
-            <div className="console-progress"><span /></div><div className="console-bottom"><span>REPORT: JSON + MARKDOWN</span><b>82%</b></div>
-          </div>
-        </article>
-        <div className="projects-index-cta"><p>Explore every flagship, hackathon build, and security tool in one scannable archive.</p><Link className="button button-secondary" href="/projects">Browse all projects <span aria-hidden="true">→</span></Link></div>
       </section>
 
-      <section className="section ecosystem-section">
-        <SectionHeading index="03" label="System architecture" title={<>One intelligence layer.<br /><span>Many specialized systems.</span></>} copy="Omnia is structured as a parent lab and future platform—not a single product trapped inside one interface." />
-        <div className="ecosystem-visual"><div className="eco-grid" aria-hidden="true" /><div className="eco-core"><div className="eco-halo" /><strong>OMNIA</strong><span>CONTROL PLANE</span></div>{[["01", "Runtime", "Execution & recovery", "eco-a"],["02", "Trace", "Observability & audit", "eco-b"],["03", "Gate", "Verification & approval", "eco-c"],["04", "Connect", "Tools & integrations", "eco-d"],["05", "Studio", "Workflow design", "eco-e"],["06", "Agents", "Specialized intelligence", "eco-f"]].map(([id,title,copy,className]) => <div className={`eco-node ${className}`} key={id}><i>{id}</i><b>{title}</b><span>{copy}</span></div>)}<svg viewBox="0 0 1200 720" aria-hidden="true"><path d="M600 360 250 130"/><path d="M600 360 950 130"/><path d="M600 360 145 360"/><path d="M600 360 1055 360"/><path d="M600 360 250 590"/><path d="M600 360 950 590"/></svg></div>
-        <p className="architecture-note">These platform names describe the intended architecture. They are not presented as released products until the corresponding capability exists.</p>
+      <section className="section manifesto manifesto-compact" id="manifesto">
+        <SectionHeading index="02" label="Manifesto" title={<>Complexity belongs in the system.<br /><span>Control stays with people.</span></>} />
+        <div className="manifesto-compact-grid">
+          <p><strong>Observe reality.</strong> Start from the real workflow, not the demo script.</p>
+          <p><strong>Fail safely.</strong> Bound every action and preserve a human handoff.</p>
+          <p><strong>Prove outcomes.</strong> A claim is useful only when its evidence travels with it.</p>
+        </div>
       </section>
 
-      <section className="section roadmap-section">
-        <SectionHeading index="04" label="Roadmap" title={<>From one useful agent<br />to a governed autonomous platform.</>} />
-        <div className="roadmap-list">{[["NOW", "ReproForge + GNS3 Agent", "Build the public venture layer around reproducibility verification while continuing GNS3 diagnostics and evidence-reporting infrastructure.", "FrontierOps · Omnia · evidence · reports"],["NEXT", "Reusable verification infrastructure", "Extract sandboxing, policy, trace, recovery, signing, and passport-generation layers from the flagship builds.", "Runtime · observability · local-first controls · connectors"],["LATER", "Multi-agent ecosystem", "Coordinate security, infrastructure, research, and operations agents around shared governance.", "Shared context · verification gates · orchestration"],["VISION", "Secure autonomous platform", "Translate high-level human objectives into observable, bounded, real-world execution.", "Human control · enterprise governance · continuous learning"]].map(([phase,title,copy,detail],index) => <article key={phase}><div className="roadmap-phase"><span>0{index + 1}</span><b>{phase}</b></div><div className="roadmap-marker"><i /></div><div><h3>{title}</h3><p>{copy}</p><small>{detail}</small></div></article>)}</div>
+      <section className="section ecosystem-section ecosystem-compact">
+        <SectionHeading index="03" label="System architecture" title={<>One control layer.<br /><span>Three resilient behaviors.</span></>} copy="Every Omnia system is designed around visible decisions, bounded action, and evidence-led recovery." />
+        <div className="platform-glance">
+          <article><span>OBSERVE</span><h3>Read the real state</h3><p>Collect signals, constraints, and human intent before acting.</p></article>
+          <article><span>GOVERN</span><h3>Stay inside authority</h3><p>Apply policy, approval gates, budgets, and a safe stop.</p></article>
+          <article><span>VERIFY</span><h3>Measure the outcome</h3><p>Return traceable evidence or escalate instead of guessing.</p></article>
+        </div>
       </section>
 
-      <section className="section founder-preview"><div className="founder-card"><div className="founder-portrait founder-photo"><div className="portrait-grid" /><img src="/founder-syed-saad.svg" alt="Syed Saad, founder of Omnia Sec AI Labs" /><div className="portrait-scan" /><span><i /> BUILDING FROM KARACHI</span></div><div className="founder-copy"><div className="section-kicker">05 / Founder</div><h2>Credible ambition under constraint.</h2><p>I’m <strong>Syed Saad</strong>, a Digital Forensics and Cyber Security student at Hamdard University. I build where agentic AI, infrastructure, cloud security, and DFIR intersect.</p><p>Omnia exists as the startup home for serious experiments: solo infrastructure tools, cybersecurity utilities, and FrontierOps hackathon work around ReproForge.</p><blockquote>“The ambition is long-term. The work is daily.”</blockquote><div className="founder-facts"><div><b>Current focus</b><span>ReproForge · GNS3 Agent</span></div><div><b>Team track</b><span>FrontierOps · lablab.ai</span></div><div><b>Operating model</b><span>Student founder · Pre-seed lab</span></div><div><b>Long-term direction</b><span>Cloud security + autonomous systems</span></div></div><Link className="text-link" href="/about">Read the founder story →</Link></div></div></section>
+      <section className="section roadmap-section roadmap-compact">
+        <SectionHeading index="04" label="Roadmap" title={<>From useful agents<br />to resilient public infrastructure.</>} />
+        <div className="roadmap-glance">
+          <article><b>NOW</b><span>Prove ReproForge and focused recovery agents in real workflows.</span></article>
+          <article><b>NEXT</b><span>Reuse policy, audit, recovery, and evidence infrastructure.</span></article>
+          <article><b>LATER</b><span>Coordinate specialized agents behind shared human controls.</span></article>
+        </div>
+      </section>
 
-      <section className="section research-preview"><SectionHeading index="06" label="Research direction" title="Questions worth building toward." copy="The research agenda stays attached to product reality: action, verification, orchestration, security, and human control." /><div className="research-grid">{researchQuestions.map((item) => <article key={item.id}><span>{item.id}</span><h3>{item.title}</h3><p>{item.question}</p></article>)}</div><div className="section-link"><Link className="button button-secondary" href="/research">Open research direction ↗</Link></div></section>
+      <section className="section homepage-teasers" aria-label="Learn more about Omnia">
+        <article><div className="section-kicker">ABOUT</div><h2>Built with ambition and honest constraints.</h2><p>Meet the founder and the operating principles behind an independent lab in Karachi.</p><Link className="text-link" href="/about">Read the founder story →</Link></article>
+        <article><div className="section-kicker">RESEARCH</div><h2>Questions tied to working systems.</h2><p>Explore trustworthy execution, reproducible claims, cyber defense, and human-agent coordination.</p><Link className="text-link" href="/research">Explore the research →</Link></article>
+      </section>
 
-      <section className="section contact-preview"><div className="contact-panel"><div className="contact-copy"><div className="section-kicker">07 / Contact</div><h2>Bring a difficult problem.</h2><p>Open to serious conversations around ReproForge, GNS3 Agent, research collaboration, technical partnerships, cybersecurity, and agentic infrastructure.</p><div className="contact-pills"><span>Early access</span><span>Research</span><span>Partnerships</span><span>Technical discussion</span></div><small>Direct founder response · Karachi / PKT (UTC+5)</small></div><ContactForm compact /></div></section>
+      <section className="section contact-preview homepage-final-cta">
+        <div className="wide-cta">
+          <div><span>WORK WITH OMNIA</span><h2>Bring a difficult public-interest problem.</h2><p>Especially where failure, ambiguity, or weak evidence leaves people carrying the operational burden.</p></div>
+          <Link className="button button-primary" href="/contact">Start a conversation <span aria-hidden="true">↗</span></Link>
+        </div>
+      </section>
     </>
   );
 }
