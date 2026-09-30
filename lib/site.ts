@@ -8,7 +8,7 @@ export const site = {
     "https://omniaseclabsai.vercel.app",
   founder: "Syed Saad",
   location: "Karachi, Pakistan",
-  email: "omniaseclabs@hyu.me",
+  email: "contact@omniaseclabs.com",
   github: "https://github.com/Syedsaadhhh",
   linkedin: "",
 };
