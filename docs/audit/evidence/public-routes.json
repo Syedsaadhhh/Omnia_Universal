@@ -1,0 +1,615 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "https://omniaseclabs.com/",
+    "bytes": 41544,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310166",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:32 GMT",
+      "etag": "\"4e3e14c2a0af520cf4374892a7d37f07\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::9z2lf-1792107452321-ac1e4f6f79cb",
+      "content-length": "41544",
+      "x-envoy-upstream-service-time": "87",
+      "connection": "close"
+    },
+    "title": [
+      "Omnia Sec AI Labs \u2014 Secure Autonomous Systems"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Building the intelligence layer for <span>verified autonomy.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/projects",
+    "status": 200,
+    "url": "https://omniaseclabs.com/projects",
+    "bytes": 28772,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310075",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:32 GMT",
+      "etag": "\"918a2c78f75e7c067fc8a220b6a44933\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/projects",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::lz2j6-1792107452624-f10a358a58ff",
+      "content-length": "28772",
+      "x-envoy-upstream-service-time": "142",
+      "connection": "close"
+    },
+    "title": [
+      "Projects \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Built in public.<br/><span>Judged by evidence.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/research",
+    "status": 200,
+    "url": "https://omniaseclabs.com/research",
+    "bytes": 24098,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310076",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:33 GMT",
+      "etag": "\"5b1b3d460ef97046345303f34250a3bd\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/research",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::4z4fh-1792107453207-5120cc616f31",
+      "content-length": "24098",
+      "x-envoy-upstream-service-time": "367",
+      "connection": "close"
+    },
+    "title": [
+      "Research \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Build the control systems<br/>around <span>intelligence.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/about",
+    "status": 200,
+    "url": "https://omniaseclabs.com/about",
+    "bytes": 23826,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310076",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:33 GMT",
+      "etag": "\"79065bb91319876b0ea28343b9180cf3\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/about",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::9j7bt-1792107453527-28cd9ed11bf6",
+      "content-length": "23826",
+      "x-envoy-upstream-service-time": "152",
+      "connection": "close"
+    },
+    "title": [
+      "Founder \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Start before permission.<br/><span>Compound the work.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/build-log",
+    "status": 200,
+    "url": "https://omniaseclabs.com/build-log",
+    "bytes": 22395,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310081",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:38 GMT",
+      "etag": "\"fe4e9f72e842050139c29cfd1bffbf66\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/build-log",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::dcp48-1792107458851-de9eb33ad9f8",
+      "content-length": "22395",
+      "x-envoy-upstream-service-time": "137",
+      "connection": "close"
+    },
+    "title": [
+      "Build Log \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Progress should leave<br/><span>evidence.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/contact",
+    "status": 200,
+    "url": "https://omniaseclabs.com/contact",
+    "bytes": 20514,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310082",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:39 GMT",
+      "etag": "\"c0e312979aa5dce8767e73ccf942def4\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/contact",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::9r4mb-1792107459166-be265887d44d",
+      "content-length": "20514",
+      "x-envoy-upstream-service-time": "172",
+      "connection": "close"
+    },
+    "title": [
+      "Contact \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Bring context.<br/><span>Skip the pitch theater.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/security",
+    "status": 200,
+    "url": "https://omniaseclabs.com/security",
+    "bytes": 21475,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310082",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:39 GMT",
+      "etag": "\"ca8063a3507a7fc4cc99020d552d9038\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/security",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::zc8jk-1792107459568-a1e971d45ea8",
+      "content-length": "21475",
+      "x-envoy-upstream-service-time": "166",
+      "connection": "close"
+    },
+    "title": [
+      "Security \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Autonomy earns authority<br/>through <span>control.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/privacy",
+    "status": 200,
+    "url": "https://omniaseclabs.com/privacy",
+    "bytes": 20601,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310082",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:39 GMT",
+      "etag": "\"ac72f867b499b97f34f1e8e913209782\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/privacy",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::vc5bs-1792107459905-116bc85c6f96",
+      "content-length": "20601",
+      "x-envoy-upstream-service-time": "149",
+      "connection": "close"
+    },
+    "title": [
+      "Privacy \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "A minimal-data website."
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/terms",
+    "status": 200,
+    "url": "https://omniaseclabs.com/terms",
+    "bytes": 21023,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310083",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:40 GMT",
+      "etag": "\"c81cea65025ac01cb654406b3cd03a8b\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/terms",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::tfj9w-1792107460272-580a2de515af",
+      "content-length": "21023",
+      "x-envoy-upstream-service-time": "173",
+      "connection": "close"
+    },
+    "title": [
+      "Terms \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "Clear boundaries for an emerging lab."
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/gns3-agent",
+    "status": 200,
+    "url": "https://omniaseclabs.com/gns3-agent",
+    "bytes": 36140,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "1310083",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/html; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:40 GMT",
+      "etag": "\"7a21698f96ada26e52b64579c1717d43\"",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/gns3-agent",
+      "x-nextjs-prerender": "1",
+      "x-nextjs-stale-time": "300",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::j57tk-1792107460620-849b2c34b953",
+      "content-length": "36140",
+      "x-envoy-upstream-service-time": "151",
+      "connection": "close"
+    },
+    "title": [
+      "GNS3 Agent \u2014 Omnia Sec AI Labs"
+    ],
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://omniaseclabsai.vercel.app\"/>"
+    ],
+    "h1": [
+      "A technical operator for <span>GNS3 labs.</span>"
+    ],
+    "form_count": 0
+  },
+  {
+    "path": "/api/health",
+    "status": 200,
+    "url": "https://omniaseclabs.com/api/health",
+    "bytes": 45,
+    "headers": {
+      "age": "0",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "application/json",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:41 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/api/health",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::iad1::8zhpg-1792107460965-f028c65e7c64",
+      "x-envoy-upstream-service-time": "859",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "title": [],
+    "canonical": [],
+    "h1": [],
+    "form_count": 0,
+    "body": "{\"status\":\"ok\",\"service\":\"omnia-sec-ai-labs\"}"
+  },
+  {
+    "path": "/api/contact",
+    "status": 405,
+    "url": "https://omniaseclabs.com/api/contact",
+    "bytes": 0,
+    "headers": {
+      "age": "0",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:42 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/api/contact",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::iad1::8589l-1792107462003-192accda6f82",
+      "content-length": "0",
+      "x-envoy-upstream-service-time": "185",
+      "connection": "close"
+    },
+    "title": [],
+    "canonical": [],
+    "h1": [],
+    "form_count": 0,
+    "body": ""
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "url": "https://omniaseclabs.com/robots.txt",
+    "bytes": 135,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "16821",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline; filename=\"robots.txt\"",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "text/plain; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:42 GMT",
+      "etag": "\"4759801bf75f1d00ed8b7ee1006f1656\"",
+      "last-modified": "Thu, 15 Oct 2026 18:57:20 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/robots.txt",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::wmpsr-1792107462381-aad06d937179",
+      "content-length": "135",
+      "x-envoy-upstream-service-time": "77",
+      "connection": "close"
+    },
+    "title": [],
+    "canonical": [],
+    "h1": [],
+    "form_count": 0,
+    "body": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nHost: https://omniaseclabsai.vercel.app\nSitemap: https://omniaseclabsai.vercel.app/sitemap.xml\n"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "url": "https://omniaseclabs.com/sitemap.xml",
+    "bytes": 1783,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline; filename=\"sitemap.xml\"",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "application/xml",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:42 GMT",
+      "etag": "\"2ab1b04ddaa34a6be8ab80f88cb345d1\"",
+      "last-modified": "Thu, 15 Oct 2026 23:37:42 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/sitemap.xml",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::xtj6d-1792107462641-d45018973fbd",
+      "content-length": "1783",
+      "x-envoy-upstream-service-time": "157",
+      "connection": "close"
+    },
+    "title": [],
+    "canonical": [],
+    "h1": [],
+    "form_count": 0,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://omniaseclabsai.vercel.app</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>weekly</changefreq>\n<priority>1</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/gns3-agent</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.9</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/projects</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/research</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/build-log</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/about</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/contact</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/security</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/privacy</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n<url>\n<loc>https://omniaseclabsai.vercel.app/terms</loc>\n<lastmod>2026-09-30T19:32:52.727Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.7</priority>\n</url>\n</urlset>\n"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": 200,
+    "url": "https://omniaseclabs.com/manifest.webmanifest",
+    "bytes": 291,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline; filename=\"manifest.webmanifest\"",
+      "content-security-policy": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests",
+      "content-type": "application/manifest+json; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Thu, 15 Oct 2026 23:37:43 GMT",
+      "etag": "\"b99b083ebe13cf77251418947829e114\"",
+      "last-modified": "Thu, 15 Oct 2026 23:37:43 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "envoy",
+      "strict-transport-security": "max-age=63072000",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-matched-path": "/manifest.webmanifest",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::qx9q4-1792107462968-3ee1ea1d0eb3",
+      "content-length": "291",
+      "x-envoy-upstream-service-time": "129",
+      "connection": "close"
+    },
+    "title": [],
+    "canonical": [],
+    "h1": [],
+    "form_count": 0
+  }
+]

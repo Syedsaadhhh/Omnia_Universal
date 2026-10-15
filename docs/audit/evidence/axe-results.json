@@ -1,0 +1,198 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".header-shell > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          },
+          {
+            "target": [
+              ".footer-lead > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 3
+      },
+      {
+        "id": "color-contrast",
+        "count": 155
+      }
+    ],
+    "passes": 18
+  },
+  {
+    "width": 1440,
+    "route": "/projects",
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".header-shell > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          },
+          {
+            "target": [
+              ".footer-lead > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 12
+      },
+      {
+        "id": "color-contrast",
+        "count": 131
+      }
+    ],
+    "passes": 20
+  },
+  {
+    "width": 1440,
+    "route": "/about",
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".header-shell > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          },
+          {
+            "target": [
+              ".footer-lead > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 49
+      }
+    ],
+    "passes": 18
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".header-shell > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          },
+          {
+            "target": [
+              ".footer-lead > .brand[aria-label=\"Omnia Sec AI Labs home\"][href=\"/\"]"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 42
+      }
+    ],
+    "passes": 18
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 3
+      },
+      {
+        "id": "color-contrast",
+        "count": 119
+      }
+    ],
+    "passes": 21
+  },
+  {
+    "width": 390,
+    "route": "/projects",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 12
+      },
+      {
+        "id": "color-contrast",
+        "count": 122
+      }
+    ],
+    "passes": 20
+  },
+  {
+    "width": 390,
+    "route": "/about",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 40
+      }
+    ],
+    "passes": 20
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 33
+      }
+    ],
+    "passes": 20
+  }
+]
