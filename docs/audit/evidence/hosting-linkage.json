@@ -1,0 +1,67 @@
+{
+  "auditDate": "2026-10-15",
+  "sourceRepo": "Syedsaadhhh/Omnia_Universal",
+  "project": {
+    "id": "prj_NWhj0oMX8aDwSo93bs3tMEkYCTsE",
+    "name": "omniaseclabs.ai",
+    "framework": "nextjs",
+    "accountId": "team_OHLAK7a0A9Q4JlVMq7wRYrrx",
+    "createdAt": 1782436096114,
+    "updatedAt": 1790796780915,
+    "nodeVersion": "24.x",
+    "live": false,
+    "latestDeployment": {
+      "id": "dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4",
+      "url": "omniaseclabs-nfkpgywld-syedsaadhhhs-projects.vercel.app",
+      "createdAt": 1790796733754,
+      "readyState": "READY",
+      "target": "production"
+    },
+    "domains": [
+      "omniaseclabs.com",
+      "omniaseclabsai.vercel.app",
+      "omniaseclabsai-syedsaadhhhs-projects.vercel.app",
+      "omniaseclabsai-git-main-syedsaadhhhs-projects.vercel.app"
+    ],
+    "passwordProtection": {
+      "enabled": false,
+      "deploymentType": null
+    },
+    "ssoProtection": {
+      "enabled": true,
+      "deploymentType": "all_except_custom_domains"
+    },
+    "trustedIps": {
+      "enabled": false,
+      "deploymentType": null,
+      "addresses": [],
+      "protectionMode": null
+    }
+  },
+  "deployment": {
+    "id": "dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4",
+    "name": "omniaseclabs.ai",
+    "url": "omniaseclabs-nfkpgywld-syedsaadhhhs-projects.vercel.app",
+    "state": "READY",
+    "readyState": "READY",
+    "meta": {
+      "githubCommitRef": "main",
+      "githubCommitSha": "9cc1399fb1ca9642d5f91c898e0f533e85aae5fc",
+      "githubCommitMessage": "Replace unconfigured contact form with working business email",
+      "githubRepo": "Omnia_Universal",
+      "githubOrg": "Syedsaadhhh"
+    },
+    "alias": [
+      "omniaseclabs.com",
+      "omniaseclabsai.vercel.app",
+      "omniaseclabsai-syedsaadhhhs-projects.vercel.app",
+      "omniaseclabsai-git-main-syedsaadhhhs-projects.vercel.app"
+    ],
+    "target": "production"
+  },
+  "notes": [
+    "Curated non-secret connector responses",
+    "Origin certificate chain not visible through environment interception",
+    "No settings or releases changed"
+  ]
+}

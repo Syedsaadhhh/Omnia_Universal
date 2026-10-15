@@ -1,0 +1,171 @@
+{
+  "scope": "isolated in-process actual handler; mocked Resend; no external delivery",
+  "rows": [
+    {
+      "name": "cross-origin rejected",
+      "status": 403,
+      "expected": 403,
+      "pass": true,
+      "message": "Request origin was not accepted."
+    },
+    {
+      "name": "missing origin rejected in production",
+      "status": 403,
+      "expected": 403,
+      "pass": true,
+      "message": "Request origin was not accepted."
+    },
+    {
+      "name": "unsupported content type rejected",
+      "status": 415,
+      "expected": 415,
+      "pass": true,
+      "message": "Unsupported request format."
+    },
+    {
+      "name": "invalid fields rejected",
+      "status": 400,
+      "expected": 400,
+      "pass": true,
+      "message": "Please review the form fields and try again."
+    },
+    {
+      "name": "consent must be literal string true",
+      "status": 400,
+      "expected": 400,
+      "pass": true,
+      "message": "Please review the form fields and try again."
+    },
+    {
+      "name": "malformed JSON returns server error",
+      "status": 500,
+      "expected": 500,
+      "pass": true,
+      "message": "Something went wrong while sending your message."
+    },
+    {
+      "name": "JSON null returns server error",
+      "status": 500,
+      "expected": 500,
+      "pass": true,
+      "message": "Something went wrong while sending your message."
+    },
+    {
+      "name": "honeypot returns neutral success without delivery",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "message": "Message received."
+    },
+    {
+      "name": "missing provider config fails closed",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "same IP attempt 1",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "same IP attempt 2",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "same IP attempt 3",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "same IP attempt 4",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "same IP attempt 5",
+      "status": 429,
+      "expected": 429,
+      "pass": true,
+      "message": "Too many attempts. Please wait a few minutes and try again."
+    },
+    {
+      "name": "new supplied forwarded IP bypasses exhausted bucket",
+      "status": 503,
+      "expected": 503,
+      "pass": true,
+      "message": "The contact channel is not configured yet. Please email us directly."
+    },
+    {
+      "name": "spoofed forwarded-host accepted when canonical env absent",
+      "status": 400,
+      "expected": 400,
+      "pass": true,
+      "message": "Please review the form fields and try again."
+    },
+    {
+      "name": "canonical env prevents forwarded-host spoof",
+      "status": 403,
+      "expected": 403,
+      "pass": true,
+      "message": "Request origin was not accepted."
+    },
+    {
+      "name": "valid request delivered via mock only",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "message": "Inquiry transmitted. Expect a personal reply, not an automated sales sequence."
+    },
+    {
+      "name": "identical retry sends duplicate email",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "message": "Inquiry transmitted. Expect a personal reply, not an automated sales sequence."
+    },
+    {
+      "name": "1 MiB unknown field accepted",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "message": "Inquiry transmitted. Expect a personal reply, not an automated sales sequence."
+    },
+    {
+      "name": "HTML escaped in outbound message",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "message": "Inquiry transmitted. Expect a personal reply, not an automated sales sequence."
+    },
+    {
+      "name": "outbound HTML escape assertion",
+      "pass": true
+    },
+    {
+      "name": "provider error maps to 502",
+      "status": 502,
+      "expected": 502,
+      "pass": true,
+      "message": "Delivery failed. Please try again or email us directly."
+    },
+    {
+      "name": "provider exception maps to generic 500",
+      "status": 500,
+      "expected": 500,
+      "pass": true,
+      "message": "Something went wrong while sending your message."
+    }
+  ],
+  "mockDeliveryCalls": 6
+}

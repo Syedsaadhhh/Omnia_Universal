@@ -1,0 +1,70 @@
+{
+  "/branches": [
+    {
+      "name": "add-ai-seekho-certificate",
+      "sha": "4b7ae5ed04e8c2aeb87bd1c8c87f1359c423a26b",
+      "protected": false
+    },
+    {
+      "name": "brand-contact-sync",
+      "sha": "2c3166e69b9c04e168a8737cbb8de919d9036588",
+      "protected": false
+    },
+    {
+      "name": "main",
+      "sha": "9cc1399fb1ca9642d5f91c898e0f533e85aae5fc",
+      "protected": false
+    },
+    {
+      "name": "omnia-project-portfolio",
+      "sha": "afb5a7685d597070f28c080abb62e7ab4ef44152",
+      "protected": false
+    },
+    {
+      "name": "pre-overhaul-2026-09-16",
+      "sha": "c354faf7bd0ef09a5254cb31d986cdeef08635ba",
+      "protected": false
+    },
+    {
+      "name": "production-site",
+      "sha": "1b5e0d301516512f9cbdad1fb2751b0a479f98d4",
+      "protected": false
+    }
+  ],
+  "/rulesets": [],
+  "/actions/workflows": {
+    "total_count": 0,
+    "workflows": []
+  },
+  "/actions/runs?per_page=3": {
+    "total_count": 0,
+    "workflow_runs": []
+  },
+  "/environments": [
+    {
+      "name": "Preview",
+      "protection_rules": [],
+      "deployment_branch_policy": null
+    },
+    {
+      "name": "Production",
+      "protection_rules": [],
+      "deployment_branch_policy": null
+    }
+  ],
+  "/branches/main/protection": {
+    "message": "Resource not accessible by integration",
+    "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+    "status": "403"
+  },
+  "/secret-scanning/alerts?state=open": {
+    "message": "Resource not accessible by integration",
+    "documentation_url": "https://docs.github.com/rest/secret-scanning/secret-scanning#list-secret-scanning-alerts-for-a-repository",
+    "status": "403"
+  },
+  "/dependabot/alerts?state=open": {
+    "message": "Dependabot alerts are disabled for this repository.",
+    "documentation_url": "https://docs.github.com/rest/dependabot/alerts#list-dependabot-alerts-for-a-repository",
+    "status": "403"
+  }
+}

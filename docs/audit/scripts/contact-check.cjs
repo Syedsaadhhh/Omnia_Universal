@@ -1,0 +1,46 @@
+const fs = require('fs');
+const root = process.env.OMNIA_AUDIT_RUNTIME || '/tmp/omnia-audit-runtime';
+const ts = require(root+'/node_modules/typescript');
+const {NextRequest} = require(root+'/node_modules/next/server');
+let deliveries=[]; let provider='ok';
+require(root+'/node_modules/resend').Resend = class { emails={send:async payload=>{deliveries.push(payload); if(provider==='throw')throw new Error('synthetic provider failure');return provider==='error'?{error:{message:'synthetic provider error'}}:{data:{id:'synthetic'}};}};};
+const source=fs.readFileSync(root+'/app/api/contact/route.ts','utf8');
+const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const Module=require('module');const m=new Module(root+'/contact-audit.cjs',module);m.filename=root+'/contact-audit.cjs';m.paths=Module._nodeModulePaths(root);m._compile(js,m.filename);
+const {POST}=m.exports;
+process.env.NODE_ENV='production';process.env.NEXT_PUBLIC_SITE_URL='https://lab.example.test';
+for(const k of ['RESEND_API_KEY','CONTACT_TO_EMAIL','CONTACT_FROM_EMAIL'])delete process.env[k];
+let seq=0;const rows=[];
+const valid={name:'Audit User',email:'audit@example.test',interest:'Research',message:'Synthetic local audit message only.',consent:'true',website:''};
+async function run(name,expected,{body=valid,headers={},ip,origin='https://lab.example.test',raw=false}={}){
+ const request=new NextRequest('https://lab.example.test/api/contact',{method:'POST',headers:{'content-type':'application/json','x-forwarded-for':ip||'198.51.100.'+(++seq),...(origin===null?{}:{origin}),...headers},body:raw?body:JSON.stringify(body)});
+ const r=await POST(request);const data=await r.json(); const row={name,status:r.status,expected,pass:r.status===expected,message:data.message};rows.push(row);console.log(JSON.stringify(row));
+}
+(async()=>{
+ await run('cross-origin rejected',403,{origin:'https://other.example.test'});
+ await run('missing origin rejected in production',403,{origin:null});
+ await run('unsupported content type rejected',415,{headers:{'content-type':'text/plain'}});
+ await run('invalid fields rejected',400,{body:{}});
+ await run('consent must be literal string true',400,{body:{...valid,consent:true}});
+ await run('malformed JSON returns server error',500,{body:'{',raw:true});
+ await run('JSON null returns server error',500,{body:null});
+ await run('honeypot returns neutral success without delivery',200,{body:{website:'bot'}});
+ await run('missing provider config fails closed',503);
+ for(let i=1;i<=5;i++)await run('same IP attempt '+i,i<=4?503:429,{ip:'203.0.113.99'});
+ await run('new supplied forwarded IP bypasses exhausted bucket',503,{ip:'203.0.113.100'});
+ delete process.env.NEXT_PUBLIC_SITE_URL;
+ await run('spoofed forwarded-host accepted when canonical env absent',400,{origin:'https://other.example.test',headers:{'x-forwarded-host':'other.example.test','x-forwarded-proto':'https'},body:{}});
+ process.env.NEXT_PUBLIC_SITE_URL='https://lab.example.test';
+ await run('canonical env prevents forwarded-host spoof',403,{origin:'https://other.example.test',headers:{'x-forwarded-host':'other.example.test','x-forwarded-proto':'https'},body:{}});
+ process.env.RESEND_API_KEY='synthetic-not-a-real-key';process.env.CONTACT_TO_EMAIL='inbox@example.test';process.env.CONTACT_FROM_EMAIL='web@example.test';
+ await run('valid request delivered via mock only',200);
+ await run('identical retry sends duplicate email',200);
+ await run('1 MiB unknown field accepted',200,{body:{...valid,padding:'x'.repeat(1024*1024)}});
+ await run('HTML escaped in outbound message',200,{body:{...valid,message:'<script>alert("test")</script> & synthetic'}});
+ const escaped=deliveries.at(-1).html.includes('&lt;script&gt;')&&!deliveries.at(-1).html.includes('<script>');
+ rows.push({name:'outbound HTML escape assertion',pass:escaped});console.log('HTML escaped:',escaped,'mock deliveries:',deliveries.length);
+ provider='error';await run('provider error maps to 502',502);
+ provider='throw';await run('provider exception maps to generic 500',500);
+ fs.writeFileSync('/tmp/omnia-audit-evidence/contact-results.json',JSON.stringify({scope:'isolated in-process actual handler; mocked Resend; no external delivery',rows,mockDeliveryCalls:deliveries.length},null,2));
+ if(rows.some(x=>!x.pass))process.exitCode=1;
+})();

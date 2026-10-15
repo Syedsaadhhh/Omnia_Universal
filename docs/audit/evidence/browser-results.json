@@ -1,0 +1,5369 @@
+{
+  "scope": "live GET screenshots; local-only interaction checks",
+  "routes": [
+    {
+      "viewport": "desktop",
+      "route": "/",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Omnia Sec AI Labs \u2014 Secure Autonomous Systems",
+      "h1": "Building the intelligence layer for verified autonomy.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/projects#reproforge",
+          "text": "View ReproForge\n\u2197"
+        },
+        {
+          "href": "#manifesto",
+          "text": "Read Manifesto\n\u2192"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "Open live demo \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "View all resilient systems \u2192"
+        },
+        {
+          "href": "/about",
+          "text": "Read the founder story \u2192"
+        },
+        {
+          "href": "/research",
+          "text": "Explore the research \u2192"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "manifesto",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/favicon.ico",
+        "https://omniaseclabs.com/projects?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/contact?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/about?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/build-log?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/research?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/?_rsc=yIp22O3xgPPxC28X",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=8nTjltbQWvg6NcbE",
+        "https://omniaseclabs.com/projects?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/projects?_rsc=TtQK9-L6lsY5v3gI",
+        "https://omniaseclabs.com/projects?_rsc=BZPL-4BkS0RUjLBR",
+        "https://omniaseclabs.com/contact?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/contact?_rsc=JFWGu_dmBAb9P0LW",
+        "https://omniaseclabs.com/contact?_rsc=BiuOixuigeBXVJn7",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/about?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/about?_rsc=n4tDNspjD4yS_Xnd",
+        "https://omniaseclabs.com/about?_rsc=hzcUC6YqarYE9pKE",
+        "https://omniaseclabs.com/build-log?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/build-log?_rsc=EjRfTF5gaTS25PgK",
+        "https://omniaseclabs.com/build-log?_rsc=1VIuueyiBZw4MS2x",
+        "https://omniaseclabs.com/research?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/research?_rsc=jL5qEi402wa9RlLc",
+        "https://omniaseclabs.com/research?_rsc=qX4Ea18kVS_dUClC"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 812
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 812
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/projects",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Projects \u2014 Omnia Sec AI Labs",
+      "h1": "Built in public.\nJudged by evidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/reproforge-sentinel",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/gns3-agent",
+          "text": "View architecture \u2192"
+        },
+        {
+          "href": "https://opendoor-relay.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/FaangRilla",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://dwellguard-ai.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/DwellGuard-AI",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://commons-alibaba.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/COMMONS-ALIBABA",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://cuthush-live.onrender.com",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/VoltHacks",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/projects#ciro",
+          "text": "View case study \u2192"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/ciro-khi",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/credscan-lite",
+          "text": "View GitHub \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/actionscribe-local",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/revise-lite",
+          "text": ""
+        },
+        {
+          "href": "/contact?interest=Technical%20discussion",
+          "text": ""
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "gns3-agent",
+        "opendoor-relay",
+        "dwellguard",
+        "commons",
+        "cuthush",
+        "ciro",
+        "credscan-lite",
+        "actionscribe-local",
+        "revise-lite",
+        "casemind",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/contact?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/about?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/build-log?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/research?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/contact?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/contact?_rsc=08St9wLvJh13VZWm",
+        "https://omniaseclabs.com/contact?_rsc=xV1vzMLREhnuCk8n",
+        "https://omniaseclabs.com/contact?_rsc=-GvrUD8lhx_a7OW7",
+        "https://omniaseclabs.com/about?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/about?_rsc=nWTUPrVpV58d2f9y",
+        "https://omniaseclabs.com/about?_rsc=F03QrfYT9vdfGqk5",
+        "https://omniaseclabs.com/build-log?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/build-log?_rsc=Q6Ki_aRO2gXJzjDn",
+        "https://omniaseclabs.com/build-log?_rsc=lqXzv-Y6QNQ94kIr",
+        "https://omniaseclabs.com/research?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/research?_rsc=GZ3M_uv4K8eQMMAn",
+        "https://omniaseclabs.com/research?_rsc=NIYdV87SakWHIzok",
+        "https://omniaseclabs.com/projects?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/projects?_rsc=ANPALi69xTI7bp_M",
+        "https://omniaseclabs.com/projects?_rsc=3o-tY5OxKhZ9s0Nu",
+        "https://omniaseclabs.com/?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/?_rsc=SHA8wU_P85oEPALJ",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 284
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 284
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/research",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Research \u2014 Omnia Sec AI Labs",
+      "h1": "Build the control systems\naround intelligence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/build-log",
+          "text": "Open build log \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/about?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/build-log?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/projects?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/about?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/about?_rsc=r-mFPqIwDbwfkOmk",
+        "https://omniaseclabs.com/contact?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/contact?_rsc=l7qzyc7SfOi46fog",
+        "https://omniaseclabs.com/contact?_rsc=s8MkavWgTgHPfVoV",
+        "https://omniaseclabs.com/about?_rsc=BxYFfaw5VHBYelb5",
+        "https://omniaseclabs.com/about?_rsc=uIJAX3jkLsbpNfuF",
+        "https://omniaseclabs.com/build-log?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/build-log?_rsc=VauG3QuzohbZu6zX",
+        "https://omniaseclabs.com/build-log?_rsc=2PVasVDWpv3k4cK1",
+        "https://omniaseclabs.com/research?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/research?_rsc=DrnSRUHQQJl52NTC",
+        "https://omniaseclabs.com/research?_rsc=0yAHRmhB4yBCxSEf",
+        "https://omniaseclabs.com/projects?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/projects?_rsc=hF8-GIhErm0hHpmU",
+        "https://omniaseclabs.com/projects?_rsc=6FfiDXpEy8RYqQXF",
+        "https://omniaseclabs.com/?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/?_rsc=ECwOn8m48Clc_dwT",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 184
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 184
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/about",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Founder \u2014 Omnia Sec AI Labs",
+      "h1": "Start before permission.\nCompound the work.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/contact?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/research?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/build-log?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/projects?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/contact?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/contact?_rsc=6Q1v7HcIw7d_mkmQ",
+        "https://omniaseclabs.com/contact?_rsc=FgT5xOkdVFxeyJa6",
+        "https://omniaseclabs.com/contact?_rsc=2R6Rr4akohQHAHZ0",
+        "https://omniaseclabs.com/about?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/about?_rsc=b8FB7ziu0gsF0X-s",
+        "https://omniaseclabs.com/about?_rsc=-PmfjtzM0R4ONS4g",
+        "https://omniaseclabs.com/build-log?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/build-log?_rsc=puE97KdQ9BrHTChw",
+        "https://omniaseclabs.com/build-log?_rsc=sIiMIvq403v1CjUn",
+        "https://omniaseclabs.com/research?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/research?_rsc=_i_mIyL8-UGD5-UU",
+        "https://omniaseclabs.com/research?_rsc=vsEQ-KK8rbFF1BCV",
+        "https://omniaseclabs.com/projects?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/projects?_rsc=EFj6EK5Edri6TKiQ",
+        "https://omniaseclabs.com/projects?_rsc=1GlGXHfxn7nSL8cr",
+        "https://omniaseclabs.com/?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/?_rsc=IbqYazZHyjXYH_Ld",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 220
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 220
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/build-log",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Build Log \u2014 Omnia Sec AI Labs",
+      "h1": "Progress should leave\nevidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/about?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/research?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/projects?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/contact?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/contact?_rsc=wY4yVrEx4-tZwjca",
+        "https://omniaseclabs.com/contact?_rsc=eTlMKfHOpJaZM0M_",
+        "https://omniaseclabs.com/contact?_rsc=v4PSljrltt6uY4Nh",
+        "https://omniaseclabs.com/about?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/about?_rsc=ghMy5NYaIBBD1Gc6",
+        "https://omniaseclabs.com/about?_rsc=IttFJCKMOg_FKWmN",
+        "https://omniaseclabs.com/build-log?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/build-log?_rsc=FCwGEnKWcQK0bdsD",
+        "https://omniaseclabs.com/build-log?_rsc=uVJCdEwR0FQEYe9X",
+        "https://omniaseclabs.com/research?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/research?_rsc=8uH-HbohIi4kLaiO",
+        "https://omniaseclabs.com/research?_rsc=7gMIKWRYlyE8gZ35",
+        "https://omniaseclabs.com/projects?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/projects?_rsc=L_pe--Yt39vrlyY5",
+        "https://omniaseclabs.com/projects?_rsc=KUHusqddnUOVz3Du",
+        "https://omniaseclabs.com/?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/?_rsc=MgK_g11pIGx8g_fb",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 172
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 172
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/contact",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Contact \u2014 Omnia Sec AI Labs",
+      "h1": "Bring context.\nSkip the pitch theater.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Omnia%20inquiry",
+          "text": "Email contact@omniaseclabs.com\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/about?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/build-log?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/research?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/projects?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/contact?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/contact?_rsc=60m9ttaXtJHZmEpN",
+        "https://omniaseclabs.com/contact?_rsc=6VCZN-x5fJj_JUAf",
+        "https://omniaseclabs.com/contact?_rsc=4zImfXNx2m2kMkKG",
+        "https://omniaseclabs.com/about?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/about?_rsc=heVSRxVNBbyDJur-",
+        "https://omniaseclabs.com/about?_rsc=0T0S9nhGoUl01ndo",
+        "https://omniaseclabs.com/build-log?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/build-log?_rsc=BliHOX8M3QwLZnfw",
+        "https://omniaseclabs.com/build-log?_rsc=qbo8ERnJPb5A5N_1",
+        "https://omniaseclabs.com/research?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/research?_rsc=ljiz7UFKWs3xkAqa",
+        "https://omniaseclabs.com/research?_rsc=iAHhbFTlpeS-u3FM",
+        "https://omniaseclabs.com/projects?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/projects?_rsc=u7Y0PRPeJx3hRjgc",
+        "https://omniaseclabs.com/projects?_rsc=Q3FwBWTcWQPEjbyC",
+        "https://omniaseclabs.com/?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/?_rsc=00jsNgvC9sZ9uZS6",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 236
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 236
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/security",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Security \u2014 Omnia Sec AI Labs",
+      "h1": "Autonomy earns authority\nthrough control.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Security%20disclosure",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/about?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/build-log?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/research?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/projects?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/contact?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/contact?_rsc=pHBj8dDJwlI2p3os",
+        "https://omniaseclabs.com/contact?_rsc=Vm7m0_y44YLWCXhA",
+        "https://omniaseclabs.com/contact?_rsc=Khumv9gYCNbPJyuZ",
+        "https://omniaseclabs.com/about?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/about?_rsc=X22CDh4uGFrOZyLs",
+        "https://omniaseclabs.com/about?_rsc=WN9fqQrWcITUOLnr",
+        "https://omniaseclabs.com/build-log?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/build-log?_rsc=mMQOF6vVDimc4vpg",
+        "https://omniaseclabs.com/build-log?_rsc=AEPP1uLx_Z3JLiad",
+        "https://omniaseclabs.com/research?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/research?_rsc=bHzjeHdWtTEXYkb4",
+        "https://omniaseclabs.com/research?_rsc=2pBYywOTO0Z4yWko",
+        "https://omniaseclabs.com/projects?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/projects?_rsc=htE4IkEklLCpSbgD",
+        "https://omniaseclabs.com/projects?_rsc=QvmHqMTDqegF_M-6",
+        "https://omniaseclabs.com/?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/?_rsc=-xRhGqIFMz5UjLfD",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 268
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 268
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/privacy",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Privacy \u2014 Omnia Sec AI Labs",
+      "h1": "A minimal-data website.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Privacy%20request",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/about?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/build-log?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/research?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/projects?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/contact?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/contact?_rsc=majeX_Osra860OK4",
+        "https://omniaseclabs.com/contact?_rsc=x6Es2qPV5fjRYXTj",
+        "https://omniaseclabs.com/contact?_rsc=zRot14fEzhWJyA1v",
+        "https://omniaseclabs.com/about?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/about?_rsc=zW3q_IkpCTWANyG-",
+        "https://omniaseclabs.com/about?_rsc=bmlkzVNOVKxo8G5W",
+        "https://omniaseclabs.com/build-log?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/build-log?_rsc=3AqfxspE2Uvh5ZUU",
+        "https://omniaseclabs.com/build-log?_rsc=kd7ntS5u0v-Y3rJK",
+        "https://omniaseclabs.com/research?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/research?_rsc=BLCV5133n92ubIUW",
+        "https://omniaseclabs.com/research?_rsc=n_vx8v-YmEegxcAo",
+        "https://omniaseclabs.com/projects?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/projects?_rsc=cuU9AXbtLRIjUA-H",
+        "https://omniaseclabs.com/projects?_rsc=P-XRJHThgP_yjgUa",
+        "https://omniaseclabs.com/?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/?_rsc=rR8GAgW4UQkijrlg",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 248
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 248
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/terms",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Terms \u2014 Omnia Sec AI Labs",
+      "h1": "Clear boundaries for an emerging lab.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/build-log?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/about?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/research?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/projects?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/about?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/about?_rsc=6hd7wU350pDpE3eu",
+        "https://omniaseclabs.com/contact?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/contact?_rsc=rD75ONqJERXQMrrO",
+        "https://omniaseclabs.com/contact?_rsc=JJR5iTlhlx-x51s4",
+        "https://omniaseclabs.com/about?_rsc=16-P5s0m3LgC0tde",
+        "https://omniaseclabs.com/about?_rsc=3-9qUfdtzyNETaAk",
+        "https://omniaseclabs.com/build-log?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/build-log?_rsc=zrLm7jyIIXIfoon6",
+        "https://omniaseclabs.com/build-log?_rsc=3PkBUN582puPcToP",
+        "https://omniaseclabs.com/research?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/research?_rsc=InXWyGnHLXHcd0cY",
+        "https://omniaseclabs.com/research?_rsc=Cn-jl02xcidrPsWA",
+        "https://omniaseclabs.com/projects?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/projects?_rsc=hZq0zaWwb0dmh53-",
+        "https://omniaseclabs.com/projects?_rsc=ABD6-UMTawAjqPmn",
+        "https://omniaseclabs.com/?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/?_rsc=-Lm-nQ4OVamEQPuo",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 264
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 264
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "route": "/gns3-agent",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "GNS3 Agent \u2014 Omnia Sec AI Labs",
+      "h1": "A technical operator for GNS3 labs.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Request early access \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "View GitHub \u2197"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Join the early conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/contact?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/about?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/build-log?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/research?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/projects?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=ArJQ4Bk2Q-7XNSJ3",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=BV4kh5NLptZx3b15",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=dLMZJntudy-CI6Zw",
+        "https://omniaseclabs.com/about?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/about?_rsc=hMfy47zAscHgmPMl",
+        "https://omniaseclabs.com/about?_rsc=Tgx5r5819Dpc2buc",
+        "https://omniaseclabs.com/build-log?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/build-log?_rsc=yowXDplJCuD2tKZ9",
+        "https://omniaseclabs.com/build-log?_rsc=ATkVlrrpz97rn1-Z",
+        "https://omniaseclabs.com/research?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/research?_rsc=301yj2fW-o07BJZZ",
+        "https://omniaseclabs.com/research?_rsc=Zmz6efdv_mjsl_GT",
+        "https://omniaseclabs.com/projects?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/projects?_rsc=WcXMZT5ZxFLRTk_Y",
+        "https://omniaseclabs.com/projects?_rsc=sOVuSA6ohNnU1vL6",
+        "https://omniaseclabs.com/?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/?_rsc=VqV2LmXUXSlE4Vtn",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 220
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 220
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Omnia Sec AI Labs \u2014 Secure Autonomous Systems",
+      "h1": "Building the intelligence layer for verified autonomy.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/projects#reproforge",
+          "text": "View ReproForge\n\u2197"
+        },
+        {
+          "href": "#manifesto",
+          "text": "Read Manifesto\n\u2192"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "Open live demo \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "View all resilient systems \u2192"
+        },
+        {
+          "href": "/about",
+          "text": "Read the founder story \u2192"
+        },
+        {
+          "href": "/research",
+          "text": "Explore the research \u2192"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "manifesto",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/projects?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/?_rsc=yIp22O3xgPPxC28X",
+        "https://omniaseclabs.com/?_rsc=8nTjltbQWvg6NcbE",
+        "https://omniaseclabs.com/projects?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/projects?_rsc=TtQK9-L6lsY5v3gI",
+        "https://omniaseclabs.com/projects?_rsc=BZPL-4BkS0RUjLBR",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 836
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 836
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/projects",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Projects \u2014 Omnia Sec AI Labs",
+      "h1": "Built in public.\nJudged by evidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/reproforge-sentinel",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/gns3-agent",
+          "text": "View architecture \u2192"
+        },
+        {
+          "href": "https://opendoor-relay.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/FaangRilla",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://dwellguard-ai.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/DwellGuard-AI",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://commons-alibaba.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/COMMONS-ALIBABA",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://cuthush-live.onrender.com",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/VoltHacks",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/projects#ciro",
+          "text": "View case study \u2192"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/ciro-khi",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/credscan-lite",
+          "text": "View GitHub \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/actionscribe-local",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/revise-lite",
+          "text": ""
+        },
+        {
+          "href": "/contact?interest=Technical%20discussion",
+          "text": ""
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "gns3-agent",
+        "opendoor-relay",
+        "dwellguard",
+        "commons",
+        "cuthush",
+        "ciro",
+        "credscan-lite",
+        "actionscribe-local",
+        "revise-lite",
+        "casemind",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/?_rsc=08St9wLvJh13VZWm",
+        "https://omniaseclabs.com/?_rsc=SHA8wU_P85oEPALJ",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 272
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 272
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/research",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Research \u2014 Omnia Sec AI Labs",
+      "h1": "Build the control systems\naround intelligence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/build-log",
+          "text": "Open build log \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/?_rsc=r-mFPqIwDbwfkOmk",
+        "https://omniaseclabs.com/?_rsc=ECwOn8m48Clc_dwT",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 600
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 600
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/about",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Founder \u2014 Omnia Sec AI Labs",
+      "h1": "Start before permission.\nCompound the work.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/?_rsc=6Q1v7HcIw7d_mkmQ",
+        "https://omniaseclabs.com/?_rsc=IbqYazZHyjXYH_Ld",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 272
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 272
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/build-log",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Build Log \u2014 Omnia Sec AI Labs",
+      "h1": "Progress should leave\nevidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/?_rsc=wY4yVrEx4-tZwjca",
+        "https://omniaseclabs.com/?_rsc=MgK_g11pIGx8g_fb",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 188
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 188
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/contact",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Contact \u2014 Omnia Sec AI Labs",
+      "h1": "Bring context.\nSkip the pitch theater.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Omnia%20inquiry",
+          "text": "Email contact@omniaseclabs.com\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/?_rsc=60m9ttaXtJHZmEpN",
+        "https://omniaseclabs.com/?_rsc=00jsNgvC9sZ9uZS6",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 244
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 244
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/security",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Security \u2014 Omnia Sec AI Labs",
+      "h1": "Autonomy earns authority\nthrough control.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Security%20disclosure",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/?_rsc=pHBj8dDJwlI2p3os",
+        "https://omniaseclabs.com/?_rsc=-xRhGqIFMz5UjLfD",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 180
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 180
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/privacy",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Privacy \u2014 Omnia Sec AI Labs",
+      "h1": "A minimal-data website.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Privacy%20request",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/?_rsc=majeX_Osra860OK4",
+        "https://omniaseclabs.com/?_rsc=rR8GAgW4UQkijrlg",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 172
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 172
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/terms",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Terms \u2014 Omnia Sec AI Labs",
+      "h1": "Clear boundaries for an emerging lab.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/?_rsc=6hd7wU350pDpE3eu",
+        "https://omniaseclabs.com/?_rsc=-Lm-nQ4OVamEQPuo",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 208
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 208
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "route": "/gns3-agent",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "GNS3 Agent \u2014 Omnia Sec AI Labs",
+      "h1": "A technical operator for GNS3 labs.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 768,
+      "scrollWidth": 768,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Request early access \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "View GitHub \u2197"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Join the early conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": "OMNIA\nSEC AI LABS"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/?_rsc=ArJQ4Bk2Q-7XNSJ3",
+        "https://omniaseclabs.com/?_rsc=VqV2LmXUXSlE4Vtn",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=BV4kh5NLptZx3b15",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=dLMZJntudy-CI6Zw",
+        "https://omniaseclabs.com/contact?_rsc=diMPuDvYDc74r-Q1"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 220
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 220
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Omnia Sec AI Labs \u2014 Secure Autonomous Systems",
+      "h1": "Building the intelligence layer for verified autonomy.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/projects#reproforge",
+          "text": "View ReproForge\n\u2197"
+        },
+        {
+          "href": "#manifesto",
+          "text": "Read Manifesto\n\u2192"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "Open live demo \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "View all resilient systems \u2192"
+        },
+        {
+          "href": "/about",
+          "text": "Read the founder story \u2192"
+        },
+        {
+          "href": "/research",
+          "text": "Explore the research \u2192"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "manifesto",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/projects?_rsc=5CB68i4pnAekjehf",
+        "https://omniaseclabs.com/?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/?_rsc=yIp22O3xgPPxC28X",
+        "https://omniaseclabs.com/?_rsc=8nTjltbQWvg6NcbE",
+        "https://omniaseclabs.com/projects?_rsc=7h4NYy5eoyMcNlUN",
+        "https://omniaseclabs.com/projects?_rsc=TtQK9-L6lsY5v3gI",
+        "https://omniaseclabs.com/projects?_rsc=BZPL-4BkS0RUjLBR",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 528
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 528
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/projects",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Projects \u2014 Omnia Sec AI Labs",
+      "h1": "Built in public.\nJudged by evidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "https://reproforge-sentinel.onrender.com",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/reproforge-sentinel",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/gns3-agent",
+          "text": "View architecture \u2192"
+        },
+        {
+          "href": "https://opendoor-relay.vercel.app",
+          "text": "View demo \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/FaangRilla",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "https://dwellguard-ai.vercel.app",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/DwellGuard-AI",
+          "text": ""
+        },
+        {
+          "href": "https://commons-alibaba.vercel.app",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/COMMONS-ALIBABA",
+          "text": ""
+        },
+        {
+          "href": "https://cuthush-live.onrender.com",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/VoltHacks",
+          "text": ""
+        },
+        {
+          "href": "/projects#ciro",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/ciro-khi",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/credscan-lite",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/actionscribe-local",
+          "text": ""
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh/revise-lite",
+          "text": ""
+        },
+        {
+          "href": "/contact?interest=Technical%20discussion",
+          "text": ""
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "reproforge",
+        "gns3-agent",
+        "opendoor-relay",
+        "dwellguard",
+        "commons",
+        "cuthush",
+        "ciro",
+        "credscan-lite",
+        "actionscribe-local",
+        "revise-lite",
+        "casemind",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/_next/static/chunks/3idokwhcuebgk.js",
+        "https://omniaseclabs.com/?_rsc=rVOxZyJZQf-ncF1B",
+        "https://omniaseclabs.com/?_rsc=x3oVFhKWntTOIIdL",
+        "https://omniaseclabs.com/?_rsc=08St9wLvJh13VZWm",
+        "https://omniaseclabs.com/?_rsc=SHA8wU_P85oEPALJ",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 168
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 168
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/research",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Research \u2014 Omnia Sec AI Labs",
+      "h1": "Build the control systems\naround intelligence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/build-log",
+          "text": "Open build log \u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=fcIHXZ5rsQhtphpf",
+        "https://omniaseclabs.com/?_rsc=r-mFPqIwDbwfkOmk",
+        "https://omniaseclabs.com/?_rsc=_4IquakgMJe-45GW",
+        "https://omniaseclabs.com/?_rsc=ECwOn8m48Clc_dwT",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 168
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 168
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/about",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Founder \u2014 Omnia Sec AI Labs",
+      "h1": "Start before permission.\nCompound the work.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/founder-syed-saad.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/grid.svg",
+        "https://omniaseclabs.com/?_rsc=Sdev7PUlRw12F58X",
+        "https://omniaseclabs.com/?_rsc=6Q1v7HcIw7d_mkmQ",
+        "https://omniaseclabs.com/?_rsc=5oha_MqiFWlStH9F",
+        "https://omniaseclabs.com/?_rsc=IbqYazZHyjXYH_Ld",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 204
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 204
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/build-log",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Build Log \u2014 Omnia Sec AI Labs",
+      "h1": "Progress should leave\nevidence.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=y64mzFXPMr0cJaQh",
+        "https://omniaseclabs.com/?_rsc=4EvD47TFVjWfk_IE",
+        "https://omniaseclabs.com/?_rsc=wY4yVrEx4-tZwjca",
+        "https://omniaseclabs.com/?_rsc=MgK_g11pIGx8g_fb",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 184
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 184
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/contact",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Contact \u2014 Omnia Sec AI Labs",
+      "h1": "Bring context.\nSkip the pitch theater.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Omnia%20inquiry",
+          "text": "Email contact@omniaseclabs.com\n\u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=h2vb-LAkAGynSY5z",
+        "https://omniaseclabs.com/?_rsc=Edh1o4O2g_TGZBR9",
+        "https://omniaseclabs.com/?_rsc=60m9ttaXtJHZmEpN",
+        "https://omniaseclabs.com/?_rsc=00jsNgvC9sZ9uZS6",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 164
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 164
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/security",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Security \u2014 Omnia Sec AI Labs",
+      "h1": "Autonomy earns authority\nthrough control.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Security%20disclosure",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=tIQs5KTOr_ss9PUu",
+        "https://omniaseclabs.com/?_rsc=QD3h1G3LVKA_XSu4",
+        "https://omniaseclabs.com/?_rsc=pHBj8dDJwlI2p3os",
+        "https://omniaseclabs.com/?_rsc=-xRhGqIFMz5UjLfD",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 188
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 188
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/privacy",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Privacy \u2014 Omnia Sec AI Labs",
+      "h1": "A minimal-data website.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com?subject=Privacy%20request",
+          "text": "contact@omniaseclabs.com"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=WzUDN3am5ctH078F",
+        "https://omniaseclabs.com/?_rsc=vjiQsSnpiQgq9i4-",
+        "https://omniaseclabs.com/?_rsc=majeX_Osra860OK4",
+        "https://omniaseclabs.com/?_rsc=rR8GAgW4UQkijrlg",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 196
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 196
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/terms",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "Terms \u2014 Omnia Sec AI Labs",
+      "h1": "Clear boundaries for an emerging lab.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/?_rsc=pfWg1qw4uMxqj7N2",
+        "https://omniaseclabs.com/?_rsc=va6MXFuxU_OemmtB",
+        "https://omniaseclabs.com/?_rsc=6hd7wU350pDpE3eu",
+        "https://omniaseclabs.com/?_rsc=-Lm-nQ4OVamEQPuo",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 136
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 136
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "route": "/gns3-agent",
+      "status": 200,
+      "errors": [],
+      "security": {
+        "issuer": "openai.com",
+        "protocol": "TLS 1.3",
+        "subjectName": "omniaseclabs.com",
+        "validFrom": 1792107298,
+        "validTo": 1823643358
+      },
+      "title": "GNS3 Agent \u2014 Omnia Sec AI Labs",
+      "h1": "A technical operator for GNS3 labs.",
+      "canonical": "https://omniaseclabsai.vercel.app/",
+      "width": 390,
+      "scrollWidth": 390,
+      "formCount": 0,
+      "brokenImages": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/contact",
+          "text": "Start a conversation \u2197"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects\n\u2197"
+        },
+        {
+          "href": "/research",
+          "text": "Research\n\u2197"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log\n\u2197"
+        },
+        {
+          "href": "/about",
+          "text": "About\n\u2197"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Omnia"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Request early access \u2197"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "View GitHub \u2197"
+        },
+        {
+          "href": "/contact?interest=GNS3%20Agent%20early%20access",
+          "text": "Join the early conversation \u2197"
+        },
+        {
+          "href": "/",
+          "text": ""
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/research",
+          "text": "Research"
+        },
+        {
+          "href": "/build-log",
+          "text": "Build Log"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/about",
+          "text": "Founder"
+        },
+        {
+          "href": "/security",
+          "text": "Security"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "https://github.com/Syedsaadhhh",
+          "text": "GitHub \u2197"
+        },
+        {
+          "href": "/privacy",
+          "text": "Privacy"
+        },
+        {
+          "href": "/terms",
+          "text": "Terms"
+        },
+        {
+          "href": "mailto:contact@omniaseclabs.com",
+          "text": "Email"
+        },
+        {
+          "href": "#top",
+          "text": "Back to top \u2191"
+        }
+      ],
+      "ids": [
+        "main",
+        "top",
+        "_R_"
+      ],
+      "requests": [
+        "https://omniaseclabs.com/logo-mark.svg",
+        "https://omniaseclabs.com/_next/static/chunks/2fzocllfke793.css",
+        "https://omniaseclabs.com/_next/static/chunks/0iq1i69206cyl.js",
+        "https://omniaseclabs.com/_next/static/chunks/27jktro2p5rq9.js",
+        "https://omniaseclabs.com/_next/static/chunks/07u_h6i539_wj.js",
+        "https://omniaseclabs.com/_next/static/chunks/3peubv2924kx4.js",
+        "https://omniaseclabs.com/_next/static/chunks/turbopack-2rpbg0v8ghw10.js",
+        "https://omniaseclabs.com/_next/static/chunks/0j84lin632tab.js",
+        "https://omniaseclabs.com/_next/static/chunks/05-c3ty_6dwfk.js",
+        "https://omniaseclabs.com/_next/static/chunks/14mrh2-p_w84d.js",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=ArJQ4Bk2Q-7XNSJ3",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=BV4kh5NLptZx3b15",
+        "https://omniaseclabs.com/contact?interest=GNS3%20Agent%20early%20access&_rsc=dLMZJntudy-CI6Zw",
+        "https://omniaseclabs.com/?_rsc=lp5uWxjyCHTlSjhm",
+        "https://omniaseclabs.com/?_rsc=VqV2LmXUXSlE4Vtn",
+        "https://omniaseclabs.com/contact?_rsc=diMPuDvYDc74r-Q1",
+        "https://omniaseclabs.com/_next/static/chunks/0t08z9vdghn0e.js"
+      ],
+      "lcpApproxMs": [
+        {
+          "name": "first-paint",
+          "startTime": 220
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 220
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "focus after six Tabs with mobile menu closed",
+      "result": {
+        "tag": "A",
+        "text": "Build Log\n\u2197",
+        "rect": {
+          "x": 16,
+          "y": 41.09375,
+          "width": 358,
+          "height": 57.546875,
+          "top": 41.09375,
+          "right": 374,
+          "bottom": 98.640625,
+          "left": 16
+        },
+        "menuOpen": "false"
+      }
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Escape closes mobile menu",
+      "pass": false
+    },
+    {
+      "name": "mobile navigation reaches projects and closes",
+      "pass": true
+    },
+    {
+      "name": "project filters",
+      "counts": {
+        "All": 11,
+        "Flagship": 4,
+        "Hackathons": 6,
+        "Security Tools": 7
+      },
+      "pass": true
+    },
+    {
+      "name": "contact flow",
+      "formCount": 0,
+      "mailto": "mailto:contact@omniaseclabs.com"
+    },
+    {
+      "name": "www independent browser",
+      "status": 503,
+      "url": "https://www.omniaseclabs.com/",
+      "body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+    }
+  ]
+}
