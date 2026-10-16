@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 
-export const metadata: Metadata = { title: "Founder", description: "The founder story and operating philosophy behind Omnia Sec AI Labs." };
+export const metadata = pageMetadata("/about", "Founder", "The founder story and operating philosophy behind Omnia Sec AI Labs.");
 
 export default function AboutPage() {
   return (

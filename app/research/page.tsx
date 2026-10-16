@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { researchQuestions } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Research", description: "Omnia research direction: trustworthy agent execution, local-first intelligence, agentic cyber defense, and human-agent coordination." };
+export const metadata = pageMetadata("/research", "Research", "Omnia research direction: trustworthy agent execution, local-first intelligence, agentic cyber defense, and human-agent coordination.");
 
 export default function ResearchPage() {
   return (

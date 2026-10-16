@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 
-export const metadata: Metadata = { title: "GNS3 Agent", description: "A Windows-first diagnostic and automation agent for GNS3 labs, infrastructure inspection, evidence capture, and reporting." };
+export const metadata = pageMetadata("/gns3-agent", "GNS3 Agent", "A Windows-first diagnostic and automation agent for GNS3 labs, infrastructure inspection, evidence capture, and reporting.");
 
 export default function GNS3AgentPage() {
   return (

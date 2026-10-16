@@ -66,6 +66,7 @@ main { overflow: clip; }
 .menu-button.open span:first-child { top: 21px; transform: rotate(45deg); }
 .menu-button.open span:last-child { top: 21px; transform: rotate(-45deg); }
 .mobile-menu { display: none; position: absolute; top: var(--header-height); left: 0; width: 100%; max-height: 0; overflow: hidden; background: rgba(6, 8, 17, .97); border-bottom: 1px solid var(--line); transition: max-height .35s ease; }
+.mobile-menu[hidden] { display: none !important; }
 .mobile-menu.open { max-height: calc(100vh - var(--header-height)); }
 .mobile-menu nav { width: var(--shell); margin: 0 auto; padding: 14px 0 28px; display: flex; flex-direction: column; }
 .mobile-menu nav > a:not(.mobile-contact) { padding: 17px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 44px 1fr auto; align-items: center; font-size: 21px; }

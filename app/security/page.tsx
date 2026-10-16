@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Security", description: "Security principles and responsible disclosure guidance for Omnia Sec AI Labs." };
+export const metadata = pageMetadata("/security", "Security", "Security principles and responsible disclosure guidance for Omnia Sec AI Labs.");
 
 export default function SecurityPage() {
   return (

@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { site } from "@/lib/site";
+import { jsonLd } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     title: "Omnia Sec AI Labs — Secure Autonomous Systems",
     description: site.description,
   },
-  alternates: { canonical: "/" },
+  robots: process.env.VERCEL_ENV === "preview" ? { index: false, follow: false } : undefined,
 };
 
 export const viewport: Viewport = {
@@ -66,7 +67,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Footer />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema) }}
         />
       </body>
     </html>
