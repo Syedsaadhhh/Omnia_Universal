@@ -1,0 +1,39 @@
+{
+  "tool": "FontTools 4.61.1, brotli 1.2.0",
+  "unicode_ranges": [
+    "U+0020-017E",
+    "U+2000-206F"
+  ],
+  "files": [
+    {
+      "file": "barlow-Barlow-Regular.woff2",
+      "bytes": 26856,
+      "sha256": "6ad4d50119b9aaab995aa826e468432cfac48c7424ff8eac1ad6d5b8b8316db9"
+    },
+    {
+      "file": "barlow-Barlow-SemiBold.woff2",
+      "bytes": 27716,
+      "sha256": "81f14e8ae41f76080d257c7867b802f575c083ad7cb3238e04ccb129b2834425"
+    },
+    {
+      "file": "barlowcondensed-BarlowCondensed-SemiBold.woff2",
+      "bytes": 27256,
+      "sha256": "3a69575397ee39c8bb3eca1480711c2d2bc74a529fc634638775bd5ca3577361"
+    },
+    {
+      "file": "commissioner-Commissioner-FLAR-VOLM-slnt-wght.woff2",
+      "bytes": 101184,
+      "sha256": "56d62b60d07e5ac7b3900b68c823913bed0034d810936b1de0e4240e0c7847cd"
+    },
+    {
+      "file": "literata-Literata-opsz-wght.woff2",
+      "bytes": 179896,
+      "sha256": "4c75708fe9e2ae8c3297249cda4193f1aec7379fc4da5463e7a9fe87d200a682"
+    },
+    {
+      "file": "schibstedgrotesk-SchibstedGrotesk-wght.woff2",
+      "bytes": 54260,
+      "sha256": "f97ef05d2dced230c171ef2dc1e0e8a3cd3f1f834e29c2e85770859c1643f146"
+    }
+  ]
+}

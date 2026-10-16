@@ -1,0 +1,79 @@
+[
+  {
+    "file": "schibstedgrotesk-SchibstedGrotesk-wght.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/schibstedgrotesk/SchibstedGrotesk%5Bwght%5D.ttf",
+    "sha256": "6ceeadf6be8e1fd7687011c7fa38ed0edd1abe967a0b73d97caec183552e823d",
+    "bytes": 176068,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "schibstedgrotesk-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/schibstedgrotesk/OFL.txt",
+    "sha256": "3b4f3063b6ac7c1e403e2c4a5e8ef3a58190ff83ed7b15af66511858699139ce",
+    "bytes": 4406,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "literata-Literata-opsz-wght.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/literata/Literata%5Bopsz%2Cwght%5D.ttf",
+    "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+    "bytes": 955132,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "literata-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/literata/OFL.txt",
+    "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+    "bytes": 4389,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "barlowcondensed-BarlowCondensed-SemiBold.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "bytes": 109428,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "barlowcondensed-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "bytes": 4377,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "barlow-Barlow-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+    "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+    "bytes": 104068,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "barlow-Barlow-SemiBold.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+    "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+    "bytes": 108348,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "barlow-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "bytes": 4377,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "commissioner-Commissioner-FLAR-VOLM-slnt-wght.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/commissioner/Commissioner%5BFLAR%2CVOLM%2Cslnt%2Cwght%5D.ttf",
+    "sha256": "db01279a6eb8676ee62675a4d7e5edbfe5f08fbc109358e2f49760b70c0447d3",
+    "bytes": 742232,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "commissioner-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/commissioner/OFL.txt",
+    "sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
+    "bytes": 4395,
+    "license": "SIL Open Font License 1.1"
+  }
+]
