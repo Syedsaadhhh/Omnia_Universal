@@ -23,7 +23,7 @@ export function Header() {
 
   useEffect(() => {
     const viewport = window.matchMedia("(max-width: 820px)");
-    const onChange = () => { if (!viewport.matches) setOpen(false); };
+    const onChange = (event: MediaQueryListEvent) => { if (!event.matches) setOpen(false); };
     viewport.addEventListener("change", onChange);
     return () => viewport.removeEventListener("change", onChange);
   }, []);

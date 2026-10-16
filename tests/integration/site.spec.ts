@@ -66,6 +66,8 @@ test("menu route changes, same-route click and desktop resize close navigation",
   await page.getByRole("button", { name: "Open navigation" }).click();
   await page.setViewportSize({ width: 1440, height: 1000 });
   await expect(page.locator("#mobile-navigation")).toBeHidden();
+  // CSS hides mobile navigation immediately; wait for its state transition too.
+  await expect(page.locator("button[aria-controls=mobile-navigation]")).toHaveAttribute("aria-expanded", "false");
   await page.setViewportSize({ width: 390, height: 844 });
   await expect(page.getByRole("button", { name: "Open navigation" })).toHaveAttribute("aria-expanded", "false");
 });

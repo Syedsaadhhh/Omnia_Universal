@@ -1,7 +1,7 @@
 {
   "stats": {
-    "startTime": "2026-10-16T00:03:12.991Z",
-    "duration": 38123.011000000006,
+    "startTime": "2026-10-16T00:10:54.812Z",
+    "duration": 41972.607,
     "expected": 39,
     "skipped": 0,
     "unexpected": 0,
@@ -15,7 +15,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 869,
+          "duration": 982,
           "retry": 0
         }
       ]
@@ -26,7 +26,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 1002,
+          "duration": 1138,
           "retry": 0
         }
       ]
@@ -37,7 +37,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 3798,
+          "duration": 4679,
           "retry": 0
         }
       ]
@@ -48,7 +48,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 3330,
+          "duration": 3606,
           "retry": 0
         }
       ]
@@ -59,7 +59,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 1279,
+          "duration": 1269,
           "retry": 0
         }
       ]
@@ -70,7 +70,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 739,
+          "duration": 768,
           "retry": 0
         }
       ]
@@ -81,7 +81,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 882,
+          "duration": 997,
           "retry": 0
         }
       ]
@@ -92,7 +92,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 104,
+          "duration": 119,
           "retry": 0
         }
       ]
@@ -103,7 +103,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 56,
+          "duration": 77,
           "retry": 0
         }
       ]
@@ -114,7 +114,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 1838,
+          "duration": 2149,
           "retry": 0
         }
       ]
@@ -125,7 +125,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 749,
+          "duration": 820,
           "retry": 0
         }
       ]
@@ -136,13 +136,211 @@
       "results": [
         {
           "status": "passed",
-          "duration": 643,
+          "duration": 725,
           "retry": 0
         }
       ]
     },
     {
       "title": "/about renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 715,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/build-log renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 715,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/contact renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1088,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/security renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 875,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/privacy renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1122,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/terms renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 773,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/gns3-agent renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 772,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/ renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1662,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/projects renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 832,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/research renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 765,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/about renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 745,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/build-log renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 724,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/contact renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 974,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/security renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 706,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/privacy renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 954,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/terms renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 755,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/gns3-agent renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 790,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/ renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1192,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/projects renders with correct metadata and internal targets",
       "status": "expected",
       "results": [
         {
@@ -153,100 +351,12 @@
       ]
     },
     {
-      "title": "/build-log renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 627,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/contact renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 1028,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/security renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 712,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/privacy renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 1612,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/terms renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 675,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/gns3-agent renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 649,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/ renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 1448,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/projects renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 673,
-          "retry": 0
-        }
-      ]
-    },
-    {
       "title": "/research renders with correct metadata and internal targets",
       "status": "expected",
       "results": [
         {
           "status": "passed",
-          "duration": 677,
+          "duration": 591,
           "retry": 0
         }
       ]
@@ -257,7 +367,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 606,
+          "duration": 698,
           "retry": 0
         }
       ]
@@ -268,7 +378,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 573,
+          "duration": 681,
           "retry": 0
         }
       ]
@@ -279,7 +389,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 827,
+          "duration": 860,
           "retry": 0
         }
       ]
@@ -290,7 +400,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 557,
+          "duration": 636,
           "retry": 0
         }
       ]
@@ -301,7 +411,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 911,
+          "duration": 838,
           "retry": 0
         }
       ]
@@ -312,7 +422,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 677,
+          "duration": 598,
           "retry": 0
         }
       ]
@@ -323,117 +433,7 @@
       "results": [
         {
           "status": "passed",
-          "duration": 751,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/ renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 1112,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/projects renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 778,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/research renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 594,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/about renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 702,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/build-log renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 616,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/contact renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 780,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/security renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 593,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/privacy renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 780,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/terms renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 540,
-          "retry": 0
-        }
-      ]
-    },
-    {
-      "title": "/gns3-agent renders with correct metadata and internal targets",
-      "status": "expected",
-      "results": [
-        {
-          "status": "passed",
-          "duration": 675,
+          "duration": 704,
           "retry": 0
         }
       ]
