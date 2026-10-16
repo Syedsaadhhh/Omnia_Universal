@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Terms", description: "Website terms for Omnia Sec AI Labs." };
+export const metadata = pageMetadata("/terms", "Terms", "Website terms for Omnia Sec AI Labs.");
 
 export default function TermsPage() {
   return (

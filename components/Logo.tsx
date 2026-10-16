@@ -9,7 +9,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       </span>
       {!compact && (
         <span className="brand-type">
-          <strong>OMNIA</strong>
+          <strong>OMNIA</strong>{" "}
           <small>SEC AI LABS</small>
         </span>
       )}

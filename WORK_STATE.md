@@ -1,65 +1,67 @@
-# Omniasec Labs — resumable work state
+# Omniasec Labs — resumable PR 1 checkpoint
 
-Last checkpoint: 2026-10-15 UTC. Phase: **0/1 audit complete; implementation awaiting founder checkpoint review**.
+Updated: 2026-10-16 UTC. Phase: PR 1 implemented and locally verified; draft review only. Later reconstruction is planning-only. Resolve the current commit with `git log -1 --format='%H %s'` rather than a self-referencing hash.
 
-## Source and workspace
+## Owner decisions and safeguards
 
-- Repo: `https://github.com/Syedsaadhhh/Omnia_Universal`.
-- Verified GitHub actor: `Syedsaadhhh`, through connector and `gh api user`.
-- Source baseline / unchanged main: `9cc1399fb1ca9642d5f91c898e0f533e85aae5fc`.
-- Local review branch: `audit/cloud-baseline-2026-10-15` at `/workspace/Omnia_Universal`.
-- Audit commit: resolve with `git log -1 --format='%H %s' audit/cloud-baseline-2026-10-15` (avoids a self-referencing commit hash).
-- Remote publication/PR: **not created**. Existing Git integrations can automatically build a branch/PR, and the initial pass forbids deployment triggers. All deliverables are in this local Git branch.
-- Production: Vercel project `omniaseclabs.ai`, team `syedsaadhhhs-projects`, project ID `prj_NWhj0oMX8aDwSo93bs3tMEkYCTsE`; READY deployment `dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4`, metadata `main` + full baseline SHA, alias `omniaseclabs.com`. Public apex independently rendered. No production changes.
+- Public brand: **Omniasec Labs**; origin: **https://omniaseclabs.com**; founder: **Syed Saad**; repo: **Syedsaadhhh/Omnia_Universal**.
+- Existing logo retained provisionally. Broad mission/team formation/product reconstruction approved as direction, with later phases **planning only** for now. The founder reiterated that substantial frontend/UI/UX work must wait until after hardening, then be inspected with Impeccable and other references; keep current PR limited to security/accessibility/disclosure changes.
+- Owner approved feature branches and draft PRs. No merge, auto-merge, production release, live DNS/provider/environment change, paid resources or deletion is authorized.
+- Before first publication, Vercel production records identified `main`; owner explicitly confirmed Cloudflare cannot deploy audit/* and fix/* to production. The Cloudflare integration still emits failed checks; its logs/policy are not independently accessible here.
 
-## Read first on resumption
+## Branches and PRs
 
-1. `docs/engineering/MASTER_SPEC.md` — full owner specification, copied unchanged.
-2. `AUDIT_BASELINE.md` — verified architecture/access/route/build evidence and limitations.
-3. `SECURITY_FINDINGS.md` — site-specific severity, exploit prerequisites, top ten, uncertainty.
-4. `POSITIONING_AND_IA.md` — proposed broad mission, routes, wireframes, naming concerns.
-5. `IMPLEMENTATION_PLAN.md` — phased files/tests/rollback and approval gates.
-6. `docs/audit/README.md` — evidence and controlled-check reproduction.
+- Original `main` reference: `9cc1399fb1ca9642d5f91c898e0f533e85aae5fc`; upstream fetch found no changes. This main reference has not been written or merged.
+- Preserved audit: `ab3068b17c764e35a386b7f5b8ed868183093f3f`, branch `audit/cloud-baseline-2026-10-15`, pushed unchanged. [Documentation draft PR #5](https://github.com/Syedsaadhhh/Omnia_Universal/pull/5).
+- Active implementation: `fix/security-engineering-foundation`, based on audit commit. [Draft PR #6](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6), base audit branch to isolate code diff. Retarget only after an approved audit merge; do not merge either PR now.
+- Initial application commit: `86029e0`; branch-only Vercel automatic-build skip: `a42e336`; checkpoint docs: `c38fee0`. A subsequent narrow correction uses media-query event snapshots for resize state and waits for that state in its browser test; CI actions run on supported Node24 and the runner image is pinned to Ubuntu24.04. The first code push preceded the skip commit and may create a protected preview; no blanket “no preview created” claim.
+- [Current CI checks](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6/checks) are live. Use exact commands below to resolve the current head's run rather than assuming an earlier result applies. GitHub automatically cancels superseded runs. The first run on `86029e0` passed install/audit/type/unit/build/browser steps before cancellation during Docker after the branch-skip update; that cancelled run is not counted as a complete CI pass. Run 38827747257 on `c38fee0` later failed its resize browser assertion (38/39 passed): CSS visibility changed before the media-query state callback completed. The handler now uses the event snapshot, and the regression waits for aria-expanded before resizing back. This failure was not ignored or retried into a pass. Node20 action deprecation annotations were separately addressed with verified Node24 action manifests and supported inputs.
 
-No `AGENTS.md` was present. The cloud-environment runtime skill was read; use it again on resumption, inspect network policy, and preserve proxy/CA trust. Vercel inspection, verification, and Impeccable audit guidance were also used. Impeccable's local launcher was absent; no PRODUCT/DESIGN document existed.
+## Completed changes
 
-## Completed
+1. Next 16.2.9 → 16.4.2; obsolete PostCSS override removed → 8.5.23; Sharp → 0.35.5. Root lock committed; unused Resend removed. [All 23 advisory/CVE/range/applicability records](docs/pr1/DEPENDENCIES.md).
+2. Deterministic clean install, pinned multi-platform Node24 base digest, Node24.22 version file, non-root standalone container, prepared static assets, no-deploy read-only CI with SHA-pinned actions.
+3. Contact remains mailto-only. Retained API cannot send even with legacy env variables, repeated requests or forged proxy headers. No Map/provider/enable flag. Origin fixed in source; 16 KiB streamed UTF-8 JSON cap, 5-second read deadline, object/schema validation, predictable 400/408/413/415/503, no-store errors and no input/provider exception logging. No durable live-form limiter is claimed.
+4. Official canonical identity independent of request/env host; per-route OG/canonical/social image, robots/sitemap, preview indexing policy, JSON-LD escaping.
+5. Privacy/docs match actual email contact and provider uncertainty. Menu hidden from focus when closed; Escape/focus return, route/same-route and desktop-resize close behavior; logo name whitespace fixed, asset unchanged.
+6. CSP denies script event attributes/base/objects/frames/workers/media; eval only in development. Inline script/style allowance remains for static Next rendering; no implicit dynamic-rendering/cost migration.
+7. `.env*` ignore and tracked credential-pattern checks; Docker context excludes secrets/history/audit artifacts. Honest health/deployment/rollback documentation. No homepage/project repositioning.
 
-- Entire master spec read; all 52 tracked baseline files inventoried, source surfaces/configuration/assets reviewed, seven remote branches and recent history inspected.
-- GitHub/Vercel/source/domain linkage verified; failed Cloudflare check and misleading Railway docs identified.
-- DNS, HTTP redirect, live security headers, robots/sitemap/metadata and route inventory checked. Origin TLS chain is obscured by environment interception; `www` differs in DNS and is inaccessible here, not proven down globally.
-- Isolated Node24 install, typecheck and production build succeeded. Source has no root lock/tests/CI. Audit-resolution snapshot recorded; npm audit reports Next critical/PostCSS high/Sharp high package entries, with applicability analysis.
-- Contact handler: 24 actual-handler/mocked-provider assertions; local production HTTP checks reproduced malformed/null JSON 500 and oversized parse behavior. No production POST or real email.
-- 30 public screenshots (10 routes × desktop/tablet/mobile), no page errors/broken images/page overflow in sampled renders; local menu/filter/contact interactions checked; eight axe scans; 284 link occurrences checked for internal route/fragment targets.
-- 85 historical blobs pattern-scanned with values suppressed; no tested-pattern secret match. Ignore gaps documented. No secret values read or committed.
-- Naming confusion researched using primary public pages; no legal clearance claimed.
-- Documentation/evidence-only local branch prepared; application code unchanged.
+## Actual local results
 
-## Findings and remaining limits
+- Clean `npm ci --ignore-scripts --no-audit --no-fund`: exit 0.
+- TypeScript: exit 0; production build typechecks current source too.
+- Unit tests: **48 passed, zero failed/skipped**.
+- Production build: exit 0, Next 16.4.2, content routes stay statically generated.
+- Production HTTP/browser integration: **39 passed, zero skipped/unexpected/flaky**, including 30 route/viewport checks, ten axe scans, menu keyboard, CSP execution blocking, filters, privacy and API contracts.
+- Dependency audit: **0 reported findings** across production/dev dependencies. No suppressions or force-upgrade.
+- Tracked credential-pattern scan: exit 0, bounded patterns; no values printed.
+- Pinned Docker build: exit 0; local read-only/non-root runtime smoke exit 0. Node24.22, UID1001. Local host tests used Node24.19/npm11.9. Audit labels some locked optional WASM fallbacks extraneous after clean ci; no missing required dependency/build failure; no unsupported cleanup attempted.
+- Relevant logs, structured summary, dependency/advisory/public observations, image identity and ten screenshots: `docs/pr1/evidence/`. Full before/after/root-cause/file/test/residual mapping: `docs/pr1/CHECKPOINT.md`.
+- Hosted CI is distinct from these local results and is resolved live through PR checks/Actions; final PR description records the observed hosted outcome. Do not describe pending, cancelled or skipped jobs as passes.
 
-Priorities: affected dependencies → deterministic installs → meaningful CI/release control → dormant contact boundary → deployed canonical/SEO → privacy/keyboard access → broad lab identity. See detailed report for ten ranked findings and five additional concerns.
+## Production and unresolved issues
 
-Not verified: production dependency lock/tree, real Resend/inbox delivery or configuration, trusted forwarded-header behavior, provider limits/budgets/log retention, origin certificate chain, independent public `www` behavior, protected GitHub security settings (403), Railway history, Cloudflare failure cause, project outcome/maturity evidence beyond current website, or trademark rights. Do not redo completed checks unless evidence is stale or implementation changes warrant it.
+Authenticated production listing after feature publication still points to Vercel project `prj_NWhj0oMX8aDwSo93bs3tMEkYCTsE`, team `syedsaadhhhs-projects`, deployment `dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4`, `main@9cc1399`. Passive apex check is 200 with baseline ETag and old canonical. A provider latestDeployment can be a preview; inspect target/aliases before claiming production changed.
 
-## Pending owner checkpoint
+No production POST/email, release, DNS/environment/provider setting, project deletion or other-repository modification. `www` A record still differs and returns upstream 503 here. Global availability, origin TLS chain (cloud interception), mail/log retention, real contact delivery and protected GitHub security settings remain unverified. Required review/check protection was not enabled. Legacy Cloudflare failure is reported separately from application CI.
 
-Request review of the concrete audit and approval to begin branch-local implementation. Confirm **Omniasec Labs** spelling and whether to retain current mark with updated typography. Recommend mailto-first intake. Obtain explicit permission for preview-triggering branch/PR publication or verify a supported no-build route before pushing. Merge, production deployment, infrastructure/DNS changes, paid resources, real mail tests and deletion remain separately gated.
+Remaining security decisions: strict script/style CSP architecture; provider ingress/resource budgets; durable abuse protection before any future active form; approved release gates; independent www/TLS/provider/log review. No complete-security/compliance claim. Source fixes are **not** deployed fixes.
 
-No code implementation should be inferred as authorized merely because this audit is complete. The owner explicitly requested review of the initial checkpoint first.
-
-## Exact next steps
+## Exact next actions
 
 ```bash
 cd /workspace/Omnia_Universal
+# Read this file, docs/engineering/MASTER_SPEC.md, docs/pr1/CHECKPOINT.md and DEPLOYMENT.md.
 git status --short
 git branch --show-current
-git log -1 --format='%H %s'
+git log -3 --format='%h %s'
 gh api user --jq .login
-git ls-remote origin refs/heads/main
+git ls-remote origin refs/heads/main refs/heads/audit/cloud-baseline-2026-10-15 refs/heads/fix/security-engineering-foundation
+gh pr view 6 --repo Syedsaadhhh/Omnia_Universal --json headRefOid,isDraft,baseRefName,statusCheckRollup
+gh run list --repo Syedsaadhhh/Omnia_Universal --branch fix/security-engineering-foundation --limit 3 --json databaseId,status,conclusion,url,headSha
 ```
 
-Compare remote main with the baseline before implementation. Read the owner's checkpoint response. If code changes are approved, create PR 1's branch from the appropriate current main and carry the accepted audit/work state forward deliberately; follow `IMPLEMENTATION_PLAN.md`. Do not silently push this documentation commit or trigger existing provider builds.
+If current CI fails, inspect the failing step without dumping environment/secret values, repair only the justified issue, rerun relevant checks and update the draft. Otherwise stop for founder review. Keep production unchanged. Later phases: `docs/pr1/NEXT_PHASES.md`, accepted `POSITIONING_AND_IA.md`; do not implement them yet.
 
-Local audit execution copy: `/tmp/omnia-audit-runtime`; standalone server was started on `127.0.0.1:3100` with no provider credentials. It may no longer be running on resumption. Check listener/process ownership before reuse; stop only this task's server if needed. `/tmp/omnia-audit-tools` contains axe-core. `/tmp/omnia-audit-evidence` contains temporary capture/check output. Committed copies of relevant reports, scripts, resolution snapshot and all 30 screenshots are under `docs/audit/` so losing `/tmp` does not lose the checkpoint. Do not commit node_modules, generated `.next`, environment files or private submissions.
-
-A portable Git bundle is exported after the audit commit at `/workspace/Omniasec_Labs_Audit_2026-10-15.bundle`. If this cloud filesystem is lost, retain/download that bundle and clone its `audit/cloud-baseline-2026-10-15` branch, then reconnect the verified GitHub origin. It includes the baseline history, documents, scripts and screenshots without requiring a remote push.
+Local production test servers and Docker smoke containers are stopped by their test cleanup. `/tmp/omnia-pr1-*` contains temporary execution logs; committed selected copies are authoritative. Original audit scripts intentionally demonstrate defects and apply to baseline source, not as passing security contracts for PR 1. The original 21 MiB audit bundle remains at `/workspace/Omniasec_Labs_Audit_2026-10-15.bundle`; the remote audit branch/PR now also preserves it.

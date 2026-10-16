@@ -1,0 +1,4 @@
+> omnia-sec-ai-labs@1.0.0 audit:dependencies
+> npm audit --audit-level=low
+
+found 0 vulnerabilities

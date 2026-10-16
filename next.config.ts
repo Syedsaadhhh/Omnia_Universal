@@ -1,38 +1,20 @@
 import type { NextConfig } from "next";
-
-const securityHeaders = [
-  { key: "X-Content-Type-Options", value: "nosniff" },
-  { key: "X-Frame-Options", value: "DENY" },
-  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), browsing-topics=()" },
-  { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
-  { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
-  {
-    key: "Content-Security-Policy",
-    value: [
-      "default-src 'self'",
-      "base-uri 'self'",
-      "form-action 'self'",
-      "frame-ancestors 'none'",
-      "object-src 'none'",
-      "img-src 'self' data: blob:",
-      "font-src 'self' data:",
-      "style-src 'self' 'unsafe-inline'",
-      "script-src 'self' 'unsafe-inline'",
-      "connect-src 'self'",
-      "upgrade-insecure-requests"
-    ].join("; ")
-  }
-];
+import { contentSecurityPolicy, securityHeaders } from "./lib/security-headers";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
   output: "standalone",
+  // Current images are local SVGs; no native image input API is needed.
+  images: { unoptimized: true },
   async headers() {
-    return [{ source: "/(.*)", headers: securityHeaders }];
-  }
+    return [{ source: "/(.*)", headers: [
+      ...securityHeaders,
+      { key: "Content-Security-Policy", value: contentSecurityPolicy(process.env.NODE_ENV === "development") },
+      ...(process.env.VERCEL_ENV === "preview" ? [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] : []),
+    ] }];
+  },
 };
 
 export default nextConfig;

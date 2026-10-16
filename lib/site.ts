@@ -1,11 +1,11 @@
+import { SITE_ORIGIN } from "./site-origin";
+
 export const site = {
   name: "Omnia Sec AI Labs",
   shortName: "OMNIA",
   description:
     "An independent agentic AI and cybersecurity lab building resilient, evidence-driven systems for public-interest and real-world operations.",
-  url:
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://omniaseclabsai.vercel.app",
+  url: SITE_ORIGIN,
   founder: "Syed Saad",
   location: "Karachi, Pakistan",
   email: "contact@omniaseclabs.com",

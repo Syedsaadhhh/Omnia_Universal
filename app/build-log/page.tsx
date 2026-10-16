@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Build Log", description: "Transparent development notes from Omnia Sec AI Labs." };
+export const metadata = pageMetadata("/build-log", "Build Log", "Transparent development notes from Omnia Sec AI Labs.");
 
 const entries = [
   { date: "24 JUN 2026", type: "GNS3 AGENT / PHASE 1.5", title: "The agent can now inspect a real GNS3 environment.", body: "Added direct API connectivity, Windows diagnostics, environment checks, read-only inspection commands, structured reports, updated configuration, and automated tests.", tags: ["Python", "GNS3", "Diagnostics", "Testing"] },

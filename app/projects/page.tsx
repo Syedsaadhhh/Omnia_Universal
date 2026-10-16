@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { ProjectsGallery } from "@/components/ProjectsGallery";
 
-export const metadata: Metadata = {
-  title: "Projects",
-  description:
-    "Explore Omnia flagship products, public-interest hackathon builds, and resilient security tools with clear status, evidence, and links.",
-};
+export const metadata = pageMetadata("/projects", "Projects",
+  "Explore Omnia flagship products, public-interest hackathon builds, and resilient security tools with clear status, evidence, and links.");
 
 export default function ProjectsPage() {
   return (

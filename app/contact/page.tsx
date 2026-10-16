@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Contact", description: "Contact Omnia Sec AI Labs for GNS3 Agent early access, research, partnerships, and technical discussions." };
+export const metadata = pageMetadata("/contact", "Contact", "Contact Omnia Sec AI Labs for GNS3 Agent early access, research, partnerships, and technical discussions.");
 
 export default function ContactPage() {
   return (

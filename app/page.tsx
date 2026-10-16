@@ -1,3 +1,11 @@
+import { pageMetadata } from "@/lib/metadata";
+import { site } from "@/lib/site";
+
+export const metadata = {
+  ...pageMetadata("/", "Omnia Sec AI Labs — Secure Autonomous Systems", site.description),
+  title: { absolute: "Omnia Sec AI Labs — Secure Autonomous Systems" },
+};
+
 import Link from "next/link";
 import { CommandPanel } from "@/components/CommandPanel";
 import { NetworkCanvas } from "@/components/NetworkCanvas";
