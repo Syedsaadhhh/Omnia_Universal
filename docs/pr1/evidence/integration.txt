@@ -1,0 +1,51 @@
+> omnia-sec-ai-labs@1.0.0 test:integration
+> playwright test
+
+[WebServer] (node:6173) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 39 tests using 1 worker
+
+(node:6185) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/integration/site.spec.ts:12:11 › 1440px › / renders with correct metadata and internal targets (1.8s)
+  ✓   2 tests/integration/site.spec.ts:12:11 › 1440px › /projects renders with correct metadata and internal targets (749ms)
+  ✓   3 tests/integration/site.spec.ts:12:11 › 1440px › /research renders with correct metadata and internal targets (643ms)
+  ✓   4 tests/integration/site.spec.ts:12:11 › 1440px › /about renders with correct metadata and internal targets (718ms)
+  ✓   5 tests/integration/site.spec.ts:12:11 › 1440px › /build-log renders with correct metadata and internal targets (627ms)
+  ✓   6 tests/integration/site.spec.ts:12:11 › 1440px › /contact renders with correct metadata and internal targets (1.0s)
+  ✓   7 tests/integration/site.spec.ts:12:11 › 1440px › /security renders with correct metadata and internal targets (712ms)
+  ✓   8 tests/integration/site.spec.ts:12:11 › 1440px › /privacy renders with correct metadata and internal targets (1.6s)
+  ✓   9 tests/integration/site.spec.ts:12:11 › 1440px › /terms renders with correct metadata and internal targets (675ms)
+  ✓  10 tests/integration/site.spec.ts:12:11 › 1440px › /gns3-agent renders with correct metadata and internal targets (649ms)
+  ✓  11 tests/integration/site.spec.ts:12:11 › 768px › / renders with correct metadata and internal targets (1.4s)
+  ✓  12 tests/integration/site.spec.ts:12:11 › 768px › /projects renders with correct metadata and internal targets (673ms)
+  ✓  13 tests/integration/site.spec.ts:12:11 › 768px › /research renders with correct metadata and internal targets (677ms)
+  ✓  14 tests/integration/site.spec.ts:12:11 › 768px › /about renders with correct metadata and internal targets (606ms)
+  ✓  15 tests/integration/site.spec.ts:12:11 › 768px › /build-log renders with correct metadata and internal targets (573ms)
+  ✓  16 tests/integration/site.spec.ts:12:11 › 768px › /contact renders with correct metadata and internal targets (827ms)
+  ✓  17 tests/integration/site.spec.ts:12:11 › 768px › /security renders with correct metadata and internal targets (557ms)
+  ✓  18 tests/integration/site.spec.ts:12:11 › 768px › /privacy renders with correct metadata and internal targets (911ms)
+  ✓  19 tests/integration/site.spec.ts:12:11 › 768px › /terms renders with correct metadata and internal targets (677ms)
+  ✓  20 tests/integration/site.spec.ts:12:11 › 768px › /gns3-agent renders with correct metadata and internal targets (751ms)
+  ✓  21 tests/integration/site.spec.ts:12:11 › 390px › / renders with correct metadata and internal targets (1.1s)
+  ✓  22 tests/integration/site.spec.ts:12:11 › 390px › /projects renders with correct metadata and internal targets (778ms)
+  ✓  23 tests/integration/site.spec.ts:12:11 › 390px › /research renders with correct metadata and internal targets (594ms)
+  ✓  24 tests/integration/site.spec.ts:12:11 › 390px › /about renders with correct metadata and internal targets (702ms)
+  ✓  25 tests/integration/site.spec.ts:12:11 › 390px › /build-log renders with correct metadata and internal targets (616ms)
+  ✓  26 tests/integration/site.spec.ts:12:11 › 390px › /contact renders with correct metadata and internal targets (780ms)
+  ✓  27 tests/integration/site.spec.ts:12:11 › 390px › /security renders with correct metadata and internal targets (593ms)
+  ✓  28 tests/integration/site.spec.ts:12:11 › 390px › /privacy renders with correct metadata and internal targets (780ms)
+  ✓  29 tests/integration/site.spec.ts:12:11 › 390px › /terms renders with correct metadata and internal targets (540ms)
+  ✓  30 tests/integration/site.spec.ts:12:11 › 390px › /gns3-agent renders with correct metadata and internal targets (675ms)
+  ✓  31 tests/integration/site.spec.ts:36:5 › closed mobile menu is absent from tab order; Escape restores toggle focus (869ms)
+  ✓  32 tests/integration/site.spec.ts:56:5 › menu route changes, same-route click and desktop resize close navigation (1.0s)
+  ✓  33 tests/integration/site.spec.ts:74:7 › WCAG automated regression sample at 1440px (3.8s)
+  ✓  34 tests/integration/site.spec.ts:74:7 › WCAG automated regression sample at 390px (3.3s)
+  ✓  35 tests/integration/site.spec.ts:84:5 › project filters still hydrate and announce count (1.3s)
+  ✓  36 tests/integration/site.spec.ts:93:5 › contact and privacy describe the same mailto-only flow (739ms)
+  ✓  37 tests/integration/site.spec.ts:103:5 › production CSP reaches HTTP clients and blocks inline event handlers (882ms)
+  ✓  38 tests/integration/site.spec.ts:121:5 › robots, sitemap, OG image and missing route have expected HTTP behavior (104ms)
+  ✓  39 tests/integration/site.spec.ts:137:5 › real HTTP contact contract rejects unsafe input and cannot send (56ms)
+
+  39 passed (38.1s)

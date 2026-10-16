@@ -1,0 +1,61 @@
+# PR 1 checkpoint — security and engineering foundation
+
+Date: 2026-10-16 UTC. This is reviewable feature-branch work; production is not updated.
+
+- [Audit draft PR #5](https://github.com/Syedsaadhhh/Omnia_Universal/pull/5): original `ab3068b` checkpoint, unchanged evidence, baseline `9cc1399`.
+- [Implementation draft PR #6](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6): branch `fix/security-engineering-foundation`, stacked on the audit branch to isolate the implementation diff. No merge or auto-merge.
+- Full advisory/CVE investigation: [DEPENDENCIES.md](DEPENDENCIES.md), including raw primary-source records for all 23 baseline GHSAs.
+- Hosted checks: [repository Actions](https://github.com/Syedsaadhhh/Omnia_Universal/actions), queried for the current PR head. See live PR check status and `WORK_STATE.md`; a local pass is not represented as hosted CI completion.
+
+## Before / after, root causes and residuals
+
+| Finding | Root cause / before | PR 1 change / affected files | Regression evidence / residual |
+| --- | --- | --- | --- |
+| F01: affected dependency pins | Next 16.2.9, PostCSS 8.5.10 override and resolved Sharp 0.34.5 match advisories; application prerequisites vary | `package.json` / lock: Next 16.4.2, PostCSS 8.5.23, Sharp 0.35.5; obsolete override and unused Resend removed; `next.config.ts` disables unnecessary native image API | `npm audit`: 0 at all severities; production build, OG and optimizer tests. No exploit payload sent to production; no claim of vulnerability-free software |
+| F02: reproducibility | No tracked lock; Docker runs range-resolving install on mutable base tag | Root lock, `npm ci --ignore-scripts`, immutable Node24 image manifest digest, `.node-version`, prepared standalone assets; dev/CI/container commands documented | Clean install, lock drift guard, pinned Docker build, read-only/non-root runtime smoke. Repeatable inputs/procedure; byte-identical images not claimed |
+| F03: test/release controls | No tests or workflows; no visible required review/check protection | `.github/workflows/ci.yml`, unit/integration tests, read-only job token, SHA-pinned actions, no production secrets/deploy step; branch-only Vercel build skip | 48 unit and 39 local integration tests pass, zero skipped. Hosted CI is separately observed. Required review/provider release gates are **not** configured or claimed; legacy Cloudflare check remains unresolved |
+| F04: forwarded-IP limiter bypass | Client-selectable forwarded header keyed an unbounded process-local Map in an otherwise unused email API | `app/api/contact/route.ts`: removes provider/send path, header-derived identity, Map and enable-by-secret behavior; exact source-defined origin; mailto stays operational | Unit/HTTP repeated forged XFF/X-Real-IP/X-Vercel-Forwarded-For remain unable to send; fetch spy verifies no outbound request. Closed delivery works independently of proxy rewriting/workers. No durable live-form limiter is implemented; reactivation requires reviewed ingress and shared send budget |
+| F05: body/error gaps | JSON parsed before limits; null and malformed JSON become 500; content type substring check; no read deadline | `lib/http-input.ts`, contact route: 16 KiB streamed-byte cap before parsing, UTF-8/object validation, 5-second total read deadline; 400/408/413/415/no-store responses; no payload logging | Unit tests include byte/multibyte boundaries, chunked/misleading length, unread body, failed stream, timeout and cancellation; real Next HTTP checks include 1 MiB input. Provider ingress buffering/limits and internet-level request floods remain outside application-only guarantees |
+| F06: wrong host/page metadata | Old env fallback and inherited homepage canonical for every route | `lib/site-origin.ts`, `lib/metadata.ts`, page metadata, layout, robots/sitemap: fixed official origin, distinct canonical/OG paths, correct image origin; JSON-LD `<` escaping; preview noindex; remove fabricated current last-modified dates | 30 rendered route/viewport checks plus metadata/JSON-LD units, OG PNG/robots/sitemap HTTP checks. Legacy production variable cannot override source identity. Production HTML stays unchanged until release |
+| F07: privacy mismatch | Notice describes operational form/provider collection; UI is mailto-only | Privacy, `.env.example`, README/DEPLOYMENT: explain direct email and disabled endpoint, provider/retention limits and no publishing consent implied by inquiry | Browser verifies zero contact forms and matching disclosure; no real email. Mail-host/hosting retention and provider administration remain unverified; no invented period |
+| F08: keyboard access | Clipped menu links stayed in tab order; Escape handler/focus return absent; logo text/name whitespace mismatch | `Header.tsx`, one CSS hidden rule, whitespace in `Logo.tsx`: closed menu hidden, aria-controls/current, Escape/focus, same-route close, resize close | Real keyboard tab/Enter/Escape/focus/route/resize checks; ten axe page/width scans inside two tests show no automated violations. Screen-reader/zoom/full WCAG audit remains incomplete; logo asset/layout unchanged |
+| F09: outdated public scope | Existing AI/cybersecurity/flagship-led homepage and taxonomy | Planning only in `NEXT_PHASES.md`; no hero/project repositioning or logo replacement in PR 1 | Existing project counts/links preserved; new broad identity remains a separate approval/review phase |
+| F10: CSP | Script/style unsafe-inline; injected event attributes/base elements allowed by broad directives | `lib/security-headers.ts` and config: script-src-attr none, base-uri none, frame/worker/media denial; production no eval; preserve existing defense headers | Real browser proves inline event handler blocked while Next hydration/filters work. Script/style unsafe-inline remains for static rendering; nonce/SRI/caching tradeoff documented, not claimed solved |
+| F11: www | Different A record, upstream 503 observed from this environment | Passive DNS/GET recheck only; no DNS/provider change | [public evidence](evidence/public-verification.json): apex works with original ETag; www remains inaccessible here. No global outage/root cause or origin certificate-chain claim |
+| F12: secrets prevention | `.env.production`/`.env.staging` not ignored; raw provider exceptions could reach logs | `.gitignore`, `.dockerignore`, value-suppressing tracked-file scanner; fixed-only unexpected log; no provider exception path | Bounded credential-pattern check passes; unit checks reject payload logging; image excludes env files/history/docs. This is not a complete secret scan or verification of provider log retention |
+| F13/F14: operations truth | Health implies only routing; docs attribute deployment to Railway; failed Workers build unexplained | README/DEPLOYMENT describe verified Vercel, liveness limits, preserved alternative config, release/rollback gates | Container/HTTP health and route smoke. No integration deleted or production settings modified; Cloudflare build/policy details need provider access |
+
+## Exact local validation
+
+| Command / check | Actual final result |
+| --- | --- |
+| `npm ci --ignore-scripts --no-audit --no-fund` | Exit 0; [output](evidence/clean-install.txt). Optional WASM fallback packages are present in the lock; npm ls labels two as extraneous on this host even after clean ci, without a missing required dependency or failing build |
+| `npm run typecheck` | Exit 0; [output](evidence/typecheck.txt); build also typechecks current source |
+| `npm test` | 48 passed, 0 failed/cancelled/skipped/todo; [output](evidence/unit.txt) |
+| `NEXT_TELEMETRY_DISABLED=1 npm run build` | Exit 0; Next 16.4.2 static content routes preserved; [output](evidence/build.txt) |
+| `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium npm run test:integration` | 39 passed, 0 skipped/unexpected/flaky; [summary](evidence/integration-summary.json), [output](evidence/integration.txt) |
+| Browser coverage within integration tests | 10 content routes × 1440/768/390 widths, hydration/filter, keyboard, privacy, CSP, OG/robots/sitemap, HTTP API, image API rejection; ten axe scans across five pages/two widths. No screen-reader conformance claim |
+| `npm run audit:dependencies` / `npm audit --json` | Exit 0; no registry-reported findings across production/dev tree; [JSON](evidence/npm-audit-after.json) |
+| `npm run check:secrets` | Exit 0; selected credential patterns with values suppressed; [output](evidence/credential-pattern-check.txt) |
+| Managed-cloud pinned Docker build | Exit 0, proxy/CA trust maintained; no TLS bypass, public port or registry push |
+| `node scripts/container-smoke.mjs` against local read-only container | Exit 0; liveness, seven GET paths/security headers, canonical and disabled sending. [output](evidence/container-smoke.txt), [runtime/image identity](evidence/container-runtime.txt). UID 1001; Node 24.22.0 |
+| Documentation / publication checks | JSON/links/syntax and staged diff/credential checks; both PRs drafts; original main/audit references preserved |
+
+Local Node: 24.19.0, npm 11.9.0; container and recommended CI Node: 24.22.0. Both use supported major 24 and the same committed lockfile. The first browser run caught four test assumptions (root slash normalization and a locator whose accessible name changes on open); those assertions were corrected and the complete suite reran successfully. No failing test was skipped or suppressed.
+
+## Review artifacts
+
+- [Desktop homepage](evidence/screenshots/1440-home.png), [mobile homepage](evidence/screenshots/390-home.png): incumbent design and positioning preserved.
+- [Mobile contact](evidence/screenshots/390-contact.png), [desktop privacy](evidence/screenshots/1440-privacy.png): real flow and updated disclosure.
+- [Mobile menu after keyboard dismissal](evidence/screenshots/mobile-menu-closed.png): focus returns to toggle.
+- All ten current screenshots are in `evidence/screenshots/`. Original 30 production screenshots remain under `docs/audit/evidence/screenshots/`.
+
+## Publication, production and remaining approvals
+
+Publication was checked before the first push: Vercel production history pointed to main; owner explicitly confirmed Cloudflare cannot deploy audit/* or fix/* to production. The audit generated a protected Vercel preview. Feature code commit `86029e0` was pushed before branch skip configuration was included; `a42e336` immediately added the scoped `vercel.json` rule. The initial feature push may create a protected preview. No claim is made that all preview activity was prevented. Current branch configuration suppresses subsequent automatic Vercel deployments and does not alter main's behavior.
+
+Authenticated Vercel production listing after feature publication still identifies `dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4`, `main@9cc1399`. Passive apex GET retains the baseline ETag and old canonical. Provider latestDeployment may show a preview; that is not used as the production indicator. No production environment variables, DNS, integrations, domain ownership, projects or source repositories were changed. No real contact email or disruptive live test was sent.
+
+Outstanding: inspect failed Cloudflare integration through approved provider access; enforce owner-approved required review/check and provider release gates; independently resolve www/TLS; verify provider log/mail retention; decide on stricter script CSP architecture and any future active form. None blocks reviewing the branch, but they prevent claims of complete security or a verified production fix.
+
+Next action is review of draft PRs and the scoped changes. No merge, production deployment, auto-merge, DNS/provider changes or broad reconstruction is approved by this checkpoint. A release would require the founder's separate explicit approval of the exact target and rollback plan in `DEPLOYMENT.md`.

@@ -1,0 +1,40 @@
+> omnia-sec-ai-labs@1.0.0 build
+> next build && node scripts/prepare-standalone.mjs
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 23ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 652ms
+  Running TypeScript ...
+  Finished TypeScript in 1848ms ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/18) ...
+  Generating static pages using 2 workers (4/18)
+  Generating static pages using 2 workers (8/18)
+  Generating static pages using 2 workers (13/18)
+✓ Generating static pages using 2 workers (18/18) in 592ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ƒ /api/contact
+├ ƒ /api/health
+├ ○ /build-log
+├ ○ /contact
+├ ○ /gns3-agent
+├ ○ /manifest.webmanifest
+├ ○ /opengraph-image
+├ ○ /privacy
+├ ○ /projects
+├ ○ /research
+├ ○ /robots.txt
+├ ○ /security
+├ ○ /sitemap.xml
+└ ○ /terms
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
