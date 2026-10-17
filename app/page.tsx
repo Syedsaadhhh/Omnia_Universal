@@ -1,107 +1,193 @@
+import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site";
+import { workEntries, operatingSteps } from "@/lib/work";
+import { Action, Arrow, Section } from "@/components/ui";
 
 export const metadata = {
-  ...pageMetadata("/", "Omniasec Labs — Research & Product Development", site.description),
+  ...pageMetadata(
+    "/",
+    "Omniasec Labs — Research & Product Development",
+    site.description,
+  ),
   title: { absolute: "Omniasec Labs — Research & Product Development" },
 };
-
-import Link from "next/link";
-import { CommandPanel } from "@/components/CommandPanel";
-import { NetworkCanvas } from "@/components/NetworkCanvas";
-import { SectionHeading } from "@/components/SectionHeading";
+const selected = ["dwellguard", "reproforge", "gns3-agent"].map((slug) =>
+  workEntries.find((item) => item.slug === slug)!,
+);
 
 export default function HomePage() {
   return (
     <>
-      <section className="hero">
-        <NetworkCanvas />
-        <div className="hero-grid" aria-hidden="true" />
-        <div className="hero-glow glow-one" aria-hidden="true" />
-        <div className="hero-glow glow-two" aria-hidden="true" />
-        <div className="hero-shell">
-          <div className="hero-copy">
-            <div className="eyebrow"><i /> Independent AI & cybersecurity lab · Karachi</div>
-            <h1>Building the intelligence layer for <span>verified autonomy.</span></h1>
-            <p>Omnia builds public-interest systems that keep working when plans, infrastructure, or evidence break—without giving up human control.</p>
-            <div className="hero-actions">
-              <Link className="button button-primary" href="/projects#reproforge">View ReproForge <span aria-hidden="true">↗</span></Link>
-              <Link className="button button-secondary" href="#manifesto">Read Manifesto <span aria-hidden="true">→</span></Link>
-            </div>
-            <div className="hero-proof" aria-label="Core focus areas"><span>Resilient agents</span><span>Cybersecurity</span><span>Public-interest systems</span><span>Verifiable outcomes</span></div>
+      <section className="or-hero or-shell">
+        <div>
+          <h1>
+            Research real problems.
+            <br />
+            <span>Build what proves useful.</span>
+          </h1>
+          <p className="or-lead">
+            A founder-led initiative to investigate real problems, form capable
+            teams and develop useful technology.
+          </p>
+          <p className="or-stage">
+            Founded by Syed Saad. Building the lab, its methods and its next
+            collaborations.
+          </p>
+          <div className="or-actions">
+            <Action href="/collaborate" primary>
+              Explore collaboration
+            </Action>
+            <Action href="/for-organizations">Bring a problem</Action>
           </div>
-          <div className="hero-visual"><CommandPanel /></div>
         </div>
-        <div className="scroll-indicator"><span /> Scroll to enter the lab</div>
+        <aside className="or-method" aria-labelledby="method-title">
+          <h2 id="method-title">
+            From a question to something worth building.
+          </h2>
+          <ol>
+            {operatingSteps.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
+          <p>
+            Our intended method. Progress depends on evidence; not every
+            question should become a product.
+          </p>
+        </aside>
       </section>
-
-      <section className="signal-strip" aria-label="Omnia system statement"><div><span>HUMAN CONTROL</span><i>✦</i><span>SAFE RECOVERY</span><i>✦</i><span>PUBLIC BENEFIT</span><i>✦</i><span>VERIFIABLE OUTCOMES</span><i>✦</i><span>HUMAN CONTROL</span><i>✦</i><span>SAFE RECOVERY</span><i>✦</i><span>PUBLIC BENEFIT</span><i>✦</i><span>VERIFIABLE OUTCOMES</span><i>✦</i></div></section>
-
-      <section className="section active-work homepage-active-work">
-        <SectionHeading index="01" label="Active work" title={<>Proof before promises.</>} copy="ReproForge is the flagship verification layer: it reruns claims, captures evidence, and makes the limits visible before a result is trusted." />
-        <article className="flagship-card venture-card" id="reproforge">
-          <div className="flagship-copy">
-            <div className="project-meta"><span className="live-chip"><i /> ACTIVE BUILD</span><span>FRONTIEROPS / AMD ACT II</span></div>
-            <h3>ReproForge</h3>
-            <p>A claim-to-evidence system for AI demos, benchmarks, and research. Controlled reruns produce signed reproducibility passports with execution traces, policy events, hashes, limitations, and exportable proof.</p>
-            <div className="capability-list">
-              <div><b>01</b><span><strong>Rerun</strong> declared code, prompts, data, and configuration inside bounded environments.</span></div>
-              <div><b>02</b><span><strong>Capture</strong> runtime details, blocked commands, approvals, and evidence integrity.</span></div>
-              <div><b>03</b><span><strong>Report</strong> what passed, what failed, and what remains unverified.</span></div>
-            </div>
-            <div className="flagship-actions"><a className="button button-primary" href="https://reproforge-sentinel.onrender.com" target="_blank" rel="noreferrer">Open live demo ↗</a><Link className="text-link" href="/projects">View all resilient systems →</Link></div>
+      <section className="or-section">
+        <div className="or-shell">
+          <div className="or-section-heading">
+            <h2>Work you can examine.</h2>
+            <p>
+              Selected material from the existing archive. These artifacts show
+              areas of exploration—not an established product portfolio or
+              customer outcomes.
+            </p>
           </div>
-          <div className="reproforge-passport" aria-label="ReproForge passport preview">
-            <div className="passport-top"><span>REPROFORGE PASSPORT</span><b>PRE-SEED BUILD</b></div>
-            <div className="passport-verdict"><i /> CLAIM STATUS: UNDER VERIFICATION</div>
-            <div className="passport-claim">“A result should carry enough evidence to be challenged, rerun, and trusted.”</div>
-            <div className="passport-grid">
-              <div><span>TEAM</span><b>FrontierOps</b></div>
-              <div><span>EVENT</span><b>AMD ACT II</b></div>
-              <div><span>MODE</span><b>Bounded rerun</b></div>
-              <div><span>OUTPUT</span><b>PDF · JSON · Share link</b></div>
-            </div>
-            <div className="passport-chain"><span /> ingest claim <i /> rerun safely <i /> capture evidence <i /> sign report</div>
+          <div className="or-work-grid">
+            {selected.map((project) => (
+              <article key={project.slug} className="or-work">
+                <h3>{project.title}</h3>
+                <span className="or-meta">
+                  Historical {project.kind.toLowerCase()} · {project.credit}
+                </span>
+                <p>{project.summary}</p>
+                <Link className="or-text-link" href={project.detail}>
+                  Examine {project.title}
+                  <Arrow />
+                </Link>
+              </article>
+            ))}
           </div>
-        </article>
-      </section>
-
-      <section className="section manifesto manifesto-compact" id="manifesto">
-        <SectionHeading index="02" label="Manifesto" title={<>Complexity belongs in the system.<br /><span>Control stays with people.</span></>} />
-        <div className="manifesto-compact-grid">
-          <p><strong>Observe reality.</strong> Start from the real workflow, not the demo script.</p>
-          <p><strong>Fail safely.</strong> Bound every action and preserve a human handoff.</p>
-          <p><strong>Prove outcomes.</strong> A claim is useful only when its evidence travels with it.</p>
+          <p className="or-note" style={{ marginTop: 28 }}>
+            Current maintenance is not independently verified.{" "}
+            <Link href="/projects">Explore the complete work archive</Link>.
+          </p>
         </div>
       </section>
-
-      <section className="section ecosystem-section ecosystem-compact">
-        <SectionHeading index="03" label="System architecture" title={<>One control layer.<br /><span>Three resilient behaviors.</span></>} copy="Every Omnia system is designed around visible decisions, bounded action, and evidence-led recovery." />
-        <div className="platform-glance">
-          <article><span>OBSERVE</span><h3>Read the real state</h3><p>Collect signals, constraints, and human intent before acting.</p></article>
-          <article><span>GOVERN</span><h3>Stay inside authority</h3><p>Apply policy, approval gates, budgets, and a safe stop.</p></article>
-          <article><span>VERIFY</span><h3>Measure the outcome</h3><p>Return traceable evidence or escalate instead of guessing.</p></article>
+      <Section title="The problem comes before the technology." pale>
+        <p className="or-large-copy">
+          We want to investigate where a real workflow breaks, what existing
+          approaches miss, and what evidence would justify building something
+          new.
+        </p>
+        <p>
+          AI, software, security, automation and infrastructure are tools—not
+          the limits of the lab. Future industries will follow validated
+          opportunities, not a fixed technology label.
+        </p>
+        <p className="or-note">
+          Questions, experiments and findings need different evidence. No
+          academic publication record is implied.
+        </p>
+        <Link className="or-text-link" href="/research">
+          Explore the research approach
+          <Arrow />
+        </Link>
+      </Section>
+      <section className="or-section">
+        <div className="or-shell">
+          <div className="or-section-heading">
+            <h2>Useful work starts with a conversation.</h2>
+            <p>
+              We are forming the lab around real questions and capable people.
+              Explore fit before making commitments.
+            </p>
+          </div>
+          <div className="or-paths">
+            <article className="or-path">
+              <h3>Build with the lab.</h3>
+              <p>
+                For researchers, engineers, designers and people with domain
+                expertise. Share what you can contribute and what you want to
+                investigate.
+              </p>
+              <p className="or-note">
+                An invitation to discuss collaboration, not an advertised paid
+                role or equity offer.
+              </p>
+              <Action href="/collaborate" primary>
+                Explore collaboration
+              </Action>
+            </article>
+            <article className="or-path">
+              <h3>Bring a real problem.</h3>
+              <p>
+                Tell us where the workflow fails, who experiences it and what a
+                useful outcome would look like. Start with discovery and
+                feasibility.
+              </p>
+              <p className="or-note">
+                Technical delivery depends on fit, capacity and a separately
+                agreed scope.
+              </p>
+              <Action href="/for-organizations">For organizations</Action>
+            </article>
+          </div>
         </div>
       </section>
-
-      <section className="section roadmap-section roadmap-compact">
-        <SectionHeading index="04" label="Roadmap" title={<>From useful agents<br />to resilient public infrastructure.</>} />
-        <div className="roadmap-glance">
-          <article><b>NOW</b><span>Prove ReproForge and focused recovery agents in real workflows.</span></article>
-          <article><b>NEXT</b><span>Reuse policy, audit, recovery, and evidence infrastructure.</span></article>
-          <article><b>LATER</b><span>Coordinate specialized agents behind shared human controls.</span></article>
-        </div>
-      </section>
-
-      <section className="section homepage-teasers" aria-label="Learn more about Omnia">
-        <article><div className="section-kicker">ABOUT</div><h2>Built with ambition and honest constraints.</h2><p>Meet the founder and the operating principles behind an independent lab in Karachi.</p><Link className="text-link" href="/about">Read the founder story →</Link></article>
-        <article><div className="section-kicker">RESEARCH</div><h2>Questions tied to working systems.</h2><p>Explore trustworthy execution, reproducible claims, cyber defense, and human-agent coordination.</p><Link className="text-link" href="/research">Explore the research →</Link></article>
-      </section>
-
-      <section className="section contact-preview homepage-final-cta">
-        <div className="wide-cta">
-          <div><span>WORK WITH OMNIA</span><h2>Bring a difficult public-interest problem.</h2><p>Especially where failure, ambiguity, or weak evidence leaves people carrying the operational burden.</p></div>
-          <Link className="button button-primary" href="/contact">Start a conversation <span aria-hidden="true">↗</span></Link>
+      <Section title="Ambition, with an honest starting point." pale>
+        <p className="or-large-copy">
+          Omniasec Labs is a founder-led initiative by Syed Saad. The
+          organization is being formed—not presented as an established institute
+          or large delivery team.
+        </p>
+        <p>
+          The aim is to assemble the right people around worthwhile problems,
+          develop evidence through prototypes and user testing, and pursue
+          products or independent ventures when justified.
+        </p>
+        <Link className="or-text-link" href="/about">
+          Meet the founder and the lab
+          <Arrow />
+        </Link>
+      </Section>
+      <section className="or-section">
+        <div className="or-shell">
+          <div className="or-section-heading">
+            <h2>Progress, with a record.</h2>
+            <p>What changed, what was tested and what remains uncertain.</p>
+          </div>
+          <article className="or-update">
+            <time dateTime="2026-10-16">16 October 2026</time>
+            <div>
+              <h3>The engineering foundation checkpoint</h3>
+              <p>
+                Security and reproducibility work is documented in draft PR #6.
+                It remains under review; source improvements are not deployed
+                improvements.
+              </p>
+            </div>
+            <Link
+              className="or-text-link"
+              href="/build-log/security-foundation"
+            >
+              Read the record
+              <Arrow />
+            </Link>
+          </article>
         </div>
       </section>
     </>

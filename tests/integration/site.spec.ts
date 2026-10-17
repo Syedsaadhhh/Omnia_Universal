@@ -85,7 +85,7 @@ for (const width of [1440, 390]) {
 
 test("project filters still hydrate and announce count", async ({ page }) => {
   await page.goto("/projects");
-  for (const [label, count] of [["All", 11], ["Flagship", 4], ["Hackathons", 6], ["Security Tools", 7]] as const) {
+  for (const [label, count] of [["All", 11], ["Prototypes", 7], ["Experiments", 3], ["Concepts", 1]] as const) {
     await page.getByRole("button", { name: label, exact: true }).click();
     await expect(page.locator(".showcase-card")).toHaveCount(count);
     await expect(page.locator(".project-result-count")).toContainText(`Showing ${count}`);
@@ -126,7 +126,7 @@ test("robots, sitemap, OG image and missing route have expected HTTP behavior", 
   expect(await robots.text()).toContain(`${origin}/sitemap.xml`);
   const sitemap = await request.get("/sitemap.xml");
   const xml = await sitemap.text();
-  expect((xml.match(/<loc>/g) || []).length).toBe(12);
+  expect((xml.match(/<loc>/g) || []).length).toBe(24);
   expect(xml).not.toContain("vercel.app");
   const image = await request.get("/opengraph-image");
   expect(image.status()).toBe(200);

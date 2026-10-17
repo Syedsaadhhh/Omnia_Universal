@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { detailEntries } from "@/lib/work";
 import { siteUrl } from "@/lib/site-origin";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -15,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/terms",
     "/collaborate",
     "/for-organizations",
+    "/research/method",
+    "/build-log/security-foundation",
+    ...detailEntries.map((project) => project.detail),
   ];
   return routes.map((route, index) => ({
     url: siteUrl(route || "/"),
