@@ -1,10 +1,10 @@
 import { SITE_ORIGIN } from "./site-origin";
 
 export const site = {
-  name: "Omnia Sec AI Labs",
-  shortName: "OMNIA",
+  name: "Omniasec Labs",
+  shortName: "Omniasec Labs",
   description:
-    "An independent agentic AI and cybersecurity lab building resilient, evidence-driven systems for public-interest and real-world operations.",
+    "A founder-led technology research and product-development initiative: investigating real problems, forming capable teams and developing useful technology.",
   url: SITE_ORIGIN,
   founder: "Syed Saad",
   location: "Karachi, Pakistan",
@@ -14,10 +14,12 @@ export const site = {
 };
 
 export const navItems = [
-  { href: "/projects", label: "Projects" },
   { href: "/research", label: "Research" },
-  { href: "/build-log", label: "Build Log" },
+  { href: "/projects", label: "Work" },
+  { href: "/for-organizations", label: "For Organizations" },
   { href: "/about", label: "About" },
+  { href: "/collaborate", label: "Collaborate" },
+  { href: "/build-log", label: "Updates" },
 ];
 
 export type ProjectCategory = "Flagship" | "Hackathons" | "Security Tools";

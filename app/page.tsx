@@ -2,8 +2,8 @@ import { pageMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site";
 
 export const metadata = {
-  ...pageMetadata("/", "Omnia Sec AI Labs — Secure Autonomous Systems", site.description),
-  title: { absolute: "Omnia Sec AI Labs — Secure Autonomous Systems" },
+  ...pageMetadata("/", "Omniasec Labs — Research & Product Development", site.description),
+  title: { absolute: "Omniasec Labs — Research & Product Development" },
 };
 
 import Link from "next/link";
@@ -14,7 +14,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 export default function HomePage() {
   return (
     <>
-      <section className="hero" id="top">
+      <section className="hero">
         <NetworkCanvas />
         <div className="hero-grid" aria-hidden="true" />
         <div className="hero-glow glow-one" aria-hidden="true" />

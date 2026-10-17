@@ -1,0 +1,890 @@
+/* Open Register: semantic tokens shared by every reconstructed surface. */
+:root {
+  --or-ground: #101f1d;
+  --or-surface: #162a25;
+  --or-ink: #eaf1eb;
+  --or-muted: #a5beb6;
+  --or-accent: #b3d4a0;
+  --or-on-accent: #152b22;
+  --or-rule: #4c6b60;
+  --or-display: var(--font-literata), Georgia, serif;
+  --or-body: var(--font-schibsted), sans-serif;
+  --or-gutter: clamp(18px, 4vw, 48px);
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+  background: var(--or-ground);
+}
+body {
+  margin: 0;
+  background: var(--or-ground);
+  color: var(--or-ink);
+  font: 17px/1.65 var(--or-body);
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+button {
+  cursor: pointer;
+}
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--or-accent);
+  outline-offset: 4px;
+}
+::selection {
+  background: var(--or-accent);
+  color: var(--or-on-accent);
+}
+[hidden] {
+  display: none !important;
+}
+svg {
+  flex-shrink: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+h1,
+h2 {
+  font-family: var(--or-display);
+  font-weight: 400;
+  line-height: 1.15;
+}
+h3 {
+  font: 600 23px/1.3 var(--or-body);
+}
+p {
+  max-width: 70ch;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  z-index: 20;
+  background: var(--or-ink);
+  color: var(--or-ground);
+  padding: 12px 18px;
+}
+.skip-link:focus {
+  top: 10px;
+}
+.or-shell {
+  width: 100%;
+  max-width: 1296px;
+  margin-inline: auto;
+  padding-inline: var(--or-gutter);
+}
+.or-header {
+  border-bottom: 1px solid var(--or-rule);
+  background: var(--or-ground);
+}
+.or-header-row {
+  min-height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.or-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  font: 600 22px/1.1 var(--or-body);
+  letter-spacing: -0.025em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.or-brand svg {
+  width: 36px;
+  height: 36px;
+}
+.or-desktop-nav {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  font-size: 14px;
+}
+.or-desktop-nav a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.or-desktop-nav a:hover,
+.or-desktop-nav [aria-current] {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.or-header-actions {
+  display: none;
+}
+.or-menu-button {
+  border: 1px solid var(--or-rule);
+  background: transparent;
+  color: var(--or-ink);
+  min-height: 48px;
+  min-width: 64px;
+  padding: 10px 12px;
+}
+.or-mobile-menu {
+  padding-block: 12px 24px;
+}
+.or-mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+}
+.or-mobile-menu a {
+  min-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 12px;
+  border-top: 1px solid var(--or-rule);
+  text-decoration: none;
+}
+.or-descriptor {
+  font-size: 14px;
+  color: var(--or-muted);
+  padding-block: 16px;
+  border-bottom: 1px solid var(--or-rule);
+}
+.or-descriptor p {
+  margin: 0;
+}
+.or-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  margin-top: 30px;
+}
+.or-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  min-height: 52px;
+  padding: 12px 20px;
+  border: 1px solid var(--or-rule);
+  color: var(--or-ink);
+  background: transparent;
+  font: 600 15px/1.5 var(--or-body);
+  text-decoration: none;
+}
+.or-action-primary {
+  background: var(--or-accent);
+  border-color: var(--or-accent);
+  color: var(--or-on-accent);
+}
+.or-action:hover {
+  background: var(--or-ink);
+  border-color: var(--or-ink);
+  color: var(--or-ground);
+}
+.or-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 0.75fr);
+  gap: 80px;
+  padding-block: 82px 78px;
+}
+.or-hero h1 {
+  font-size: clamp(42px, 5.2vw, 73px);
+  line-height: 1.08;
+  max-width: 13ch;
+}
+.or-hero h1 span {
+  color: var(--or-accent);
+}
+.or-lead {
+  font-size: 20px;
+  max-width: 48ch;
+  margin-top: 28px;
+  line-height: 1.65;
+}
+.or-stage {
+  font-size: 14px;
+  color: var(--or-muted);
+  margin-top: 25px;
+  max-width: 49ch;
+}
+.or-method {
+  border-top: 1px solid var(--or-rule);
+  padding-top: 24px;
+  margin-top: 8px;
+}
+.or-method h2 {
+  font: 500 21px/1.45 var(--or-body);
+  max-width: 22ch;
+}
+.or-method ol {
+  padding-left: 22px;
+  margin: 25px 0 0;
+}
+.or-method li {
+  padding: 6px 0 6px 8px;
+  font-size: 14px;
+}
+.or-method li::marker {
+  color: var(--or-accent);
+  font-variant-numeric: tabular-nums;
+}
+.or-method p {
+  font-size: 13px;
+  color: var(--or-muted);
+  margin-top: 20px;
+}
+.or-section {
+  border-top: 1px solid var(--or-rule);
+  padding-block: 76px;
+}
+.or-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 50px;
+  margin-bottom: 34px;
+}
+.or-section-heading h2 {
+  font-size: clamp(32px, 3.2vw, 46px);
+  max-width: 20ch;
+}
+.or-section-heading p {
+  max-width: 45ch;
+  color: var(--or-muted);
+  font-size: 16px;
+}
+.or-work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px;
+}
+.or-work {
+  padding-top: 25px;
+  border-top: 1px solid var(--or-rule);
+}
+.or-work h3 {
+  font-family: var(--or-display);
+  font-weight: 400;
+  font-size: 27px;
+}
+.or-work p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.or-meta {
+  display: block;
+  color: var(--or-muted);
+  font-size: 13px;
+  margin-top: 12px;
+}
+.or-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 44px;
+  font-size: 15px;
+}
+.or-work .or-text-link {
+  margin-top: 17px;
+}
+.or-pale {
+  background: #eaf1eb;
+  color: #18362c;
+  --or-ground: #eaf1eb;
+  --or-surface: #dce6dc;
+  --or-ink: #18362c;
+  --or-muted: #405b4e;
+  --or-accent: #315a42;
+  --or-on-accent: #f1f6ef;
+  --or-rule: #8c9e91;
+  color-scheme: light;
+}
+.or-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 80px;
+}
+.or-split h2 {
+  font-size: clamp(32px, 3.4vw, 46px);
+  max-width: 19ch;
+}
+.or-prose {
+  max-width: 70ch;
+}
+.or-prose p + p {
+  margin-top: 22px;
+}
+.or-prose h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.or-prose h3:first-child {
+  margin-top: 0;
+}
+.or-prose ul,
+.or-prose ol {
+  margin: 20px 0;
+  padding-left: 24px;
+}
+.or-prose li + li {
+  margin-top: 12px;
+}
+.or-prose a {
+  overflow-wrap: anywhere;
+}
+.or-large-copy {
+  font-size: 22px;
+  line-height: 1.5;
+}
+.or-note {
+  font-size: 14px;
+  color: var(--or-muted);
+}
+.or-prose .or-note {
+  margin-top: 25px;
+}
+.or-paths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+.or-path {
+  padding-top: 32px;
+  border-top: 1px solid var(--or-rule);
+}
+.or-path h3 {
+  font-family: var(--or-display);
+  font-weight: 400;
+  font-size: 34px;
+}
+.or-path p {
+  margin-top: 20px;
+}
+.or-path .or-action {
+  margin-top: 24px;
+}
+.or-path .or-note {
+  font-size: 14px;
+}
+.or-update {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr) auto;
+  gap: 28px;
+  padding-block: 26px;
+  border-top: 1px solid var(--or-rule);
+}
+.or-update time {
+  font-size: 14px;
+  color: var(--or-muted);
+}
+.or-update h3 {
+  font-size: 21px;
+}
+.or-update p {
+  font-size: 15px;
+  color: var(--or-muted);
+  margin-top: 12px;
+}
+.or-update + .or-update {
+  margin-top: 24px;
+}
+.or-intro {
+  padding-block: 74px 62px;
+}
+.or-intro h1 {
+  font-size: clamp(40px, 4.7vw, 66px);
+  max-width: 20ch;
+}
+.or-intro-copy {
+  font-size: 20px;
+  line-height: 1.65;
+  max-width: 62ch;
+  margin-top: 26px;
+}
+.or-intro-copy p + p {
+  margin-top: 15px;
+}
+.or-intro-copy .or-note {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.or-reading {
+  max-width: 900px;
+  padding-block: 65px 80px;
+}
+.or-reading h2 {
+  font-size: 31px;
+  margin-top: 43px;
+  margin-bottom: 18px;
+}
+.or-reading h2:first-child {
+  margin-top: 0;
+}
+.or-reading h3 {
+  margin-top: 30px;
+  margin-bottom: 13px;
+  font-size: 23px;
+}
+.or-reading p + p {
+  margin-top: 19px;
+}
+.or-reading ul,
+.or-reading ol {
+  margin: 22px 0;
+  padding-left: 24px;
+}
+.or-reading li + li {
+  margin-top: 12px;
+}
+.or-reading a {
+  overflow-wrap: anywhere;
+}
+.or-reading time {
+  font-size: 14px;
+  color: var(--or-muted);
+}
+.or-step-list {
+  list-style: none;
+  counter-reset: method;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.or-step-list li {
+  counter-increment: method;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 20px;
+  padding-block: 25px;
+  border-top: 1px solid var(--or-rule);
+  margin: 0 !important;
+}
+.or-step-list li::before {
+  content: counter(method);
+  font-variant-numeric: tabular-nums;
+  color: var(--or-muted);
+}
+.or-step-list h3 {
+  margin: 0 !important;
+}
+.or-step-list p {
+  margin-top: 12px;
+}
+.or-record-list {
+  display: grid;
+  gap: 0;
+}
+.or-record {
+  padding-block: 28px;
+  border-top: 1px solid var(--or-rule);
+}
+.or-record h3 {
+  margin-bottom: 13px;
+}
+.or-record p {
+  margin-block: 12px;
+}
+.or-inline-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-block: 28px;
+}
+.or-inline-facts dt {
+  font-size: 14px;
+  color: var(--or-muted);
+}
+.or-inline-facts dd {
+  margin: 8px 0 0;
+  font-weight: 600;
+}
+.or-footer {
+  background: #0d1917;
+  border-top: 1px solid var(--or-rule);
+  padding-block: 45px 25px;
+}
+.or-footer-main {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  gap: 50px;
+}
+.or-footer p {
+  margin-block: 18px;
+  font-size: 14px;
+  color: var(--or-muted);
+}
+.or-footer a {
+  font-size: 14px;
+  min-height: 44px;
+}
+.or-footer .or-brand {
+  font-size: 22px;
+}
+.or-footer nav {
+  display: flex;
+  flex-direction: column;
+}
+.or-footer nav a {
+  display: flex;
+  align-items: center;
+}
+.or-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid var(--or-rule);
+  font-size: 13px;
+  color: var(--or-muted);
+}
+.or-footer-bottom a {
+  display: inline-flex;
+  align-items: center;
+}
+.or-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.or-filters button {
+  padding: 10px 17px;
+  min-height: 46px;
+  border: 1px solid var(--or-rule);
+  background: transparent;
+  color: var(--or-ink);
+  font-size: 15px;
+}
+.or-filters button[aria-pressed="true"] {
+  background: var(--or-accent);
+  color: var(--or-on-accent);
+  border-color: var(--or-accent);
+}
+.project-result-count {
+  font-size: 14px;
+  color: var(--or-muted);
+  margin-block: 25px;
+}
+.or-project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 45px;
+}
+.or-project-list .or-work {
+  padding-block: 28px;
+}
+.or-project-list h2 {
+  font-size: 30px;
+}
+.or-project-tags {
+  display: flex;
+  gap: 8px 18px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--or-muted);
+  margin-top: 20px;
+}
+.or-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 24px;
+  margin-top: 18px;
+}
+.or-project-links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+}
+.or-callout {
+  padding: 24px;
+  background: var(--or-surface);
+  margin-block: 28px;
+}
+.or-callout h2,
+.or-callout h3 {
+  margin-top: 0;
+}
+.or-capabilities {
+  display: grid;
+  gap: 0;
+}
+.or-capabilities div {
+  padding-block: 22px;
+  border-top: 1px solid var(--or-rule);
+}
+.or-capabilities dt {
+  font-weight: 600;
+}
+.or-capabilities dd {
+  margin: 12px 0 0;
+}
+.or-mail {
+  overflow-wrap: anywhere;
+}
+.or-rule-top {
+  border-top: 1px solid var(--or-rule);
+  padding-top: 25px;
+}
+@media (max-width: 1100px) {
+  .or-desktop-nav {
+    display: none;
+  }
+  .or-header-actions {
+    display: block;
+  }
+  .or-hero {
+    gap: 45px;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.85fr);
+  }
+  .or-shell {
+    --or-gutter: 32px;
+  }
+  .or-split,
+  .or-paths {
+    gap: 45px;
+  }
+}
+@media (max-width: 760px) {
+  .or-shell {
+    --or-gutter: 22px;
+  }
+  .or-header-row {
+    min-height: 85px;
+    gap: 12px;
+  }
+  .or-brand {
+    font-size: 20px;
+    gap: 10px;
+  }
+  .or-brand svg {
+    width: 28px;
+    height: 28px;
+  }
+  .or-menu-button {
+    min-width: 60px;
+    font-size: 15px;
+  }
+  .or-descriptor {
+    font-size: 12px;
+    padding-block: 14px;
+  }
+  .or-hero {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding-block: 45px 48px;
+  }
+  .or-hero h1 {
+    font-size: clamp(40px, 8vw, 60px);
+    line-height: 1.12;
+    max-width: 16ch;
+  }
+  .or-lead {
+    font-size: 18px;
+    margin-top: 24px;
+  }
+  .or-stage {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .or-actions {
+    gap: 12px;
+    margin-top: 25px;
+  }
+  .or-action {
+    font-size: 14px;
+    gap: 18px;
+    min-height: 50px;
+  }
+  .or-method {
+    margin-top: 0;
+  }
+  .or-method h2 {
+    font-size: 20px;
+    max-width: 28ch;
+  }
+  .or-method ol {
+    columns: 2;
+    column-gap: 30px;
+    margin-top: 17px;
+  }
+  .or-method li {
+    break-inside: avoid;
+    font-size: 13px;
+    padding-left: 4px;
+  }
+  .or-section {
+    padding-block: 50px;
+  }
+  .or-section-heading {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .or-section-heading h2 {
+    font-size: 35px;
+  }
+  .or-section-heading p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .or-work-grid,
+  .or-split,
+  .or-paths,
+  .or-project-list {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .or-split h2 {
+    font-size: 34px;
+  }
+  .or-large-copy {
+    font-size: 20px;
+  }
+  .or-path h3 {
+    font-size: 31px;
+  }
+  .or-update {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .or-update time {
+    font-size: 13px;
+  }
+  .or-intro {
+    padding-block: 45px;
+  }
+  .or-intro h1 {
+    font-size: clamp(38px, 7.8vw, 55px);
+  }
+  .or-intro-copy {
+    font-size: 18px;
+    margin-top: 24px;
+  }
+  .or-reading {
+    padding-block: 42px 55px;
+  }
+  .or-reading h2 {
+    font-size: 29px;
+  }
+  .or-inline-facts {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .or-footer-main {
+    grid-template-columns: 1.6fr 1fr;
+    gap: 30px;
+  }
+  .or-footer-main > div {
+    grid-column: 1/-1;
+  }
+  .or-footer-bottom {
+    align-items: start;
+    font-size: 12px;
+    gap: 15px;
+  }
+  .or-footer .or-brand {
+    font-size: 20px;
+  }
+  .or-callout {
+    padding: 20px;
+  }
+  .or-step-list li {
+    gap: 15px;
+  }
+  .or-project-list .or-work {
+    padding-block: 24px;
+  }
+}
+@media (max-width: 360px) {
+  .or-shell {
+    --or-gutter: 18px;
+  }
+  .or-brand {
+    font-size: 18px;
+    gap: 8px;
+  }
+  .or-brand svg {
+    width: 24px;
+    height: 24px;
+  }
+  .or-menu-button {
+    min-width: 55px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .or-actions > .or-action {
+    width: 100%;
+  }
+  .or-method ol {
+    columns: 1;
+  }
+  .or-footer .or-brand {
+    font-size: 18px;
+  }
+  .or-step-list li {
+    grid-template-columns: 20px 1fr;
+    gap: 12px;
+  }
+  .or-intro h1 {
+    font-size: 37px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+@media (forced-colors: active) {
+  .or-action,
+  .or-menu-button,
+  .or-filters button {
+    border: 1px solid ButtonText;
+  }
+  .or-action-primary,
+  .or-filters button[aria-pressed="true"] {
+    background: Highlight;
+    color: HighlightText;
+  }
+  .or-pale {
+    background: Canvas;
+    color: CanvasText;
+  }
+  .or-brand svg {
+    forced-color-adjust: auto;
+  }
+}

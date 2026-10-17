@@ -1,0 +1,34 @@
+{
+  "result": {
+    "deployments": {
+      "pagination": {
+        "count": 1,
+        "next": 1790796733754,
+        "prev": 1790796733754
+      },
+      "deployments": [
+        {
+          "id": "dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4",
+          "name": "omniaseclabs.ai",
+          "url": "omniaseclabs-nfkpgywld-syedsaadhhhs-projects.vercel.app",
+          "created": 1790796733754,
+          "state": "READY",
+          "target": "production",
+          "creator": {
+            "uid": "6m3RF9BE4DBRHtiCCET7yCec",
+            "username": "syedsaadhhh"
+          },
+          "meta": {
+            "githubCommitRef": "main",
+            "githubCommitSha": "9cc1399fb1ca9642d5f91c898e0f533e85aae5fc",
+            "githubCommitMessage": "Replace unconfigured contact form with working business email",
+            "githubRepo": "Omnia_Universal",
+            "githubOrg": "Syedsaadhhh"
+          },
+          "inspectorUrl": "https://vercel.com/syedsaadhhhs-projects/omniaseclabs.ai/8RmUj4RirHa6JEiuoY5gZStoZFr4",
+          "isRollbackCandidate": true
+        }
+      ]
+    }
+  }
+}

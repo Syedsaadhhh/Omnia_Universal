@@ -1,0 +1,43 @@
+{
+  "result": {
+    "deployment": {
+      "id": "dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4",
+      "name": "omniaseclabs.ai",
+      "url": "omniaseclabs-nfkpgywld-syedsaadhhhs-projects.vercel.app",
+      "type": "LAMBDAS",
+      "state": "READY",
+      "createdAt": 1790796733754,
+      "creator": {
+        "uid": "6m3RF9BE4DBRHtiCCET7yCec",
+        "username": "syedsaadhhh"
+      },
+      "project": {
+        "id": "prj_NWhj0oMX8aDwSo93bs3tMEkYCTsE",
+        "name": "omniaseclabs.ai",
+        "framework": "nextjs"
+      },
+      "meta": {
+        "githubCommitRef": "main",
+        "githubCommitSha": "9cc1399fb1ca9642d5f91c898e0f533e85aae5fc",
+        "githubCommitMessage": "Replace unconfigured contact form with working business email",
+        "githubRepo": "Omnia_Universal",
+        "githubOrg": "Syedsaadhhh"
+      },
+      "alias": [
+        "omniaseclabs.com",
+        "omniaseclabsai.vercel.app",
+        "omniaseclabsai-syedsaadhhhs-projects.vercel.app",
+        "omniaseclabsai-git-main-syedsaadhhhs-projects.vercel.app"
+      ],
+      "target": "production",
+      "regions": [
+        "iad1"
+      ],
+      "buildingAt": 1790796746538,
+      "ready": 1790796780355,
+      "readyState": "READY",
+      "source": "git",
+      "aliasError": null
+    }
+  }
+}

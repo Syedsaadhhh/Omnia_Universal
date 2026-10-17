@@ -1,0 +1,60 @@
+
+> omnia-sec-ai-labs@1.0.0 test
+> tsx --test tests/unit/*.test.ts
+
+✔ rejects unapproved origin "" (20.433226ms)
+✔ rejects unapproved origin "null" (0.461452ms)
+✔ rejects unapproved origin "https://other.example.test" (0.384318ms)
+✔ rejects unapproved origin "https://omniaseclabs.com.other.example.test" (1.032536ms)
+✔ rejects unapproved origin "https://www.omniaseclabs.com" (0.441122ms)
+✔ rejects unapproved origin "https://omniaseclabs.com/path" (0.303278ms)
+✔ invalid input gets 400: null (3.475556ms)
+✔ invalid input gets 400: [] (0.525947ms)
+✔ invalid input gets 400: {} (2.245358ms)
+✔ invalid input gets 400: {"name":"Audit User","email":"audit@example.test","interest":"Research","message":"Synthetic local r (0.931927ms)
+✔ invalid input gets 400: {"name":"Audit User","email":"audit@example.test","interest":"Research","message":"short","consent": (0.587308ms)
+✔ invalid input gets 400: {"name":"Audit User","email":"audit@example.test","interest":"Research","message":"Synthetic local r (0.608008ms)
+✔ invalid input gets 400: {"name":"Audit User","email":"bad","interest":"Research","message":"Synthetic local regression messa (0.333463ms)
+✔ valid inquiry remains disabled even with legacy provider settings (1.327452ms)
+✔ repeated or forged proxy IPs cannot open delivery (1.904134ms)
+✔ malformed JSON is 400 without body/error logging (0.514099ms)
+✔ unknown large fields cannot bypass the byte cap (0.260174ms)
+✔ substring content-type trick is rejected (0.242539ms)
+✔ rejects invalid/non-object JSON "" as 400 (29.220602ms)
+✔ rejects invalid/non-object JSON "{" as 400 (0.836446ms)
+✔ rejects invalid/non-object JSON "null" as 400 (0.59574ms)
+✔ rejects invalid/non-object JSON "[]" as 400 (1.544863ms)
+✔ rejects invalid/non-object JSON "\"text\"" as 400 (0.532116ms)
+✔ rejects invalid/non-object JSON "42" as 400 (0.326462ms)
+✔ rejects invalid/non-object JSON "true" as 400 (0.371049ms)
+✔ rejects unsupported content type "text/plain" (0.309537ms)
+✔ rejects unsupported content type "application/jsonx" (0.288286ms)
+✔ rejects unsupported content type "xapplication/json" (0.429104ms)
+✔ rejects unsupported content type "application/json; charset=iso-8859-1" (0.328966ms)
+✔ rejects unsupported content type "" (0.16872ms)
+✔ accepts JSON media type case and UTF-8 charset (0.830938ms)
+✔ requires a body (0.14193ms)
+✔ rejects malformed UTF-8 (0.731971ms)
+✔ byte boundary includes multibyte characters (0.475733ms)
+✔ oversized declared body is rejected before reading (0.673455ms)
+✔ invalid length is 400 (0.199795ms)
+✔ streamed byte cap defeats a misleading length hint (0.394183ms)
+✔ chunk boundaries may split UTF-8 characters (0.422334ms)
+✔ slow body is cancelled at the total read deadline (10.183169ms)
+✔ failed stream does not expose its exception (0.637692ms)
+✔ metadata has distinct canonical, OG and image origins (1.779069ms)
+✔ canonical helper rejects origin escape "https://evil.example.test" (0.220096ms)
+✔ canonical helper rejects origin escape "//evil.example.test" (0.098315ms)
+✔ canonical helper rejects origin escape "/\\evil.example.test" (0.091535ms)
+✔ JSON-LD cannot close its script element (0.650922ms)
+✔ production CSP blocks event attributes and base embedding, without eval (0.194287ms)
+✔ sitemap covers each unique canonical route without fabricated modification dates (0.497876ms)
+✔ previews discourage crawling independently of canonical identity (0.736368ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 501.449951
