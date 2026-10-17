@@ -1,18 +1,18 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <Link className="brand" href="/" aria-label="Omnia Sec AI Labs home">
-      <span className="brand-mark">
-        <Image src="/logo-mark.svg" alt="" width={40} height={40} priority />
-      </span>
-      {!compact && (
-        <span className="brand-type">
-          <strong>OMNIA</strong>{" "}
-          <small>SEC AI LABS</small>
-        </span>
-      )}
+    <Link className="or-brand" href="/" aria-label="Omniasec Labs home">
+      <svg
+        width="36"
+        height="36"
+        viewBox="0 0 56 56"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M7 7h25v9H16v25H7Z M25 25h25v25H25v-9h16v-7H25Z" />
+      </svg>
+      {!compact && <span>Omniasec Labs</span>}
     </Link>
   );
 }

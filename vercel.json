@@ -2,7 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "git": {
     "deploymentEnabled": {
-      "fix/security-engineering-foundation": false
+      "fix/security-engineering-foundation": false,
+      "feat/impeccable-frontend-reconstruction": false,
+      "fix/frontend-open-register-foundation": false,
+      "fix/frontend-open-register-experience": false,
+      "fix/frontend-open-register-quality": false
     }
   }
 }

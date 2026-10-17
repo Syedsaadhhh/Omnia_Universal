@@ -13,10 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/security",
     "/privacy",
     "/terms",
+    "/collaborate",
+    "/for-organizations",
   ];
   return routes.map((route, index) => ({
     url: siteUrl(route || "/"),
     changeFrequency: index === 0 ? "weekly" : "monthly",
-    priority: index === 0 ? 1 : route === "/gns3-agent" ? 0.9 : 0.7,
+    priority: index === 0 ? 1 : 0.7,
   }));
 }

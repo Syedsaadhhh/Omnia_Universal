@@ -29,8 +29,8 @@ test("production CSP blocks event attributes and base embedding, without eval", 
 });
 test("sitemap covers each unique canonical route without fabricated modification dates", () => {
   const entries = sitemap();
-  assert.equal(entries.length, 10);
-  assert.equal(new Set(entries.map(x => x.url)).size, 10);
+  assert.equal(entries.length, 12);
+  assert.equal(new Set(entries.map(x => x.url)).size, 12);
   assert.ok(entries.every(x => new URL(x.url).origin === SITE_ORIGIN && !x.lastModified));
   assert.equal(robots().host, SITE_ORIGIN);
 });

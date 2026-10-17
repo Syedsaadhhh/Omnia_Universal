@@ -1,0 +1,141 @@
+{
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "chrome",
+      "note": "Full-name wordmark and countable open-frame SVG mark in the header.",
+      "pixelBox": {
+        "x": 116,
+        "y": 26,
+        "w": 270,
+        "h": 50
+      }
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "note": "Six functional navigation links in an aligned header row.",
+      "pixelBox": {
+        "x": 811,
+        "y": 23,
+        "w": 514,
+        "h": 54
+      }
+    },
+    {
+      "id": "descriptor",
+      "kind": "text",
+      "note": "Technology research and product development descriptor.",
+      "pixelBox": {
+        "x": 116,
+        "y": 113,
+        "w": 560,
+        "h": 32
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Upright Literata research-to-usefulness headline; two semantic color spans.",
+      "pixelBox": {
+        "x": 115,
+        "y": 238,
+        "w": 720,
+        "h": 315
+      }
+    },
+    {
+      "id": "purpose",
+      "kind": "text",
+      "note": "Concise founder-led purpose paragraph, Schibsted body text.",
+      "pixelBox": {
+        "x": 116,
+        "y": 577,
+        "w": 705,
+        "h": 80
+      }
+    },
+    {
+      "id": "stage",
+      "kind": "text",
+      "note": "Founder and honest formation-stage statement.",
+      "pixelBox": {
+        "x": 116,
+        "y": 672,
+        "w": 620,
+        "h": 48
+      }
+    },
+    {
+      "id": "actions",
+      "kind": "control",
+      "note": "Separate collaboration and organization actions, never rasterized text.",
+      "pixelBox": {
+        "x": 116,
+        "y": 746,
+        "w": 550,
+        "h": 60
+      }
+    },
+    {
+      "id": "method",
+      "kind": "text",
+      "note": "Eight actual intended process steps, plus evidence and stop caveat; semantic ordered list.",
+      "pixelBox": {
+        "x": 958,
+        "y": 246,
+        "w": 370,
+        "h": 460
+      }
+    },
+    {
+      "id": "header-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "pixelBox": {
+        "x": 0,
+        "y": 101,
+        "w": 1440,
+        "h": 2
+      },
+      "codeDrawn": true
+    },
+    {
+      "id": "descriptor-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "pixelBox": {
+        "x": 72,
+        "y": 156,
+        "w": 1296,
+        "h": 2
+      },
+      "codeDrawn": true
+    },
+    {
+      "id": "section-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "pixelBox": {
+        "x": 72,
+        "y": 879,
+        "w": 1296,
+        "h": 2
+      },
+      "codeDrawn": true
+    },
+    {
+      "id": "canvas",
+      "kind": "chrome",
+      "container": true,
+      "codeDrawn": true,
+      "note": "Single flat pine page ground including the intentional marginal spacing; every foreground content element is mapped separately.",
+      "pixelBox": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 956
+      }
+    }
+  ]
+}

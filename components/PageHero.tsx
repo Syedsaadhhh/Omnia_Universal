@@ -12,7 +12,7 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="page-hero" id="top">
+    <section className="page-hero">
       <div className="page-hero-glow" aria-hidden="true" />
       <div className="page-hero-inner">
         <div className="eyebrow">{eyebrow}</div>

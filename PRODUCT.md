@@ -2,7 +2,7 @@
 
 <!-- impeccable:product-schema 1 -->
 
-Status: proposed record of founder-confirmed facts, 2026-10-16. The brand and website design remain unselected. This supersedes the narrow positioning in the incumbent application, not the security constraints in PR #6.
+Status: founder-confirmed product record. On 2026-10-17 the founder selected A — Open Register and authorized implementation, responsive/type/accessibility/SEO improvements and dependency remediation. This supersedes the narrow positioning in the incumbent application, not the security constraints in PR #6.
 
 ## Platform
 
@@ -28,7 +28,7 @@ Founder: Syed Saad. Public name: Omniasec Labs. Official domain: https://omniase
 
 ## Capabilities and Constraints
 
-Existing Next.js, React and TypeScript architecture. Preserve the tested security foundation at c5d2500 and its lockfile, closed contact API, mailto-only flow, canonical-origin helpers, CI and menu regression tests. No CMS, database, authentication, external API or animation framework is justified by this brief. Preserve /projects, /build-log, /gns3-agent and historical source attribution. Do not merge, deploy, modify production settings or DNS, send email, buy services or delete project history. The current task produces research and alternatives only; identity selection precedes application implementation.
+Existing Next.js, React and TypeScript architecture. Preserve the tested security foundation at c5d2500 and its lockfile, closed contact API, mailto-only flow, canonical-origin helpers, CI and menu regression tests. No CMS, database, authentication, external API or animation framework is justified by this brief. Preserve /projects, /build-log, /gns3-agent and historical source attribution. Do not merge, deploy, modify production settings or DNS, send email, buy services or delete project history. The selected Open Register direction may now be implemented on isolated review branches; merge and production release remain unapproved.
 
 ## Brand Commitments
 
@@ -52,4 +52,4 @@ Target WCAG 2.2 AA; report limitations instead of claiming certification. Suppor
 
 ## Open decisions
 
-Brand direction and final logo; legal ownership details and priority markets for professional clearance; independently verified historical project maturity; current founder biography; realistic collaboration availability and commercial scope. No visual system is approved by this document.
+Final logo/legal clearance; legal ownership details and priority markets for professional clearance; independently verified historical project maturity; current founder biography; realistic collaboration availability and commercial scope. A — Open Register is selected; visual reference screenshots and direction requirements are recorded in the implementation surface brief. The new mark remains subject to optical/legal review.

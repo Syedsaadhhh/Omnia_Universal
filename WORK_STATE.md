@@ -1,3 +1,11 @@
+# Active continuation — 2026-10-17
+
+Owner selected **A — Open Register** and authorized implementation, responsive/type/accessibility/SEO fixes and dependency remediation. The design-selection gate below is satisfied. No rename, legal-clearance assertion, merge or production deployment is authorized. Start from ee6e6f6, based on security PR #6 c5d2500. Work in small stacked fix/frontend-open-register-* branches, using the owner-confirmed Cloudflare non-production fix/* scope and explicit per-branch Vercel skips before publishing. Preserve all PR #6 API/security behavior and the original 9cc1399 reference.
+
+Current work: verify dependencies, refine font payload, implement shared shell then core experience then supporting pages/validation. New evidence and final continuation status will be recorded in docs/frontend-implementation/ and this file. The historical checkpoint below remains a dated record, not a current approval gate.
+
+---
+
 # Omniasec Labs — resumable brand/design checkpoint
 
 Updated: 2026-10-16 UTC. Phase: brand research and frontend discovery complete; **owner direction selection pending**. No main application redesign or final logo is implemented. Resolve the current commit with `git log -1 --format='%H %s'`; this document does not self-reference its own hash.

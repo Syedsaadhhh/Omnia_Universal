@@ -15,7 +15,7 @@ for (const viewport of [{ width: 1440, height: 1000 }, { width: 768, height: 102
         const response = await page.goto(path);
         expect(response?.status()).toBe(200);
         await expect(page.locator("h1")).toHaveCount(1);
-        if (path === "/") expect(await page.title()).toBe("Omnia Sec AI Labs — Secure Autonomous Systems");
+        if (path === "/") expect(await page.title()).toBe("Omniasec Labs — Research & Product Development");
         expect(new URL((await page.locator('link[rel="canonical"]').getAttribute("href"))!).href).toBe(`${origin}${path}`);
         expect(new URL((await page.locator('meta[property="og:url"]').getAttribute("content"))!).href).toBe(`${origin}${path}`);
         await expect(page.locator('meta[property="og:image"]').first()).toHaveAttribute("content", new RegExp(`^${origin}/opengraph-image`));
@@ -57,11 +57,11 @@ test("menu route changes, same-route click and desktop resize close navigation",
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
   await page.getByRole("button", { name: "Open navigation" }).click();
-  await page.locator("#mobile-navigation").getByRole("link", { name: "Projects" }).click();
+  await page.locator("#mobile-navigation").getByRole("link", { name: "Work" }).click();
   await expect(page).toHaveURL(/\/projects$/);
   await expect(page.locator("#mobile-navigation")).toBeHidden();
   await page.getByRole("button", { name: "Open navigation" }).click();
-  await page.locator("#mobile-navigation").getByRole("link", { name: "Projects" }).click();
+  await page.locator("#mobile-navigation").getByRole("link", { name: "Work" }).click();
   await expect(page.locator("#mobile-navigation")).toBeHidden();
   await page.getByRole("button", { name: "Open navigation" }).click();
   await page.setViewportSize({ width: 1440, height: 1000 });
@@ -126,7 +126,7 @@ test("robots, sitemap, OG image and missing route have expected HTTP behavior", 
   expect(await robots.text()).toContain(`${origin}/sitemap.xml`);
   const sitemap = await request.get("/sitemap.xml");
   const xml = await sitemap.text();
-  expect((xml.match(/<loc>/g) || []).length).toBe(10);
+  expect((xml.match(/<loc>/g) || []).length).toBe(12);
   expect(xml).not.toContain("vercel.app");
   const image = await request.get("/opengraph-image");
   expect(image.status()).toBe(200);

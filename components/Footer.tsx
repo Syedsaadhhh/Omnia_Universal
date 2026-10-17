@@ -4,45 +4,35 @@ import { navItems, site } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="site-footer">
-      <div className="footer-glow" aria-hidden="true" />
-      <div className="footer-shell">
-        <div className="footer-lead">
+    <footer className="or-footer">
+      <div className="or-shell or-footer-main">
+        <div>
           <Logo />
           <p>
-            Building secure autonomous systems for infrastructure, cybersecurity,
-            and real-world operations.
+            Technology research &amp; product development.
+            <br />
+            Founder-led. In formation.
           </p>
-          <div className="status-line">
-            <i /> Independent lab · {site.location}
-          </div>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
         </div>
-        <div className="footer-columns">
-          <div>
-            <b>Explore</b>
-            {navItems.slice(0, 4).map((item) => (
-              <Link href={item.href} key={item.href}>{item.label}</Link>
-            ))}
-          </div>
-          <div>
-            <b>Company</b>
-            <Link href="/about">Founder</Link>
-            <Link href="/security">Security</Link>
-            <Link href="/contact">Contact</Link>
-            <a href={site.github} target="_blank" rel="noreferrer">GitHub ↗</a>
-          </div>
-          <div>
-            <b>Legal</b>
-            <Link href="/privacy">Privacy</Link>
-            <Link href="/terms">Terms</Link>
-            <a href={`mailto:${site.email}`}>Email</a>
-          </div>
-        </div>
+        <nav aria-label="Explore the lab">
+          {navItems.map((item) => (
+            <Link key={item.href} href={item.href}>
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+        <nav aria-label="Contact and policies">
+          <Link href="/contact">Contact</Link>
+          <a href={site.github}>GitHub</a>
+          <Link href="/security">Security</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+        </nav>
       </div>
-      <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} Omnia Sec AI Labs</span>
-        <span>Designed and built from Karachi.</span>
-        <Link href="#top">Back to top ↑</Link>
+      <div className="or-shell or-footer-bottom">
+        <span>© {new Date().getFullYear()} Omniasec Labs · Syed Saad</span>
+        <Link href="#top">Back to top</Link>
       </div>
     </footer>
   );
