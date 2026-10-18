@@ -38,8 +38,8 @@ export default function EngineeringRecord() {
       </p>
       <h2>What remains uncertain</h2>
       <p>
-        The separate Cloudflare Workers integration check was failing at this
-        checkpoint. Production remained on the earlier main baseline; source
+        A legacy Cloudflare Workers GitHub integration check was failing at this
+        checkpoint; Vercel is the current website host. Production remained on the earlier main baseline; source
         fixes were not deployed fixes. Provider, domain and release checks still
         require review. The current status belongs to the linked PR and
         deployment records, not this dated note.

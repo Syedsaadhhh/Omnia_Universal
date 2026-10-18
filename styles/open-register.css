@@ -223,6 +223,10 @@ img {
   gap: 80px;
   padding-block: 82px 78px;
 }
+.or-hero > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 .or-hero h1 {
   font-size: clamp(42px, 5.2vw, 73px);
   line-height: 1.08;
@@ -488,7 +492,7 @@ img {
 .or-step-list li {
   counter-increment: method;
   display: grid;
-  grid-template-columns: 30px 1fr;
+  grid-template-columns: 30px minmax(0, 1fr);
   gap: 20px;
   padding-block: 25px;
   border-top: 1px solid var(--or-rule);
@@ -501,6 +505,7 @@ img {
 }
 .or-step-list h3 {
   margin: 0 !important;
+  overflow-wrap: anywhere;
 }
 .or-step-list p {
   margin-top: 12px;
@@ -705,7 +710,7 @@ img {
     padding-block: 14px;
   }
   .or-hero {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 34px;
     padding-block: 45px 48px;
   }
@@ -857,7 +862,7 @@ img {
     font-size: 18px;
   }
   .or-step-list li {
-    grid-template-columns: 20px 1fr;
+    grid-template-columns: 20px minmax(0, 1fr);
     gap: 12px;
   }
   .or-intro h1 {
@@ -886,5 +891,48 @@ img {
   }
   .or-brand svg {
     forced-color-adjust: auto;
+  }
+}
+
+/* Text-only enlargement must not trap names or actions at their default widths. */
+.or-header-row {
+  flex-wrap: wrap;
+  padding-block: 18px;
+}
+.or-brand {
+  white-space: normal;
+  min-width: 0;
+}
+.or-brand span {
+  min-width: 0;
+}
+.or-action {
+  max-width: 100%;
+  min-width: 0;
+}
+.or-action > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.or-footer a {
+  overflow-wrap: anywhere;
+}
+.or-split > * {
+  min-width: 0;
+}
+.or-record h3 {
+  overflow-wrap: anywhere;
+}
+
+.or-work,
+.or-path,
+.or-record {
+  min-width: 0;
+}
+
+/* The selected desktop headline uses its editorial column, not a narrower character cap. */
+@media (min-width: 761px) {
+  .or-hero h1 {
+    max-width: none;
   }
 }

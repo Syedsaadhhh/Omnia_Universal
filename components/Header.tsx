@@ -9,6 +9,7 @@ import { navItems } from "@/lib/site";
 
 export function Header() {
   const pathname = usePathname();
+  const activePath = pathname === "/gns3-agent" ? "/projects" : pathname;
   const [open, setOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
 
@@ -44,8 +45,10 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={pathname.startsWith(item.href) ? "active" : ""}
-              aria-current={pathname.startsWith(item.href) ? "page" : undefined}
+              className={activePath.startsWith(item.href) ? "active" : ""}
+              aria-current={
+                activePath.startsWith(item.href) ? "page" : undefined
+              }
             >
               {item.label}
             </Link>
@@ -75,7 +78,9 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              aria-current={pathname.startsWith(item.href) ? "page" : undefined}
+              aria-current={
+                activePath.startsWith(item.href) ? "page" : undefined
+              }
               onClick={() => setOpen(false)}
             >
               {item.label}

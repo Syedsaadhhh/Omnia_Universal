@@ -1,12 +1,21 @@
-import Link from "next/link";
-
+import { Intro, Action } from "@/components/ui";
 export default function NotFound() {
   return (
-    <section className="not-found">
-      <div className="error-code">404 / ROUTE NOT FOUND</div>
-      <h1>This node does not exist in the Omnia system.</h1>
-      <p>The route may have moved, or the system you are looking for has not been released yet.</p>
-      <Link className="button button-primary" href="/">Return to command center ↗</Link>
-    </section>
+    <Intro
+      title="This page could not be found."
+      actions={
+        <>
+          <Action href="/" primary>
+            Return home
+          </Action>
+          <Action href="/projects">Explore the work</Action>
+        </>
+      }
+    >
+      <p>
+        The link may have changed, or this page may not exist. You can return to
+        the lab's home, inspect the work archive or use the navigation.
+      </p>
+    </Intro>
   );
 }

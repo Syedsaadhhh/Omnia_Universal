@@ -27,7 +27,7 @@ export function Action({
 }) {
   const content = (
     <>
-      {children}
+      <span>{children}</span>
       <Arrow />
     </>
   );

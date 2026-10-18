@@ -27,6 +27,11 @@ export const metadata: Metadata = {
   },
   description: site.description,
   applicationName: site.name,
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+    apple: "/apple-touch-icon.png",
+  },
   authors: [{ name: site.founder }],
   creator: site.founder,
   openGraph: {
@@ -70,8 +75,8 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
-      <body className={`${sans.variable} ${display.variable}`}>
+    <html lang="en" className={`${sans.variable} ${display.variable}`}>
+      <body>
         <a className="skip-link" href="#main">
           Skip to content
         </a>

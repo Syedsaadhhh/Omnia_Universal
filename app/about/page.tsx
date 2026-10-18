@@ -1,38 +1,102 @@
-import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
-import { PageHero } from "@/components/PageHero";
-import { SectionHeading } from "@/components/SectionHeading";
-
-export const metadata = pageMetadata("/about", "Founder", "The founder story and operating philosophy behind Omnia Sec AI Labs.");
-
+import { pageMetadata } from "@/lib/metadata";
+import { Action, Intro, Section } from "@/components/ui";
+export const metadata = pageMetadata(
+  "/about",
+  "About",
+  "Meet Syed Saad and the founder-led Omniasec Labs initiative: multidisciplinary research, team formation and useful technology, with honest limits.",
+);
 export default function AboutPage() {
   return (
     <>
-      <PageHero eyebrow="FOUNDER / SYED SAAD" title={<>Start before permission.<br /><span>Compound the work.</span></>} copy="Omnia is being built by a Digital Forensics and Cyber Security student in Karachi with a long horizon, limited resources, and an unwillingness to treat those constraints as an excuse." />
-      <section className="section founder-story">
-        <div className="founder-story-visual founder-photo founder-story-photo">
-          <div className="portrait-grid" />
-          <img src="/founder-syed-saad.svg" alt="Syed Saad, founder of Omnia Sec AI Labs" />
-          <div className="portrait-scan" />
+      <Intro title="Build the lab worth growing into.">
+        <p>
+          Omniasec Labs is a founder-led technology research and
+          product-development initiative by Syed Saad, based in Pakistan with an
+          international outlook.
+        </p>
+        <p className="or-note">
+          In formation. No established staff roster, funding, customers or
+          institutional partnerships are implied.
+        </p>
+      </Intro>
+      <Section title="A purpose beyond one technology." pale>
+        <p className="or-large-copy">
+          The aim is to discover worthwhile problems, bring capable people
+          together and turn careful investigation into technology that proves
+          useful.
+        </p>
+        <p>
+          AI and cybersecurity are part of the existing work, alongside
+          software, infrastructure and automation. Future fields should follow
+          real problems and market evidence—not a permanent restriction in the
+          name of a technology.
+        </p>
+      </Section>
+      <Section title="Founder-led, with room for others.">
+        <p>
+          Syed Saad is building the initiative and its operating methods. The
+          existing archive includes personal experiments and team/event work;
+          those contributions retain their original attribution.
+        </p>
+        <p>
+          The next team should form around a specific problem and the expertise
+          it needs. An invitation to collaborate is not a claim that a large
+          team already exists.
+        </p>
+        <div className="or-actions">
+          <Action href="/collaborate" primary>
+            Explore collaboration
+          </Action>
+          <Action href="/projects">Inspect the archive</Action>
         </div>
-        <div className="founder-story-copy">
-          <h2>I am building the lab I want to grow into.</h2>
-          <p>I’m Syed Saad, studying Digital Forensics and Cyber Security at Hamdard University. My strongest interests sit at the intersection of agentic AI, cloud security, infrastructure, digital forensics, and systems that can perform real technical work.</p>
-          <p>Omnia started as a way to connect projects that would otherwise remain disconnected: crisis intelligence, incident reasoning, network automation, security tooling, and future autonomous workflows.</p>
-          <p>The operating thesis is simple: every serious build should create reusable code, knowledge, design language, or infrastructure for the next one. Over time, that compounding work can become a platform rather than a collection of demos.</p>
-          <blockquote>Build something real. Explain what it cannot do. Improve it until the limitation moves.</blockquote>
+      </Section>
+      <Section title="Principles worth working by." pale>
+        <div className="or-record-list">
+          <article className="or-record">
+            <h3>Start from reality</h3>
+            <p>
+              Understand a real workflow, the people affected and what has
+              already been tried.
+            </p>
+          </article>
+          <article className="or-record">
+            <h3>Make claims inspectable</h3>
+            <p>
+              Link to artifacts, separate observations from interpretation, and
+              explain what the evidence cannot establish.
+            </p>
+          </article>
+          <article className="or-record">
+            <h3>Respect people and boundaries</h3>
+            <p>
+              Discuss consent, privacy, contribution, ownership and scope before
+              collecting information or committing to work.
+            </p>
+          </article>
+          <article className="or-record">
+            <h3>Leave room to stop</h3>
+            <p>
+              A failed assumption or negative finding can save time and guide a
+              better next question. Not every project should become a venture.
+            </p>
+          </article>
         </div>
-      </section>
-      <section className="section operating-principles">
-        <SectionHeading index="01" label="Operating philosophy" title="Long horizon. Daily execution." />
-        <div className="two-column-copy">
-          <article><h3>Ambition without fiction</h3><p>The vision can be large without pretending the company, customer base, or product maturity already exists.</p></article>
-          <article><h3>Learning through systems</h3><p>Courses, hackathons, labs, and personal projects become inputs to a focused technical direction.</p></article>
-          <article><h3>Constraint as architecture</h3><p>Modest hardware and low budgets encourage local-first design, careful dependency choices, and resource awareness.</p></article>
-          <article><h3>Leadership through ownership</h3><p>Lead the plan, absorb the hard last mile, document the work, and make the next execution easier for the team.</p></article>
-        </div>
-      </section>
-      <section className="section cta-section"><div className="wide-cta"><div><span>COLLABORATION</span><h2>Serious builders are welcome.</h2><p>Especially around infrastructure automation, cybersecurity, cloud security, DFIR, and agent control systems.</p></div><Link className="button button-primary" href="/contact">Start a conversation ↗</Link></div></section>
+      </Section>
+      <Section title="A long horizon. A useful next step.">
+        <p>
+          Research, prototypes, customer solutions and possible independent
+          ventures are different outcomes. Progress comes from the evidence for
+          the next decision, not from presenting every experiment as a product.
+        </p>
+        <p>
+          Read the <Link href="/research/method">intended method</Link>, or{" "}
+          <Link href="/for-organizations">
+            bring a problem worth investigating
+          </Link>
+          .
+        </p>
+      </Section>
     </>
   );
 }
