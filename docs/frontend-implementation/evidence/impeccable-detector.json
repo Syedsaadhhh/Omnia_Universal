@@ -1,0 +1,50 @@
+[
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/workspace/Omnia_Universal/app/opengraph-image.tsx",
+    "line": 28,
+    "snippet": "Undocumented color #101f1d is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#101f1d"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/workspace/Omnia_Universal/app/opengraph-image.tsx",
+    "line": 29,
+    "snippet": "Undocumented color #eaf1eb is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#eaf1eb"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/workspace/Omnia_Universal/app/opengraph-image.tsx",
+    "line": 49,
+    "snippet": "Undocumented color #b3d4a0 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#b3d4a0"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/workspace/Omnia_Universal/app/opengraph-image.tsx",
+    "line": 56,
+    "snippet": "Undocumented color #a5beb6 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#a5beb6"
+  }
+]

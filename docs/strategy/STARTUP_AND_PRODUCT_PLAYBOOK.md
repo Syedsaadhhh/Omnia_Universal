@@ -1,5 +1,7 @@
 # Omniasec Labs — research-to-product operating guide
 
+Founder clarification, 18 October 2026: this reading supports our own strategy and decisions. It is not a public book collection or a reason to add features indiscriminately. Apply a principle to the website only when it improves a real visitor journey, evidence record or useful research workflow. The existing method, problem-intake prompts and blank record template are that limited application; no tracking, account system or customer database is implied.
+
 Created 2026-10-17 in response to the founder's request to apply entrepreneurship/business learning. This is an initial curated library and original practical synthesis, not an exhaustive collection of major books or a claim that their complete texts were accessed. Research used authors' and publishers' public descriptions/articles linked below. No paid books were downloaded, copied, purchased or represented as fully read. Recommendations are adaptations to this founder-led lab, not independently validated success laws.
 
 ## Source library and relevant lessons

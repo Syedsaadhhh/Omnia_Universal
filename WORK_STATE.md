@@ -1,79 +1,68 @@
-# Active continuation — 2026-10-17
+# Omniasec Labs — resumable implementation checkpoint
 
-Owner selected **A — Open Register** and authorized implementation, responsive/type/accessibility/SEO fixes and dependency remediation. The design-selection gate below is satisfied. No rename, legal-clearance assertion, merge or production deployment is authorized. Start from ee6e6f6, based on security PR #6 c5d2500. Work in small stacked fix/frontend-open-register-* branches, using the owner-confirmed Cloudflare non-production fix/* scope and explicit per-branch Vercel skips before publishing. Preserve all PR #6 API/security behavior and the original 9cc1399 reference.
+Updated 18 October 2026 UTC. **A — Open Register is selected and implemented in a draft review stack. No merge or production release is authorized.** This current record supersedes the dated discovery state, preserved in docs/frontend-implementation/PRE_IMPLEMENTATION_WORK_STATE.md. Resolve the exact current head with `git log -1 --format='%H %s'`; do not infer deployment from a source commit.
 
-Current work: verify dependencies, refine font payload, implement shared shell then core experience then supporting pages/validation. New evidence and final continuation status will be recorded in docs/frontend-implementation/ and this file. The historical checkpoint below remains a dated record, not a current approval gate.
+## Owner decisions and boundaries
 
----
+- Public name Omniasec Labs; founder Syed Saad; official origin https://omniaseclabs.com; repository Syedsaadhhh/Omnia_Universal. Founder says Pakistan/worldwide ambitions; registration and global trademark clearance are not independently established.
+- A selected with explicit authorization for implementation, responsive/type/accessibility/SEO fixes and dependency remediation. Keep founder-led formation, multidisciplinary research→validated opportunity→team→prototype→tested solution→possible venture. No fabricated scale, users, jobs, equity, customers, funding, publications or delivery capacity.
+- Founder clarified **Vercel is current hosting; Cloudflare is historical/future scope**, not an active platform requirement. A legacy Workers check is still attached in GitHub; it is not removed, disabled or bypassed in this work.
+- Book/article learning is **internal strategy**. Apply useful discovery/evidence/intake ideas to real website journeys; do not build a public book-marketing collection or speculative account/database/analytics features. Curated primary-source synthesis and applications: docs/strategy/STARTUP_AND_PRODUCT_PLAYBOOK.md. Complete books/exhaustive extraction are not claimed.
+- No merge, auto-merge, deployment, production settings/environment/DNS changes, paid service, email/outreach, rename or project-history deletion. All PRs remain draft and stacked. Stop for review before release.
 
-# Omniasec Labs — resumable brand/design checkpoint
+## Branch and publication references
 
-Updated: 2026-10-16 UTC. Phase: brand research and frontend discovery complete; **owner direction selection pending**. No main application redesign or final logo is implemented. Resolve the current commit with `git log -1 --format='%H %s'`; this document does not self-reference its own hash.
+| Reference | Commit / PR |
+|---|---|
+| Original main / production reference | 9cc1399fb1ca9642d5f91c898e0f533e85aae5fc |
+| Preserved audit | ab3068b17c764e35a386b7f5b8ed868183093f3f; [PR #5](https://github.com/Syedsaadhhh/Omnia_Universal/pull/5), audit/cloud-baseline-2026-10-15 |
+| Security foundation | c5d250040b1f8507b617d5d32593d23802fce567; [PR #6](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6), fix/security-engineering-foundation |
+| Discovery | 3526b2f and ee6e6f6; feat/impeccable-frontend-reconstruction local lineage preserved |
+| F1 foundation | bc30f22 compiler, 2108263644b6fffd105def981fbb06776f9ddb00 shell; [PR #7](https://github.com/Syedsaadhhh/Omnia_Universal/pull/7), fix/frontend-open-register-foundation; base PR #6 branch |
+| F2 experience | 72a5ced570fa898fe374761a8224ad1fd9996566; [PR #8](https://github.com/Syedsaadhhh/Omnia_Universal/pull/8), fix/frontend-open-register-experience; base F1 |
+| Current F3 quality | Source commit b636923; fix/frontend-open-register-quality; base F2; supporting pages, font/reflow/SEO corrections and expanded acceptance coverage. Publication/hosted-check record follows below when available. |
 
-## Owner decisions and authorization
+Exact frontend branches are disabled in Vercel source deployment configuration before publication. Prior owner-confirmed fix/* non-production scope was preserved; no provider settings were changed. A draft PR alone was not relied on for build isolation. Original main and security remote refs were rechecked unchanged.
 
-- Name: **Omniasec Labs**; origin: **https://omniaseclabs.com**; founder: **Syed Saad**; repository: **Syedsaadhhh/Omnia_Universal**.
-- Latest brand instruction supersedes all earlier retention rules: existing logo, palette, typography and identity may be replaced. **No rename or final identity is approved.**
-- Founder-led multidisciplinary research/product-development initiative. Research → problem discovery → validation → team formation → prototype → user testing → product development → possible venture. No fabricated staff, customers, traction, publications, funding or capacity.
-- Founder confirmed **Pakistan** and **worldwide** commercial ambitions. This is not independent verification of registration or global trademark clearance.
-- Founder chose **image mockup first** for future approved homepage/showcase work; `.impeccable/config.json` records buildPath=comp. No comp is marked approved.
-- Current authorization covers discovery, brand alternatives, isolated review mockups, local commits and reviewable feature branches/draft PRs subject to integration safety. **Stop for design selection before application integration.** No merge, auto-merge, release/deploy, production setting/environment/DNS changes, paid services, emails or project deletion.
+## Completed implementation
 
-## Branches and publication
+- Shared Open Register pine/mineral/sage tokens, full-name mark/wordmark, self-hosted upright Literata/Schibsted, semantic header/footer/actions/reading surfaces and coherent responsive navigation.
+- Home, Research, Work, For Organizations, About, Collaborate, Updates, Contact, Security, Privacy and Terms. Preserve /projects, /build-log, /gns3-agent, original fragments/source links and team attribution. Ten project detail records plus method/engineering note yield 24 canonical routes. All 11 historic artifacts remain, with type distinct from unverified current readiness.
+- Research method and downloadable blank evidence/opportunity record; realistic organization/collaboration prompts. No live form or email provider. Dormant legacy form/decorative components and seven unused CSS files removed from current source; Git history/external project repositories preserved.
+- Metadata, JSON-LD, unique canonicals, OG image, sitemap, robots/manifest/icons. Local host-specific www→fixed apex308 preserves query; external DNS/TLS/provider behavior is not fixed or proved by local source.
+- Dependency recheck 18 October: zero reported npm advisories. Exact TypeScript 7.0.2 upgrade validated; Next 16.4.2/React 19.3.1 retained; Node 24 typings intentionally match Node 24 runtime. No runtime design dependency added.
+- PR #6 API, input parser, security headers/origin helpers, Docker and engineering workflow remain unchanged. Existing validation/no-send behavior is retained and tested.
 
-- Original main remains `9cc1399fb1ca9642d5f91c898e0f533e85aae5fc`.
-- Audit preserved at `ab3068b17c764e35a386b7f5b8ed868183093f3f`, `audit/cloud-baseline-2026-10-15`. [Draft audit PR #5](https://github.com/Syedsaadhhh/Omnia_Universal/pull/5), OPEN.
-- Security foundation `fix/security-engineering-foundation` at **c5d250040b1f8507b617d5d32593d23802fce567**. [Draft PR #6](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6), OPEN, base audit branch. [Successful Engineering CI](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/38828095156). Existing Cloudflare Workers check still FAILURE, not changed or bypassed.
-- Discovery implementation/documentation commit: **3526b2f** (`Document brand research and three frontend identity studies`); a subsequent small state-record commit may follow.
-- Current local branch: **feat/impeccable-frontend-reconstruction**, created directly from c5d2500. New files are product/design documentation, brand research, isolated HTML/SVG studies and evidence only. Existing app/components/lib/styles/assets/dependencies/tests/CI/container/deployment config remain unchanged.
-- **Frontend branch is not pushed and has no PR.** Vercel currently skips only the security feature branch; feat/* normally permits previews. Earlier owner confirmation that Cloudflare cannot deploy audit/* and fix/* does not cover feat/*. Verify/isolate this branch before publication. A draft PR does not prevent builds. Do not silently disable the failing Workers check or modify production settings.
+## Verification and defects caught
 
-## Completed discovery and deliverables
+- Final production build/typecheck pass. **48 unit tests and 114 browser/integration tests pass**, zero skips/flaky/unexpected. Full persisted report: docs/frontend-implementation/evidence/f3/integration-report.json; unit/type/build/install/audit/lock logs adjacent.
+- Browser suite covers 24 routes × 1440/768/390/320 = 96 route/width cases; 48 axe scans; keyboard/menu/filter/touch/reduced-motion/forced-colors/text-enlargement; metadata/robots/sitemap/icons/internal links; real contact API malformed/null/oversized/origin/disabled-delivery regressions. No public form/security disruption or email was performed.
+- Actual review packet: 40 representative page captures plus 4 home viewports and 2 menu states in .impeccable/review/. browser-summary.json reports no runtime errors, broken images or document overflow. Original full 96 route captures remain in local test-results and hosted CI artifacts (seven-day retention).
+- Real defects found and corrected: font files preloaded but rendered fallback because variable classes were below :root; move classes to html and add platform-font glyph regression. With real fonts, min-content grid tracks overflowed320px at200%text; use shrinking grid tracks/children and word wrapping rather than clipping/weakening tests. Early defect evidence is kept separately.
+- Clean `npm ci --ignore-scripts --no-audit --no-fund` preserves lock SHA256; no lifecycle scripts. Dependency audit 0. Bounded credential-pattern check and final hosted CI are recorded at publication.
+- Fonts: 86,644 compressed bytes (~85KiB) versus roughly 229 KiB study. Same local throttling profile measured median LCP 660 ms / 652 ms normal/reduced, CLS≈0.00174, encoded scripts 139,715 bytes versus baseline 146,515. Different cloud sessions, limited observations; no field p75/INP, Lighthouse score or production-performance guarantee. See PERFORMANCE.md.
+- F1 hosted Engineering checks [passed](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/39030886891); F2 [passed](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/39031049802). Legacy Workers failure is separate. Source quality is not a claim that all GitHub checks are green.
 
-- Read prior WORK_STATE, POSITIONING_AND_IA, docs/pr1/NEXT_PHASES and engineering checkpoint, inspected current source/PR evidence and verified remote refs/PR checks/production. Prior PR1 WORK_STATE preserved in docs/brand-reconstruction/evidence/PR1_WORK_STATE_at_c5d2500.md.
-- Official Impeccable identity/installation verified; installed **impeccable@4.6.0**, engine0.1.15, Codex project scope, **no hooks**, no app runtime dependency. Official source dd47ec83eca2dcc57be2c5d2e3f927a167ce6cf4. Actual context launcher and mechanical detector executed; relevant init/document/audit/shape/craft references applied. Full formal dual-agent critique/finish pipeline was not executed or claimed. Installation manifest, commands, limitations and restore instructions are in docs/brand-reconstruction/README.md. Generated .agents installation is locally excluded, not vendored.
-- PRODUCT.md records confirmed facts and open decisions; DESIGN.md extracts the incumbent as reference, not an approved future system.
-- Primary-source research across Fraunhofer, SRI, imec, TNO, A*STAR, Ink & Switch, Deep Science Ventures, ustwo and Thoughtworks; 12 reference browser captures including three naming neighbors. Research observations are separated from design judgments. Some dynamic/cookie-covered reference surfaces are incomplete.
-- Naming overlap found with separate **OmniaSec AI** (Synthwise S.L., Spain), **Omnia Labs** video-AI company and Brazilian **Omnia Labs** software firm. No registry clearance/legal opinion or rename performed. Pakistan plus prioritized actual international markets need professional review before identity commitment.
-- Three provisional directions: **A Open Register** (research/evidence), **B Working Assembly** (practical engineering), **C Common Ground** (interdisciplinary collaboration). Each includes meaningful symbol construction, outlined wordmark study, palette/type, light/dark/monochrome/horizontal/vertical/compact/favicon applications, website concept and tradeoffs.
-- Three isolated responsive homepage studies, identity sheets, desktop/mobile wireframes and a generated interpretive raster mood board. Board provenance/prompt retained; raster is not an approved comp and does not exactly specify the SVG studies.
-- Recommend A as strategic starting point. No selected direction or final identity recorded. Proposed /for-organizations route is clearer than the older /studio option; retain /projects, /build-log and /gns3-agent and old project fragments/source attribution.
+## Impeccable and review truth
 
-## Verified results
+Installed official Impeccable 4.6.0 / engine 0.1.15 authoring skill, no runtime dependency/hooks. Selected-study approval, region plan, craft/adapt/harden/optimize guidance and actual browser evidence were used. The interrupted reviewer from 17 October had no recoverable final verdict; a fresh reviewer completed 18 October and inspected all 46 required captures.
 
-- Fresh production build and TypeScript pass; **48 unit tests, 39 integration tests**, zero skipped. Initial integration attempt failed to find the default bundled browser; rerun with supported `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium` passed. No tests weakened or retried into a pass.
-- npm dependency audit: **0 reported findings**. Bounded tracked-secret-pattern check passed; authored-file diff whitespace check passed (unmodified upstream OFL notices retain their original trailing whitespace); logs in evidence/engineering. Docker not rebuilt for documentation-only work; prior c5d2500 container checkpoint remains reference.
-- Baseline local: ten pages × 1440/768/390/320 = **40 page captures**, no document overflow. Twenty axe scans at desktop/320 reported no violations; one Escape/focus browser check passed. Ten live pages returned200 under ordinary browsing. No disruptive public testing or form submissions.
-- Studies: six HTML documents × four widths = **24 final page samples**, no reported axe violation, document overflow, broken image or missing anchor; three keyboard menu Escape/focus checks pass. Two initial defects (review-note contrast and wireframe reflow) corrected in one batch and confirmed in second capture. Automated checks are not WCAG certification or complete manual accessibility coverage.
-- Impeccable detector actually ran once:130 observations (111 colors differ from incumbent tokens,16 padding warnings,2 real review-note contrast defects,1 intentional chalk-palette warning). Output and dispositions preserved; no ignore suppression or cosmetic rerun. Formal critique/overlay not claimed.
-- Semantic palette pairs measured: minimum contrast **5.94:1**. Final component/focus and manual screen-reader/zoom/forced-colors/touch checks remain future work.
-- Mobile local lab baseline: 3 cold-context runs per motion mode; CPU4×,150ms,1.6Mbps down/750kbps up. Median LCP normal1248ms/reduced1332ms, observed CLS0, encoded script146515bytes. **Not field p75, no INP measurement, no live redesign comparison.** Raw samples in performance-baseline.json.
-- A's exploratory compressed fonts are roughly229KiB, above proposed ≤140KiB initial font budget; optimize approved axes/styles/subsets before integration. B≈82KiB,C≈99KiB. No production-performance promise.
+Fresh review: docs/frontend-implementation/evidence/f3/FINISH_REVIEW.md. Disposition **fix**, with no material visual/UX/truth defect found in its stated screenshot/source scope. Findings: replace stale incumbent DESIGN.md with implemented tokens; retain incomplete formal engine status. Required documenter completed DESIGN.md and .impeccable/design.json; exact CSS/token/schema/document consistency checks pass. Evidence: docs/frontend-implementation/evidence/f3/DOCUMENTATION.md. The reviewer scored both documentation fixes resolved in evidence/f3/FINISH_VERDICT.md (ship at that narrow scope). Formal engine phases remain open; the final build-phase ship command refused completion, preserved in evidence/f3/impeccable-finish.txt. No whole-workflow pass is claimed.
 
-## Production and unresolved engineering issues
+Formal comp engine remains **plates open**, later phases pending; no hero/final pixel-diff reports or numerical fidelity score. Existing owner-selected rendered-study approval authorized implementation; direct browser/fresh review is an explicitly documented manual exception, not formal automated completion. Do not force gates, invent scores or ask redundant direction approval. Single detector run: four selected-color advisories versus stale incumbent palette, retained without suppression/rerun. New Apple icon was deterministically rendered from selected SVG; provenance scan: 1 raster / 0 missing. Mark/name still provisional for legal/optical clearance.
 
-Authenticated production-target list and deployment/alias metadata still identify **dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4**, READY, main@9cc1399, omniaseclabs.com. Snapshots in evidence/engineering/production-*.json. No feature publication, production write, merge, deployment, DNS/settings/environment change or email occurred in this phase.
+## Remaining risks / pending approval
 
-PR #6 fixes remain **undeployed**. Workers integration failure, www upstream behavior, origin TLS/provider/log verification, inline CSP allowances, ingress budgets and durable abuse protection before any future active form remain documented. No complete-security/compliance claim. Prior engineering details: docs/pr1/CHECKPOINT.md, DEPENDENCIES.md, NEXT_PHASES.md and DEPLOYMENT.md.
+- **Release approval required** before merging any audit/security/frontend PR or deploying. Production still main@9cc1399, deployment dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4 READY in latest authenticated read-only snapshot. Recheck after publication; no source improvement is described as deployed.
+- Legacy Workers integration settings remain unchanged. Vercel is current host. No Cloudflare technology is added or required by this frontend work.
+- Public www/domain/provider/origin/log/mailbox retention checks need production/provider verification; no settings/DNS changed. PR #6 inline CSP and future ingress/durable abuse-control residuals remain; activating forms is out of scope.
+- Full assistive-technology/physical-device testing, field performance/INP and professional trademark/legal review remain. WCAG 2.2 AA is the target, not certification. Existing project maturity/demo behavior is not validated by a repository link or HEAD response.
+- One bounded HEAD check of five historical demo URLs returned four 200 responses and a ReproForge/Render timeout. This does not establish brokenness or maintained behavior; keep its source/history and disclose unverified availability.
+- Review actual content/capacity and provisional identity. No automatic rename, final trademark assertion, invented commercial readiness or broad research-publication claim.
 
-## Artifacts and exact next actions
+## Next exact actions
 
-Start with **docs/brand-reconstruction/README.md**; review RESEARCH.md, FRONTEND_AUDIT.md, DIRECTIONS.md, VALIDATION.md and ARCHITECTURE_AND_PLAN.md. All HTML/SVG/font sources and screenshots are under docs/brand-reconstruction/. Study-only generators/checks under its tools/ directory never write app/ or public/.
-
-```bash
-cd /workspace/Omnia_Universal
-git status --short
-git branch --show-current
-git log -3 --format='%h %s'
-# Reinstall the documented official Codex skill if .agents is absent:
-npx --yes impeccable@4.6.0 install --providers=codex --scope=project --no-hooks --yes
-# To view review artifacts; stop with Ctrl-C:
-python -m http.server 4173 --bind 127.0.0.1 --directory docs/brand-reconstruction/concepts
-```
-
-1. **Wait for owner selection/refinement of A/B/C.** Do not infer approval from image-first preference or jurisdiction answers.
-2. Clarify actual international market priorities for legal/name clearance; no global-clearance claim. If a naming obstacle is confirmed, resolve with founder before final wordmark effort.
-3. After direction approval, refine the selected mark/wordmark and image comps, resolve font budget and content verification. This authorizes no production release.
-4. Before any frontend push, verify Vercel branch handling and Cloudflare policy for this exact branch; establish branch-specific skip/isolation without production changes. Then create a draft PR stacked on #6 with honest CI/integration status.
-5. Follow the small F1–F5 boundaries in ARCHITECTURE_AND_PLAN.md. Preserve all c5d2500 security changes/tests. Reconcile remote changes before each phase. Retarget only after separately approved merges.
-6. Keep WORK_STATE current; record real commits/tests/blocks. Stop for merge/deployment approval separately. Review servers started for this phase are stopped before final reporting; restart only locally as needed.
+1. Documentation and scoped verdict are complete; retain the open formal-engine limitation in every release handoff.
+2. Stage final quality source/evidence; run bounded credential/diff checks; confirm exact Vercel skip; commit on fix/frontend-open-register-quality and open a documentation-rich draft PR based on fix/frontend-open-register-experience.
+3. Wait for hosted Engineering checks (including container build/runtime). Fix actual failures; keep legacy Workers status separate. Record PR/head/CI links here and recheck production/latest deployments read-only.
+4. Create a portable source bundle/review export in /workspace for interruption recovery. Leave a clean worktree and stop for owner review, with no merge or release.

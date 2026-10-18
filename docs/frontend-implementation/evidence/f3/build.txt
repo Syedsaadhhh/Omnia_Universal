@@ -1,0 +1,51 @@
+
+> omniasec-labs@1.0.0 build
+> next build && node scripts/prepare-standalone.mjs
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 25ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 870ms
+  Running TypeScript ...
+  Finished TypeScript in 365ms ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/32) ...
+  Generating static pages using 2 workers (8/32)
+  Generating static pages using 2 workers (16/32)
+  Generating static pages using 2 workers (24/32)
+✓ Generating static pages using 2 workers (32/32) in 576ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ƒ /api/contact
+├ ƒ /api/health
+├ ○ /build-log
+├ ○ /build-log/security-foundation
+├ ○ /collaborate
+├ ○ /contact
+├ ○ /for-organizations
+├ ○ /gns3-agent
+├ ○ /manifest.webmanifest
+├ ○ /opengraph-image
+├ ○ /privacy
+├ ○ /projects
+├   /projects/[slug]
+│ ├ ● /projects/reproforge
+│ ├ ● /projects/opendoor-relay
+│ ├ ● /projects/dwellguard
+│ └ ● [+7 more paths]
+├ ○ /research
+├ ○ /research/method
+├ ○ /robots.txt
+├ ○ /security
+├ ○ /sitemap.xml
+└ ○ /terms
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand

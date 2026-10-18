@@ -1,0 +1,58 @@
+# Open Register frontend checkpoint — 18 October 2026
+
+A — Open Register is the founder-selected direction. This checkpoint implements it in review branches; it is not a production release or trademark clearance. The original reference remains main@9cc1399 and the security foundation remains PR #6@c5d2500. Vercel is the current host. The founder clarified that Cloudflare is historical/future scope; the still-visible legacy Workers check is tracked separately and its settings are unchanged.
+
+## Review boundaries
+
+| Layer | Draft PR / base | Scope |
+|---|---|---|
+| Audit | [#5](https://github.com/Syedsaadhhh/Omnia_Universal/pull/5) / main | Preserved audit and supporting evidence. |
+| Security | [#6](https://github.com/Syedsaadhhh/Omnia_Universal/pull/6) / audit | Tested engineering/security foundation; unchanged by frontend work. |
+| F1 | [#7](https://github.com/Syedsaadhhh/Omnia_Universal/pull/7) / security | Compiler update, tokens, self-hosted fonts, shared shell and audience routes. |
+| F2 | [#8](https://github.com/Syedsaadhhh/Omnia_Universal/pull/8) / F1 | Homepage, research method, work archive/detail records and practical operating guide. |
+| F3 | Quality branch / F2 | Supporting pages, rendered-font/reflow corrections, canonical www redirect, accessibility/SEO regression coverage and this checkpoint. See WORK_STATE.md for final PR/head/check status. |
+
+The intermediate F1/F2 layers are deliberately reviewable changes, not independent release candidates. Review the full stack for the coherent 24-route experience. No merge, auto-merge, deployment, DNS/environment/provider setting change, email, purchase or project-history deletion was performed. Exact frontend branches were disabled in Vercel source configuration before each push; a draft label alone was not relied on. Read-only deployment evidence is in evidence/vercel-deployments.json.
+
+## Confirmed findings and corrections
+
+| Finding / priority | Root cause and change | Affected files | Regression/evidence | Residual limit |
+|---|---|---|---|---|
+| High product clarity | Narrow AI/security identity and simulated operational presentation obscured the real lab/stage. Replaced with multidisciplinary positioning, formation statement, intended method and two audience journeys. | app/page.tsx, lib/site.ts, audience routes | Truthful-journey assertions, rendered desktop/mobile captures | Positioning is an intended model, not validated market demand. |
+| High credibility | Artifact type, historic event work and readiness were conflated. Preserve 11 artifacts, source/demo links and attribution; distinguish 7 prototypes, 3 experiments, 1 concept and unverified maintenance. | lib/work.ts, projects routes, gns3-agent/page.tsx | Attribution/fragments/filter/detail tests, project-sources.json | Repository availability is not a working-demo or maintenance audit. |
+| High reflow | Fixed/min-content sizing allowed enlarged text to force grid columns wider than 320px. Set shrinking tracks/children and appropriate word wrapping; keep content visible. | styles/open-register.css, components/ui.tsx | 200% text at320px across six content types; 96 route/width checks | Text enlargement is a lab approximation, not every browser zoom/assistive setup. |
+| High font rendering | Root semantic font variables referenced next/font variables attached only to body. Preloads succeeded while glyphs fell back. Move variable classes to html. | app/layout.tsx | CDP platform-font test checks actual custom-font glyphs, not only downloaded files | English/Latin coverage; future scripts need deliberate font coverage. |
+| Medium type/loading | Exploratory full fonts cost ~229KiB. Subset Latin/weights/optical size to86,644bytes (~85KiB), preserve OFL notices and self-host via next/font. | public/fonts, tools/build-brand-fonts.py, layout | Font payload and no external runtime request tests; fonts.json | Latin subset is not a multilingual font system. |
+| Medium navigation | New visual shell had to preserve existing keyboard safety and touch/resize behavior. Retained hidden-menu semantics, Escape/focus and route closure; coherent active Work state. | components/Header.tsx, open-register.css | Keyboard, same-route, resize, touch and forced-color regressions | Touch is Chromium emulation; no physical-device or full screen-reader certification. |
+| Medium SEO/compatibility | New IA required canonical/OG metadata, truthful sitemap and stable historic URLs. Add24 unique canonical routes, static OG image, icon/manifest, local host-aware www308 preserving query. | lib/metadata.ts, sitemap, opengraph-image, manifest, next.config.ts | Metadata/internal-link/heading/asset tests at four widths; robots/sitemap/www tests | Public www DNS/TLS/provider behavior still requires release verification; no DNS change. |
+| Medium privacy/truth | Supporting copy needed to match the mailto-only flow and formation stage. No form, inferred delivery capacity, vacancy/equity promise or commercial traction. | contact/privacy/terms/security/about/updates pages | No-form, mailto and stage assertions; preserved closed API tests | Mailbox/provider retention and legal ownership require founder/provider verification. |
+| Medium maintenance | Old unused form, decorative canvas/panels and seven legacy CSS files obscured the actual system. Remove unused source after checking imports; preserve Git history and external projects. | deleted legacy components/styles; globals.css | TypeScript, production build and full route/browser suite | lib/site.ts historical records are source material, not independently validated project claims. |
+| Low dependency currency | TypeScript5.9.3 was behind current7.0.2. Verified official identity/Next compatibility and upgraded exact version after tests. Lock remains committed. | package.json, package-lock.json | Clean script-free install, typecheck, unit/build/integration/CI | Node24 typings intentionally remain aligned with Node24 runtime rather than Node26 latest. No claim that audit0 means vulnerability-free. |
+
+## Validation and interpretation
+
+The quality suite covers24 routes at1440/768/390/320px, one H1, heading order, canonical/OG identity, asset health, unique IDs and no document overflow. Axe runs at1440/320 on all24 routes (48 scans), alongside menu/filter/touch/forced-colors/reduced-motion/200%-text tests. Existing HTTP parsing, malformed/null/oversized requests, timeout/origin checks, CSP and no-send assertions remain. No public contact request was sent. Five historical demo URLs received one bounded HEAD check: four 200 responses, one ReproForge/Render timeout; no demo interactions or availability guarantee. Exact final results/logs and CI links are in WORK_STATE.md and evidence/f3/.
+
+The first quality pass exposed a real font failure despite successful file downloads; the platform-font assertion now prevents recurrence. The next run exposed min-content reflow with the real selected font; the CSS fix addresses the cause rather than clipping content or relaxing the assertion. Initial evidence is preserved separately from final captures. Automated zero axe findings are not WCAG certification. Physical devices, full assistive-technology testing and production field data remain outside this checkpoint.
+
+Performance uses the same local390×844, cold-context, CPU4×,150ms latency,1.6Mbps down/750kbps up profile as the c5d2500 baseline: three runs per motion mode. Raw before/after samples are retained; see PERFORMANCE.md for measured medians and limitations. These are lab observations, not real-user p75, Lighthouse scores or measured field INP. No third-party runtime requests, analytics, heavy animation library, CMS, database or external API were introduced.
+
+## Impeccable record and limits
+
+Official installed Impeccable4.6.0 / engine0.1.15 was used; no runtime package or install hooks were added. Context ran once for app/page.tsx; selected-study image references, surface contract, region plan and font work guided implementation. Adapt/harden/optimize/craft guidance informed the actual corrections. One mechanical detector ran: four advisory Open Graph colors differ from the incumbent DESIGN.md palette. All four belong to the selected Open Register system; the documenter records the implemented tokens. No ignore suppression or cosmetic rerun was used.
+
+The formal comp build engine reached the plates phase and then required an additional interactive component review. The founder had already selected the rendered A study and authorized implementation, including responsive/type refinements. Under that session authorization, work continued through direct browser comparison and the skill's fresh independent finish review instead of asking to approve the same direction again. This is an explicitly disclosed manual-review exception, not a completed formal build-phase/fidelity gate. No raster plates are part of the design. The final record must retain any refused finish/open-gate result; do not report automated Impeccable completion. The fresh review found no material visual/UX/truth defect in its screenshot/source scope, initially requested the stale design record and explicit limitation disclosure, then scored both fixes resolved (ship only for that fix list). DESIGN.md and the sidecar now describe actual implementation. The final build-phase ship command refused completion because formal phases remain open; its exact output is retained alongside the review/documenter evidence in evidence/f3/.
+
+The mark is a provisional source implementation of the selected concept, not a final legally cleared commercial identity. The only new shipping raster is a deterministic180px Apple icon rendered from the selected SVG; its embedded provenance and renderer are preserved. All page text/geometry remains real HTML/CSS/SVG.
+
+## Applied business learning
+
+[The operating guide](../strategy/STARTUP_AND_PRODUCT_PLAYBOOK.md) records ten primary author/publisher sources and practical adaptations. Public research/method and organization/collaboration flows now use problem-first discovery, evidence and stop gates, explicit responsibilities and feasibility before scope. The downloadable blank record is an aid, not completed research or customer evidence. Complete paid books were not accessed or copied; the library is curated, not exhaustive. Real interviews, outreach, contracts, funding and commercial commitments remain founder-controlled work.
+
+## Remaining work before any approved release
+
+- Review the full stack, content accuracy, provisional mark/name risks and actual availability. Obtain professional naming/trademark advice for Pakistan and prioritized commercial markets; no global clearance is claimed.
+- Keep the legacy failing Workers integration visible and separate from passing Engineering checks. It is not evidence that Cloudflare is the current platform. Do not change its settings as part of this frontend task.
+- PR6 security changes remain undeployed. Prior source-security residuals are unchanged: provider/origin/log verification, public www behavior, inline CSP allowances and ingress/durable abuse controls before any future active form.
+- Independently verify real project demos/maturity before stronger claims, and review mailbox/privacy/terms details with the founder.
+- Only after explicit merge/release approval, reconcile main and merge in dependency order, verify preview policy and plan production checks/rollback. Do not enable automation or release by implication.

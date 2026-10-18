@@ -1,0 +1,740 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-17T11:57:53.586Z",
+  "comp": ".impeccable/mocks/approved/open-register-desktop.png",
+  "warnings": [
+    "region header-rule: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region descriptor-rule: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region section-rule: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region canvas: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region canvas: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1440,
+    "height": 956
+  },
+  "aspect": 1.5063,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#181818",
+      "coverage": 0.9621
+    },
+    {
+      "hex": "#b8d8a8",
+      "coverage": 0.0146
+    },
+    {
+      "hex": "#e6f4e6",
+      "coverage": 0.011
+    },
+    {
+      "hex": "#496361",
+      "coverage": 0.0095
+    },
+    {
+      "hex": "#7a8686",
+      "coverage": 0.0029
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0471,
+      "strength": 0.3446
+    },
+    {
+      "y": 0.4118,
+      "strength": 0.2061
+    },
+    {
+      "y": 0.6353,
+      "strength": 0.2766
+    },
+    {
+      "y": 0.6706,
+      "strength": 0.2327
+    },
+    {
+      "y": 0.7882,
+      "strength": 0.2359
+    },
+    {
+      "y": 0.8353,
+      "strength": 0.2707
+    }
+  ],
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "chrome",
+      "note": "Full-name wordmark and countable open-frame SVG mark in the header.",
+      "grid": null,
+      "box": {
+        "x": 0.0806,
+        "y": 0.0272,
+        "w": 0.1875,
+        "h": 0.0523
+      },
+      "px": {
+        "x": 116,
+        "y": 26,
+        "w": 270,
+        "h": 50
+      },
+      "aspect": 5.4,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.8798
+        },
+        {
+          "hex": "#e8f7e8",
+          "coverage": 0.0886
+        },
+        {
+          "hex": "#bbc4be",
+          "coverage": 0.0151
+        },
+        {
+          "hex": "#687772",
+          "coverage": 0.0085
+        },
+        {
+          "hex": "#3b4941",
+          "coverage": 0.0079
+        }
+      ],
+      "detail": {
+        "energy": 34.171
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "note": "Six functional navigation links in an aligned header row.",
+      "grid": null,
+      "box": {
+        "x": 0.5632,
+        "y": 0.0241,
+        "w": 0.3569,
+        "h": 0.0565
+      },
+      "px": {
+        "x": 811,
+        "y": 23,
+        "w": 514,
+        "h": 54
+      },
+      "aspect": 9.5185,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9511
+        },
+        {
+          "hex": "#d3ddd5",
+          "coverage": 0.022
+        },
+        {
+          "hex": "#6b7271",
+          "coverage": 0.0097
+        },
+        {
+          "hex": "#9ba3a1",
+          "coverage": 0.0094
+        },
+        {
+          "hex": "#3b4846",
+          "coverage": 0.0078
+        }
+      ],
+      "detail": {
+        "energy": 18.639
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "descriptor",
+      "kind": "text",
+      "note": "Technology research and product development descriptor.",
+      "grid": null,
+      "box": {
+        "x": 0.0806,
+        "y": 0.1182,
+        "w": 0.3889,
+        "h": 0.0335
+      },
+      "px": {
+        "x": 116,
+        "y": 113,
+        "w": 560,
+        "h": 32
+      },
+      "aspect": 17.5,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9201
+        },
+        {
+          "hex": "#a0b3b1",
+          "coverage": 0.0278
+        },
+        {
+          "hex": "#344443",
+          "coverage": 0.0234
+        },
+        {
+          "hex": "#7a8c8a",
+          "coverage": 0.0185
+        },
+        {
+          "hex": "#4e665d",
+          "coverage": 0.0102
+        }
+      ],
+      "detail": {
+        "energy": 13.605
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 35,
+          "capHeightPx": 11.3,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6186,
+          "advTall": 0.5597,
+          "advX": 0.6186,
+          "gap": 0.1031,
+          "xRatio": 0.7468,
+          "stemW": 0.1599,
+          "contrast": 1.1165,
+          "serif": 0.2801,
+          "densTall": 0.5255,
+          "densX": 0.5297,
+          "weight": 0.5255
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Upright Literata research-to-usefulness headline; two semantic color spans.",
+      "grid": null,
+      "box": {
+        "x": 0.0799,
+        "y": 0.249,
+        "w": 0.5,
+        "h": 0.3295
+      },
+      "px": {
+        "x": 115,
+        "y": 238,
+        "w": 720,
+        "h": 315
+      },
+      "aspect": 2.2857,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9027
+        },
+        {
+          "hex": "#b6d6a6",
+          "coverage": 0.0444
+        },
+        {
+          "hex": "#e7f6e7",
+          "coverage": 0.0382
+        },
+        {
+          "hex": "#49594f",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#21342e",
+          "coverage": 0.0057
+        }
+      ],
+      "detail": {
+        "energy": 38.7641
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 4,
+          "glyphs": 37,
+          "capHeightPx": 55.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5556,
+          "advTall": 0.6026,
+          "advX": 0.5524,
+          "gap": 0.0713,
+          "xRatio": 0.6824,
+          "stemW": 0.1231,
+          "contrast": 2.9783,
+          "serif": 1.4514,
+          "densTall": 0.3377,
+          "densX": 0.3634,
+          "weight": 0.3377
+        },
+        "widthClass": "condensed",
+        "weightClass": "light",
+        "chosen": {
+          "family": "Playfair Display",
+          "weight": 400,
+          "fontSizePx": 79,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "d8d93a1c1b53"
+        }
+      }
+    },
+    {
+      "id": "purpose",
+      "kind": "text",
+      "note": "Concise founder-led purpose paragraph, Schibsted body text.",
+      "grid": null,
+      "box": {
+        "x": 0.0806,
+        "y": 0.6036,
+        "w": 0.4896,
+        "h": 0.0837
+      },
+      "px": {
+        "x": 116,
+        "y": 577,
+        "w": 705,
+        "h": 80
+      },
+      "aspect": 8.8125,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9039
+        },
+        {
+          "hex": "#e4efe5",
+          "coverage": 0.0395
+        },
+        {
+          "hex": "#b9c4bd",
+          "coverage": 0.023
+        },
+        {
+          "hex": "#8c9895",
+          "coverage": 0.0217
+        },
+        {
+          "hex": "#374341",
+          "coverage": 0.0118
+        }
+      ],
+      "detail": {
+        "energy": 32.1334
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 88,
+          "capHeightPx": 14.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6198,
+          "advTall": 0.402,
+          "advX": 0.67,
+          "gap": 0.134,
+          "xRatio": 0.7264,
+          "stemW": 0.1551,
+          "contrast": 1.0743,
+          "serif": 0.832,
+          "densTall": 0.511,
+          "densX": 0.5452,
+          "weight": 0.511
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "stage",
+      "kind": "text",
+      "note": "Founder and honest formation-stage statement.",
+      "grid": null,
+      "box": {
+        "x": 0.0806,
+        "y": 0.7029,
+        "w": 0.4306,
+        "h": 0.0502
+      },
+      "px": {
+        "x": 116,
+        "y": 672,
+        "w": 620,
+        "h": 48
+      },
+      "aspect": 12.9167,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9007
+        },
+        {
+          "hex": "#95aaa5",
+          "coverage": 0.0433
+        },
+        {
+          "hex": "#2d3d3d",
+          "coverage": 0.0369
+        },
+        {
+          "hex": "#687c78",
+          "coverage": 0.0169
+        },
+        {
+          "hex": "#435d4d",
+          "coverage": 0.0021
+        }
+      ],
+      "detail": {
+        "energy": 19.8918
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 49,
+          "capHeightPx": 11.3,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.619,
+          "advTall": 0.619,
+          "advX": 0.619,
+          "gap": 0.0884,
+          "xRatio": 0.7473,
+          "stemW": 0.1588,
+          "contrast": 1.1138,
+          "serif": 0.2847,
+          "densTall": 0.5259,
+          "densX": 0.5886,
+          "weight": 0.5259
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "actions",
+      "kind": "control",
+      "note": "Separate collaboration and organization actions, never rasterized text.",
+      "grid": null,
+      "box": {
+        "x": 0.0806,
+        "y": 0.7803,
+        "w": 0.3819,
+        "h": 0.0628
+      },
+      "px": {
+        "x": 116,
+        "y": 746,
+        "w": 550,
+        "h": 60
+      },
+      "aspect": 9.1667,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.5636
+        },
+        {
+          "hex": "#b8d8a8",
+          "coverage": 0.3649
+        },
+        {
+          "hex": "#4a6867",
+          "coverage": 0.0479
+        },
+        {
+          "hex": "#e3f1e5",
+          "coverage": 0.0127
+        },
+        {
+          "hex": "#304238",
+          "coverage": 0.0108
+        }
+      ],
+      "detail": {
+        "energy": 28.3497
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "method",
+      "kind": "text",
+      "note": "Eight actual intended process steps, plus evidence and stop caveat; semantic ordered list.",
+      "grid": null,
+      "box": {
+        "x": 0.6653,
+        "y": 0.2573,
+        "w": 0.2569,
+        "h": 0.4812
+      },
+      "px": {
+        "x": 958,
+        "y": 246,
+        "w": 370,
+        "h": 460
+      },
+      "aspect": 0.8043,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9532
+        },
+        {
+          "hex": "#aab5b2",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#dfeae1",
+          "coverage": 0.015
+        },
+        {
+          "hex": "#616f6e",
+          "coverage": 0.0097
+        },
+        {
+          "hex": "#334340",
+          "coverage": 0.007
+        }
+      ],
+      "detail": {
+        "energy": 17.4743
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "header-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.1056,
+        "w": 1,
+        "h": 0.0021
+      },
+      "px": {
+        "x": 0,
+        "y": 101,
+        "w": 1440,
+        "h": 2
+      },
+      "aspect": 720,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 31.491
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "descriptor-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0.05,
+        "y": 0.1632,
+        "w": 0.9,
+        "h": 0.0021
+      },
+      "px": {
+        "x": 72,
+        "y": 156,
+        "w": 1296,
+        "h": 2
+      },
+      "aspect": 648,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 31.491
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "section-rule",
+      "kind": "chrome",
+      "note": "Straight editorial divider separating the neighboring content areas.",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0.05,
+        "y": 0.9195,
+        "w": 0.9,
+        "h": 0.0021
+      },
+      "px": {
+        "x": 72,
+        "y": 879,
+        "w": 1296,
+        "h": 2
+      },
+      "aspect": 648,
+      "palette": [
+        {
+          "hex": "#486868",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 31.473
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "canvas",
+      "kind": "chrome",
+      "note": "Single flat pine page ground including the intentional marginal spacing; every foreground content element is mapped separately.",
+      "grid": null,
+      "codeDrawn": true,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 956
+      },
+      "aspect": 1.5063,
+      "palette": [
+        {
+          "hex": "#181818",
+          "coverage": 0.9621
+        },
+        {
+          "hex": "#b8d8a8",
+          "coverage": 0.0146
+        },
+        {
+          "hex": "#e6f4e6",
+          "coverage": 0.011
+        },
+        {
+          "hex": "#496361",
+          "coverage": 0.0095
+        },
+        {
+          "hex": "#7a8686",
+          "coverage": 0.0029
+        }
+      ],
+      "detail": {
+        "energy": 14.353
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      }
+    }
+  ],
+  "compSha256": "58ada442c1517e6751102630a0527ddb3bb74e08ae4f8057b635079be9f19042",
+  "regionsSource": {
+    "path": "docs/frontend-implementation/REGIONS.json",
+    "sha256": "661f8fa37cbe4fb8364455fcd7c0aadaa3a0cc0ece561d1626160334e86bd82c"
+  }
+}

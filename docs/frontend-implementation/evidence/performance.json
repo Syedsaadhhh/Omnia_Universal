@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-18T10:53:58.139Z",
+  "source": "Open Register F3 source; see checkpoint commit",
+  "method": {
+    "url": "http://127.0.0.1:3101/",
+    "viewport": "390x844",
+    "runsPerMotion": 3,
+    "CPU": "4x slowdown",
+    "network": "150ms latency, 1.6Mbps down, 750kbps up",
+    "cache": "disabled, fresh context each sample",
+    "browser": "system Chromium",
+    "limitations": "Local origin; limited observation window; no user interactions, INP or field p75. Concurrent cloud load affects timings. Not Lighthouse or a complete performance audit."
+  },
+  "samples": [
+    {
+      "run": 1,
+      "motion": "no-preference",
+      "lcpMs": 820,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        165,
+        201
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 820
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 820
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    },
+    {
+      "run": 2,
+      "motion": "no-preference",
+      "lcpMs": 612,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        72,
+        196
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 612
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 612
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    },
+    {
+      "run": 3,
+      "motion": "no-preference",
+      "lcpMs": 660,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        76,
+        187
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 660
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 660
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    },
+    {
+      "run": 1,
+      "motion": "reduce",
+      "lcpMs": 652,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        77,
+        206
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 652
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 652
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    },
+    {
+      "run": 2,
+      "motion": "reduce",
+      "lcpMs": 644,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        73,
+        207
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 644
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 644
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    },
+    {
+      "run": 3,
+      "motion": "reduce",
+      "lcpMs": 668,
+      "lcpElement": "H1",
+      "cls": 0.0017390453597524419,
+      "longTasks": [
+        65,
+        189
+      ],
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 668
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 668
+        }
+      ],
+      "encodedScriptBytes": 139715,
+      "domElements": 229,
+      "runningCSSAnimations": 0,
+      "canvas": 0
+    }
+  ],
+  "summary": [
+    {
+      "motion": "no-preference",
+      "medianLcpMs": 660,
+      "medianCls": 0.0017390453597524419,
+      "medianScriptBytes": 139715
+    },
+    {
+      "motion": "reduce",
+      "medianLcpMs": 652,
+      "medianCls": 0.0017390453597524419,
+      "medianScriptBytes": 139715
+    }
+  ]
+}

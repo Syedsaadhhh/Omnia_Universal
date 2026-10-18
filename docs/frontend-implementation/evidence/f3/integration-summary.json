@@ -1,0 +1,12 @@
+{
+  "source": "test-results/integration.json; final run before usage pause",
+  "stats": {
+    "startTime": "2026-10-17T12:11:16.832Z",
+    "duration": 118459.224,
+    "expected": 114,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "errors": []
+}
