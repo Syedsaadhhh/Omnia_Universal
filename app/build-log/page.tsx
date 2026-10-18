@@ -56,8 +56,8 @@ export default function UpdatesPage() {
                 The audit, security foundation and research-led website were
                 released together through the linked change. Engineering checks
                 and a Vercel preview passed before release. The legacy Cloudflare
-                Workers check still fails, and the www hostname needs separate
-                DNS correction.
+                Workers check still fails. The www hostname now redirects to
+                the main domain after its DNS correction was verified.
               </p>
             </div>
             <a
