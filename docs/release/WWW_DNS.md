@@ -1,0 +1,9 @@
+# `www.omniaseclabs.com` DNS correction
+
+Verified 18 October 2026. The apex `omniaseclabs.com` is live on Vercel. The authoritative DNS for this domain is external to Vercel, on `ns1.hosting.businessidentity.llc` and `ns2.hosting.businessidentity.llc`. Vercel's configuration check reports `www` as misconfigured: it has an A record to `66.223.49.89`, no CNAME, and public HTTPS requests return 503.
+
+With the owner's approval, `www.omniaseclabs.com` has been added to the existing Vercel project as a **308 redirect to `omniaseclabs.com`**. Vercel reports the project-domain association as verified. This association alone does not change the external DNS record or fix public traffic.
+
+The remaining action is at the current external DNS host: remove only the `www` A record to `66.223.49.89` and create a `www` CNAME to `c60ac4e8c8c23db1.vercel-dns-017.com.` (Vercel's first-ranked project-specific target on 18 October). Do not change the apex A record, MX/TXT records, email routing, or nameservers. No authenticated tool for this DNS host is connected in the workspace, so this external record change was not performed here.
+
+After DNS propagates, verify that the Vercel domain configuration reports `misconfigured: false`, and that `https://www.omniaseclabs.com/projects?source=check` returns HTTP 308 with `Location: https://omniaseclabs.com/projects?source=check`. Check TLS and both desktop/mobile entry points. The Next.js application also has an apex redirect for requests arriving with the `www` host, but it cannot act until DNS and TLS route that host to Vercel.

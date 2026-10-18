@@ -4,18 +4,18 @@ import Link from "next/link";
 export const metadata = pageMetadata(
   "/build-log/security-foundation",
   "Engineering foundation checkpoint",
-  "A dated engineering record of the draft security foundation: dependency remediation, deterministic builds, closed contact API and regression evidence.",
+  "A dated engineering record of the security foundation: dependency remediation, deterministic builds, closed contact API and regression evidence.",
 );
 export default function EngineeringRecord() {
   return (
     <ReadPage
       title="The engineering foundation checkpoint."
-      description="16 October 2026 · Engineering record · Source changes under review, not a production-release announcement."
+      description="16 October 2026 · Engineering checkpoint, later included in the 18 October website release."
     >
       <h2>What changed in the source</h2>
       <p>
         <a href="https://github.com/Syedsaadhhh/Omnia_Universal/pull/6">
-          Draft PR #6
+          PR #6
         </a>{" "}
         records dependency remediation, a committed lockfile, deterministic
         container builds, automated engineering checks, safer request parsing,
@@ -24,6 +24,14 @@ export default function EngineeringRecord() {
       <p>
         The unused email provider was removed. The contact API remains closed
         for delivery, and the public contact path uses direct email links.
+      </p>
+      <p>
+        This was a source checkpoint on 16 October. The reviewed foundation
+        reached the live website through the{" "}
+        <a href="https://github.com/Syedsaadhhh/Omnia_Universal/pull/10">
+          18 October release
+        </a>
+        . The test counts below belong to the earlier checkpoint.
       </p>
       <h2>What was checked</h2>
       <p>
@@ -39,10 +47,10 @@ export default function EngineeringRecord() {
       <h2>What remains uncertain</h2>
       <p>
         A legacy Cloudflare Workers GitHub integration check was failing at this
-        checkpoint; Vercel is the current website host. Production remained on the earlier main baseline; source
-        fixes were not deployed fixes. Provider, domain and release checks still
-        require review. The current status belongs to the linked PR and
-        deployment records, not this dated note.
+        checkpoint; Vercel is the current website host. At that time,
+        production still served the earlier main baseline. The later release
+        does not resolve provider and domain verification, future ingress
+        controls, or the legacy Workers integration.
       </p>
       <h2>Why keep a record?</h2>
       <p>

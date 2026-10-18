@@ -512,6 +512,18 @@ test("www redirects to the fixed apex locally and keeps the query", async ({
   );
 });
 
+test("Updates shortcut and release status agree with production history", async ({ request }) => {
+  const response = await request.get("/updates", { maxRedirects: 0 });
+  expect(response.status()).toBe(308);
+  expect(response.headers().location).toBe("/build-log");
+  const page = await request.get("/updates");
+  expect(page.status()).toBe(200);
+  expect(await page.text()).toContain("Open Register website released");
+  const home = await request.get("/");
+  expect(await home.text()).toContain("The engineering foundation and website release");
+  expect(await home.text()).not.toContain("source improvements are not deployed");
+});
+
 test("selected fonts actually render glyphs rather than merely preload", async ({
   page,
 }) => {

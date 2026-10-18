@@ -11,6 +11,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/updates",
+        destination: "/build-log",
+        permanent: true,
+      },
+      {
         source: "/:path*",
         has: [{ type: "host", value: "www.omniaseclabs.com" }],
         destination: "https://omniaseclabs.com/:path*",
