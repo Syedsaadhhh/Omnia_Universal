@@ -20,9 +20,9 @@ Updated 18 October 2026 UTC. **A — Open Register is selected and implemented i
 | Discovery | 3526b2f and ee6e6f6; feat/impeccable-frontend-reconstruction local lineage preserved |
 | F1 foundation | bc30f22 compiler, 2108263644b6fffd105def981fbb06776f9ddb00 shell; [PR #7](https://github.com/Syedsaadhhh/Omnia_Universal/pull/7), fix/frontend-open-register-foundation; base PR #6 branch |
 | F2 experience | 72a5ced570fa898fe374761a8224ad1fd9996566; [PR #8](https://github.com/Syedsaadhhh/Omnia_Universal/pull/8), fix/frontend-open-register-experience; base F1 |
-| Current F3 quality | Source commit b636923; fix/frontend-open-register-quality; base F2; supporting pages, font/reflow/SEO corrections and expanded acceptance coverage. Publication/hosted-check record follows below when available. |
+| Current F3 quality | Source commit b636923040ecfd2d363cce77da0ca54dc6b54355; review record d13ce66; [PR #9](https://github.com/Syedsaadhhh/Omnia_Universal/pull/9), fix/frontend-open-register-quality; base F2. |
 
-Exact frontend branches are disabled in Vercel source deployment configuration before publication. Prior owner-confirmed fix/* non-production scope was preserved; no provider settings were changed. A draft PR alone was not relied on for build isolation. Original main and security remote refs were rechecked unchanged.
+All five review PRs (#5–#9) are published as drafts. Exact frontend branches are disabled in Vercel source deployment configuration before publication. Prior owner-confirmed fix/* non-production scope was preserved; no provider settings were changed. A draft PR alone was not relied on for build isolation. Original main and security remote refs were rechecked unchanged.
 
 ## Completed implementation
 
@@ -41,6 +41,7 @@ Exact frontend branches are disabled in Vercel source deployment configuration b
 - Real defects found and corrected: font files preloaded but rendered fallback because variable classes were below :root; move classes to html and add platform-font glyph regression. With real fonts, min-content grid tracks overflowed320px at200%text; use shrinking grid tracks/children and word wrapping rather than clipping/weakening tests. Early defect evidence is kept separately.
 - Clean `npm ci --ignore-scripts --no-audit --no-fund` preserves lock SHA256; no lifecycle scripts. Dependency audit 0. Bounded credential-pattern check and final hosted CI are recorded at publication.
 - Fonts: 86,644 compressed bytes (~85KiB) versus roughly 229 KiB study. Same local throttling profile measured median LCP 660 ms / 652 ms normal/reduced, CLS≈0.00174, encoded scripts 139,715 bytes versus baseline 146,515. Different cloud sessions, limited observations; no field p75/INP, Lighthouse score or production-performance guarantee. See PERFORMANCE.md.
+- F3 hosted Engineering checks [passed](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/39121691525) at tested review head d13ce660938995eaba7e66a79182e98d8cac140b (application source b636923). This includes 48 unit/114 integration tests, dependency/credential checks and the pinned container build/runtime smoke. Subsequent checkpoint-only commits do not alter application source; verify the latest head at [PR #9 checks](https://github.com/Syedsaadhhh/Omnia_Universal/pull/9/checks) before release. Evidence: evidence/f3/engineering-ci-d13ce66.json, hosted-test-summary.txt and pr9-checks.json.
 - F1 hosted Engineering checks [passed](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/39030886891); F2 [passed](https://github.com/Syedsaadhhh/Omnia_Universal/actions/runs/39031049802). Legacy Workers failure is separate. Source quality is not a claim that all GitHub checks are green.
 
 ## Impeccable and review truth
@@ -53,16 +54,18 @@ Formal comp engine remains **plates open**, later phases pending; no hero/final 
 
 ## Remaining risks / pending approval
 
-- **Release approval required** before merging any audit/security/frontend PR or deploying. Production still main@9cc1399, deployment dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4 READY in latest authenticated read-only snapshot. Recheck after publication; no source improvement is described as deployed.
+- **Release approval required** before merging any audit/security/frontend PR or deploying. Production still main@9cc1399, deployment dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4 READY in latest authenticated read-only snapshot. Authenticated post-publication deployment list on 18 October still shows that baseline and no frontend preview. No source improvement is described as deployed.
 - Legacy Workers integration settings remain unchanged. Vercel is current host. No Cloudflare technology is added or required by this frontend work.
 - Public www/domain/provider/origin/log/mailbox retention checks need production/provider verification; no settings/DNS changed. PR #6 inline CSP and future ingress/durable abuse-control residuals remain; activating forms is out of scope.
 - Full assistive-technology/physical-device testing, field performance/INP and professional trademark/legal review remain. WCAG 2.2 AA is the target, not certification. Existing project maturity/demo behavior is not validated by a repository link or HEAD response.
 - One bounded HEAD check of five historical demo URLs returned four 200 responses and a ReproForge/Render timeout. This does not establish brokenness or maintained behavior; keep its source/history and disclose unverified availability.
 - Review actual content/capacity and provisional identity. No automatic rename, final trademark assertion, invented commercial readiness or broad research-publication claim.
 
-## Next exact actions
+## Recovery and next exact actions
 
-1. Documentation and scoped verdict are complete; retain the open formal-engine limitation in every release handoff.
-2. Stage final quality source/evidence; run bounded credential/diff checks; confirm exact Vercel skip; commit on fix/frontend-open-register-quality and open a documentation-rich draft PR based on fix/frontend-open-register-experience.
-3. Wait for hosted Engineering checks (including container build/runtime). Fix actual failures; keep legacy Workers status separate. Record PR/head/CI links here and recheck production/latest deployments read-only.
-4. Create a portable source bundle/review export in /workspace for interruption recovery. Leave a clean worktree and stop for owner review, with no merge or release.
+The complete source/history bundle, committed-tree ZIP and full local browser-evidence ZIP are exported to /workspace/omniasec-open-register-checkpoint-2026-10-18/ with RESTORE.md. Git bundle verification and checksums accompany the export. Generated local authoring session state is intentionally ignored; its phase snapshot (runtime session identifier omitted) is preserved in evidence/f3/impeccable-build-state.json. Do not mistake that snapshot for a completed gate or a live restored tool session.
+
+1. **Owner review:** inspect draft PRs #5–#9 in dependency order, the screenshot packet and docs/frontend-implementation/CHECKPOINT.md. Review content/current capacity and provisional identity/name risks. No merge or production approval is implied.
+2. Verify latest-head Engineering status at PR9/checks; the last recorded full source run passed. Keep the independent legacy Workers failure visible. A later checkpoint-only commit may trigger the same workflow; do not call all checks green.
+3. If changes are requested, use a feature branch stacked on the relevant reviewed layer, preserve PR6 safeguards and run targeted plus required checks. Do not activate forms or add services from an internal business framework without a real requirement.
+4. Only after explicit release approval, reconcile upstream, merge in order and agree on deployment/verification/rollback. Public www/provider/log/mailbox and real-user performance checks remain release work, not actions performed here.

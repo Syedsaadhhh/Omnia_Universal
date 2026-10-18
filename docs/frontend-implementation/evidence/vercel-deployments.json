@@ -1,6 +1,6 @@
 {
-  "verifiedAt": "2026-10-17T12:12:16.174Z",
-  "scope": "Authenticated read-only Vercel deployment list; no settings changed",
+  "verifiedAt": "2026-10-18T11:06:34.279Z",
+  "scope": "Authenticated read-only Vercel deployment list after PR9 publication; no settings changed",
   "deployments": [
     {
       "id": "dpl_5T37XeFrffznPKj9UKiffruEaHnB",
@@ -43,5 +43,5 @@
       "commit": "8dfb1d43a2eca90c15241d7d4a3c0669d2c260d7"
     }
   ],
-  "interpretation": "Production remains main@9cc1399. Latest preview predates frontend branches; no frontend previews listed. Owner clarifies Cloudflare historical/future, not current platform."
+  "interpretation": "Production remains main@9cc1399. Latest preview predates frontend branches; no frontend previews listed. Vercel current host; Cloudflare historical/future per owner."
 }
