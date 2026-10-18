@@ -17,8 +17,8 @@ Updated 18 October 2026 UTC, after the approved Open Register release. This is t
 | Security and frontend review branches | [PRs #6–#9](https://github.com/Syedsaadhhh/Omnia_Universal/pulls?q=is%3Apr+is%3Aclosed); closed as superseded after their commits entered main through PR #10; remote branches/history retained |
 | Integrated release | [PR #10](https://github.com/Syedsaadhhh/Omnia_Universal/pull/10), source head `bcda70301dbf7850a6d5a5ca834d442732333cb4`, main merge `e7b5d475686aa65aa05f4dcbeddb421d70dc000b` |
 | Release copy and `/updates` correction | [PR #11](https://github.com/Syedsaadhhh/Omnia_Universal/pull/11), source `1b28b1726d546bfd101df2c3c49a1c00910b8430`, main merge `93fe6e36caf69f480e0b0a4170c600b4b763a4e6` |
-| Current production | Vercel deployment `dpl_6i6ev8mrL8gzUypE4r4U43ypfUd5`, READY, apex alias attached, built from main `93fe6e3` |
-| Current working branch | `fix/release-state-checkpoint-2026-10-18`, based on main `93fe6e3`; documentation-only checkpoint in progress |
+| Last application-code deployment | Vercel deployment `dpl_6i6ev8mrL8gzUypE4r4U43ypfUd5`, READY with apex alias, built from main `93fe6e3`; a later documentation-only main deployment can supersede its ID without changing application code |
+| This documentation checkpoint | [PR #12](https://github.com/Syedsaadhhh/Omnia_Universal/pull/12), branch `fix/release-state-checkpoint-2026-10-18`, based on main `93fe6e3` |
 
 The audit, security and frontend source was merged as **one integration PR**, avoiding intermediate partial production deployments. Vercel production rebuilt the integrated release from main and rebuilt PR #11 after its verified correction. The released Vercel build log shows `npm ci --ignore-scripts --no-audit --no-fund`; the health API identifies `omniasec-labs`. The Vercel project retains its older internal name, but the public identity and canonical domain are Omniasec Labs.
 
@@ -45,6 +45,6 @@ The audit, security and frontend source was merged as **one integration PR**, av
 
 ## Next session
 
-1. Check the final state of the documentation-only checkpoint PR created from this branch. Verify the apex still serves the latest main deployment.
+1. Confirm the apex still serves the latest main deployment after any documentation-only rebuild; inspect `/`, `/updates` and `/api/health` with bounded GET requests.
 2. Obtain access to the external DNS host or have its administrator perform the exact approved `www` record change in `docs/release/WWW_DNS.md`; then verify DNS/TLS/redirect and update this file with evidence. Do not claim `www` fixed until public verification passes.
 3. Decide with the founder whether to repair or remove the obsolete Cloudflare check. Do not silently disable it. Review legal naming, project evidence, field performance, and provider privacy/security operations as separate, evidence-based work.
