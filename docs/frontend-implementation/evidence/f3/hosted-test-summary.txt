@@ -1,0 +1,4 @@
+verify	Dependency advisories	2026-10-18T11:03:48.4819805Z found 0 vulnerabilities
+verify	Unit regressions	2026-10-18T11:03:50.1678793Z ℹ tests 48
+verify	Unit regressions	2026-10-18T11:03:50.1679642Z ℹ pass 48
+verify	Production HTTP, keyboard, metadata, CSP and accessibility regressions	2026-10-18T11:05:24.6052141Z   114 passed (1.1m)

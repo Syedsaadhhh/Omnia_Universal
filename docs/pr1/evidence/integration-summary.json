@@ -1,0 +1,442 @@
+{
+  "stats": {
+    "startTime": "2026-10-16T00:10:54.812Z",
+    "duration": 41972.607,
+    "expected": 39,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "errors": [],
+  "tests": [
+    {
+      "title": "closed mobile menu is absent from tab order; Escape restores toggle focus",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 982,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "menu route changes, same-route click and desktop resize close navigation",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1138,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "WCAG automated regression sample at 1440px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 4679,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "WCAG automated regression sample at 390px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3606,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "project filters still hydrate and announce count",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1269,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "contact and privacy describe the same mailto-only flow",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 768,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "production CSP reaches HTTP clients and blocks inline event handlers",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 997,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "robots, sitemap, OG image and missing route have expected HTTP behavior",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 119,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "real HTTP contact contract rejects unsafe input and cannot send",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 77,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/ renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 2149,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/projects renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 820,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/research renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 725,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/about renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 715,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/build-log renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 715,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/contact renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1088,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/security renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 875,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/privacy renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1122,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/terms renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 773,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/gns3-agent renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 772,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/ renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1662,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/projects renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 832,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/research renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 765,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/about renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 745,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/build-log renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 724,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/contact renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 974,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/security renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 706,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/privacy renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 954,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/terms renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 755,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/gns3-agent renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 790,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/ renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1192,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/projects renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 718,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/research renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 591,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/about renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 698,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/build-log renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 681,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/contact renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 860,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/security renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 636,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/privacy renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 838,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/terms renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 598,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "/gns3-agent renders with correct metadata and internal targets",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 704,
+          "retry": 0
+        }
+      ]
+    }
+  ]
+}

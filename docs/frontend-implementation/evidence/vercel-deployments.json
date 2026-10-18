@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-10-18T11:06:34.279Z",
+  "scope": "Authenticated read-only Vercel deployment list after PR9 publication; no settings changed",
+  "deployments": [
+    {
+      "id": "dpl_5T37XeFrffznPKj9UKiffruEaHnB",
+      "state": "READY",
+      "target": null,
+      "created": 1792109131356,
+      "branch": "fix/security-engineering-foundation",
+      "commit": "86029e025642842b3ae672030ee8a745ffb6faee"
+    },
+    {
+      "id": "dpl_QssxtdBj5d6pn76fHhHU9mysQRVM",
+      "state": "READY",
+      "target": null,
+      "created": 1792108670898,
+      "branch": "audit/cloud-baseline-2026-10-15",
+      "commit": "ab3068b17c764e35a386b7f5b8ed868183093f3f"
+    },
+    {
+      "id": "dpl_8RmUj4RirHa6JEiuoY5gZStoZFr4",
+      "state": "READY",
+      "target": "production",
+      "created": 1790796733754,
+      "branch": "main",
+      "commit": "9cc1399fb1ca9642d5f91c898e0f533e85aae5fc"
+    },
+    {
+      "id": "dpl_GCTWmpEuefzWpaq1WYxnLCzyf4dC",
+      "state": "READY",
+      "target": "production",
+      "created": 1790796716007,
+      "branch": "main",
+      "commit": "4113ef3a84d52db80d0645ec0b7dad9d6fbcf185"
+    },
+    {
+      "id": "dpl_CfSXxv1LYx3rX54NSiNZVtFNcQ1D",
+      "state": "READY",
+      "target": "production",
+      "created": 1789505578343,
+      "branch": "main",
+      "commit": "8dfb1d43a2eca90c15241d7d4a3c0669d2c260d7"
+    }
+  ],
+  "interpretation": "Production remains main@9cc1399. Latest preview predates frontend branches; no frontend previews listed. Vercel current host; Cloudflare historical/future per owner."
+}

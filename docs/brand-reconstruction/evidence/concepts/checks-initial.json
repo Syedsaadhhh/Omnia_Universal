@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-16T00:58:11.519Z",
+  "method": "Chromium, local static studies; all six documents at 1440/768/390/320, axe each viewport, reduced motion; not full WCAG conformance.",
+  "rows": [
+    {
+      "file": "a-open-register",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "b-working-assembly",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "c-common-ground",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "identity",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".a > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.72 (foreground color: #a5beb6, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".c > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #bac6ea, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "wireframes",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "index",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "a-open-register",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "b-working-assembly",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "c-common-ground",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "identity",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".a > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.72 (foreground color: #a5beb6, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".c > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #bac6ea, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "wireframes",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "index",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "a-open-register",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 390,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "b-working-assembly",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 390,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "c-common-ground",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 390,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "identity",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 390,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".a > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.72 (foreground color: #a5beb6, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".c > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #bac6ea, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "wireframes",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 461,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "index",
+      "width": 390,
+      "status": 200,
+      "scrollWidth": 390,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "a-open-register",
+      "interaction": "Escape closes menu and restores focus",
+      "closed": true,
+      "focused": true
+    },
+    {
+      "file": "b-working-assembly",
+      "interaction": "Escape closes menu and restores focus",
+      "closed": true,
+      "focused": true
+    },
+    {
+      "file": "c-common-ground",
+      "interaction": "Escape closes menu and restores focus",
+      "closed": true,
+      "focused": true
+    },
+    {
+      "file": "a-open-register",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "b-working-assembly",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "c-common-ground",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "identity",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".a > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.72 (foreground color: #a5beb6, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".c > .fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #bac6ea, background color: #edf0ef, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "file": "wireframes",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 432,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "file": "index",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "fontsLoaded": "loaded",
+      "brokenImages": [],
+      "missingFragments": [],
+      "h1": 1,
+      "animations": 0,
+      "axe": [],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "cross origin",
+    "status": 403,
+    "body": "{\"message\":\"Request origin was not accepted.\"}"
+  },
+  {
+    "name": "malformed JSON",
+    "status": 500,
+    "body": "{\"message\":\"Something went wrong while sending your message.\"}"
+  },
+  {
+    "name": "null JSON",
+    "status": 500,
+    "body": "{\"message\":\"Something went wrong while sending your message.\"}"
+  },
+  {
+    "name": "oversize 1MiB",
+    "status": 503,
+    "body": "{\"message\":\"The contact channel is not configured yet. Please email us directly.\"}"
+  }
+]

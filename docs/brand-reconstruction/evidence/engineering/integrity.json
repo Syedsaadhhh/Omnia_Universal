@@ -1,0 +1,25 @@
+{
+  "base": "c5d250040b1f8507b617d5d32593d23802fce567",
+  "branch": "feat/impeccable-frontend-reconstruction",
+  "applicationDiffBytes": 0,
+  "checkedPaths": [
+    "app",
+    "components",
+    "lib",
+    "styles",
+    "public",
+    "package.json",
+    "package-lock.json",
+    "tests",
+    "scripts",
+    ".github",
+    "Dockerfile",
+    "next.config.mjs",
+    "next.config.ts",
+    "vercel.json",
+    ".nvmrc",
+    ".dockerignore"
+  ],
+  "outsideDiscoveryScope": [],
+  "note": "No app, assets, dependencies, CI, security tests, container or deployment config changes; documentation and isolated review studies only."
+}

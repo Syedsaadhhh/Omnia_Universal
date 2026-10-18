@@ -1,0 +1,683 @@
+
+> omnia-sec-ai-labs@1.0.0 test:integration
+> playwright test
+
+[WebServer] (node:11546) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 39 tests using 1 worker
+
+(node:11558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 tests/integration/site.spec.ts:12:11 › 1440px › / renders with correct metadata and internal targets (2ms)
+(node:11570) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 tests/integration/site.spec.ts:12:11 › 1440px › /projects renders with correct metadata and internal targets (2ms)
+(node:11582) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 tests/integration/site.spec.ts:12:11 › 1440px › /research renders with correct metadata and internal targets (2ms)
+(node:11594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 tests/integration/site.spec.ts:12:11 › 1440px › /about renders with correct metadata and internal targets (2ms)
+(node:11606) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 tests/integration/site.spec.ts:12:11 › 1440px › /build-log renders with correct metadata and internal targets (1ms)
+(node:11618) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 tests/integration/site.spec.ts:12:11 › 1440px › /contact renders with correct metadata and internal targets (2ms)
+(node:11630) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 tests/integration/site.spec.ts:12:11 › 1440px › /security renders with correct metadata and internal targets (2ms)
+(node:11642) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 tests/integration/site.spec.ts:12:11 › 1440px › /privacy renders with correct metadata and internal targets (3ms)
+(node:11654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 tests/integration/site.spec.ts:12:11 › 1440px › /terms renders with correct metadata and internal targets (2ms)
+(node:11666) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 tests/integration/site.spec.ts:12:11 › 1440px › /gns3-agent renders with correct metadata and internal targets (2ms)
+(node:11678) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 tests/integration/site.spec.ts:12:11 › 768px › / renders with correct metadata and internal targets (2ms)
+(node:11690) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 tests/integration/site.spec.ts:12:11 › 768px › /projects renders with correct metadata and internal targets (2ms)
+(node:11702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 tests/integration/site.spec.ts:12:11 › 768px › /research renders with correct metadata and internal targets (2ms)
+(node:11714) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 tests/integration/site.spec.ts:12:11 › 768px › /about renders with correct metadata and internal targets (2ms)
+(node:11726) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 tests/integration/site.spec.ts:12:11 › 768px › /build-log renders with correct metadata and internal targets (2ms)
+(node:11738) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 tests/integration/site.spec.ts:12:11 › 768px › /contact renders with correct metadata and internal targets (2ms)
+(node:11750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  17 tests/integration/site.spec.ts:12:11 › 768px › /security renders with correct metadata and internal targets (2ms)
+(node:11771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  18 tests/integration/site.spec.ts:12:11 › 768px › /privacy renders with correct metadata and internal targets (2ms)
+(node:11783) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 tests/integration/site.spec.ts:12:11 › 768px › /terms renders with correct metadata and internal targets (2ms)
+(node:11795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  20 tests/integration/site.spec.ts:12:11 › 768px › /gns3-agent renders with correct metadata and internal targets (2ms)
+(node:11807) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  21 tests/integration/site.spec.ts:12:11 › 390px › / renders with correct metadata and internal targets (2ms)
+(node:11819) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 tests/integration/site.spec.ts:12:11 › 390px › /projects renders with correct metadata and internal targets (2ms)
+(node:11831) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  23 tests/integration/site.spec.ts:12:11 › 390px › /research renders with correct metadata and internal targets (2ms)
+(node:11843) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  24 tests/integration/site.spec.ts:12:11 › 390px › /about renders with correct metadata and internal targets (2ms)
+(node:11855) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  25 tests/integration/site.spec.ts:12:11 › 390px › /build-log renders with correct metadata and internal targets (2ms)
+(node:11867) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  26 tests/integration/site.spec.ts:12:11 › 390px › /contact renders with correct metadata and internal targets (1ms)
+(node:11879) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  27 tests/integration/site.spec.ts:12:11 › 390px › /security renders with correct metadata and internal targets (2ms)
+(node:11891) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  28 tests/integration/site.spec.ts:12:11 › 390px › /privacy renders with correct metadata and internal targets (2ms)
+(node:11903) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  29 tests/integration/site.spec.ts:12:11 › 390px › /terms renders with correct metadata and internal targets (2ms)
+(node:11915) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  30 tests/integration/site.spec.ts:12:11 › 390px › /gns3-agent renders with correct metadata and internal targets (2ms)
+(node:11927) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  31 tests/integration/site.spec.ts:36:5 › closed mobile menu is absent from tab order; Escape restores toggle focus (2ms)
+(node:11939) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  32 tests/integration/site.spec.ts:56:5 › menu route changes, same-route click and desktop resize close navigation (2ms)
+(node:11951) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  33 tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 1440px (2ms)
+(node:11963) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  34 tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 390px (2ms)
+(node:11975) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  35 tests/integration/site.spec.ts:86:5 › project filters still hydrate and announce count (2ms)
+(node:11987) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  36 tests/integration/site.spec.ts:95:5 › contact and privacy describe the same mailto-only flow (1ms)
+(node:11999) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  37 tests/integration/site.spec.ts:105:5 › production CSP reaches HTTP clients and blocks inline event handlers (2ms)
+(node:12011) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  38 tests/integration/site.spec.ts:123:5 › robots, sitemap, OG image and missing route have expected HTTP behavior (107ms)
+  ✓  39 tests/integration/site.spec.ts:139:5 › real HTTP contact contract rejects unsafe input and cannot send (86ms)
+
+
+  1) tests/integration/site.spec.ts:12:11 › 1440px › / renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-renders-with-c-4e132-tadata-and-internal-targets/error-context.md
+
+  2) tests/integration/site.spec.ts:12:11 › 1440px › /projects renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-projects-rende-38ea1-tadata-and-internal-targets/error-context.md
+
+  3) tests/integration/site.spec.ts:12:11 › 1440px › /research renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-research-rende-6786d-tadata-and-internal-targets/error-context.md
+
+  4) tests/integration/site.spec.ts:12:11 › 1440px › /about renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-about-renders--63185-tadata-and-internal-targets/error-context.md
+
+  5) tests/integration/site.spec.ts:12:11 › 1440px › /build-log renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-build-log-rend-c684d-tadata-and-internal-targets/error-context.md
+
+  6) tests/integration/site.spec.ts:12:11 › 1440px › /contact renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-contact-render-726b0-tadata-and-internal-targets/error-context.md
+
+  7) tests/integration/site.spec.ts:12:11 › 1440px › /security renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-security-rende-d3986-tadata-and-internal-targets/error-context.md
+
+  8) tests/integration/site.spec.ts:12:11 › 1440px › /privacy renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-privacy-render-6608d-tadata-and-internal-targets/error-context.md
+
+  9) tests/integration/site.spec.ts:12:11 › 1440px › /terms renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-terms-renders--6704a-tadata-and-internal-targets/error-context.md
+
+  10) tests/integration/site.spec.ts:12:11 › 1440px › /gns3-agent renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-1440px-gns3-agent-ren-5a73c-tadata-and-internal-targets/error-context.md
+
+  11) tests/integration/site.spec.ts:12:11 › 768px › / renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-renders-with-co-1c333-tadata-and-internal-targets/error-context.md
+
+  12) tests/integration/site.spec.ts:12:11 › 768px › /projects renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-projects-render-59e87-tadata-and-internal-targets/error-context.md
+
+  13) tests/integration/site.spec.ts:12:11 › 768px › /research renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-research-render-12254-tadata-and-internal-targets/error-context.md
+
+  14) tests/integration/site.spec.ts:12:11 › 768px › /about renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-about-renders-w-2cd62-tadata-and-internal-targets/error-context.md
+
+  15) tests/integration/site.spec.ts:12:11 › 768px › /build-log renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-build-log-rende-f8efa-tadata-and-internal-targets/error-context.md
+
+  16) tests/integration/site.spec.ts:12:11 › 768px › /contact renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-contact-renders-d1a50-tadata-and-internal-targets/error-context.md
+
+  17) tests/integration/site.spec.ts:12:11 › 768px › /security renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-security-render-edc4e-tadata-and-internal-targets/error-context.md
+
+  18) tests/integration/site.spec.ts:12:11 › 768px › /privacy renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-privacy-renders-301a7-tadata-and-internal-targets/error-context.md
+
+  19) tests/integration/site.spec.ts:12:11 › 768px › /terms renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-terms-renders-w-a95a3-tadata-and-internal-targets/error-context.md
+
+  20) tests/integration/site.spec.ts:12:11 › 768px › /gns3-agent renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-768px-gns3-agent-rend-bb9aa-tadata-and-internal-targets/error-context.md
+
+  21) tests/integration/site.spec.ts:12:11 › 390px › / renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-renders-with-co-120db-tadata-and-internal-targets/error-context.md
+
+  22) tests/integration/site.spec.ts:12:11 › 390px › /projects renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-projects-render-16535-tadata-and-internal-targets/error-context.md
+
+  23) tests/integration/site.spec.ts:12:11 › 390px › /research renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-research-render-f9ad0-tadata-and-internal-targets/error-context.md
+
+  24) tests/integration/site.spec.ts:12:11 › 390px › /about renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-about-renders-w-387e7-tadata-and-internal-targets/error-context.md
+
+  25) tests/integration/site.spec.ts:12:11 › 390px › /build-log renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-build-log-rende-e2ec3-tadata-and-internal-targets/error-context.md
+
+  26) tests/integration/site.spec.ts:12:11 › 390px › /contact renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-contact-renders-86ece-tadata-and-internal-targets/error-context.md
+
+  27) tests/integration/site.spec.ts:12:11 › 390px › /security renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-security-render-51bfb-tadata-and-internal-targets/error-context.md
+
+  28) tests/integration/site.spec.ts:12:11 › 390px › /privacy renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-privacy-renders-042c2-tadata-and-internal-targets/error-context.md
+
+  29) tests/integration/site.spec.ts:12:11 › 390px › /terms renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-terms-renders-w-0428f-tadata-and-internal-targets/error-context.md
+
+  30) tests/integration/site.spec.ts:12:11 › 390px › /gns3-agent renders with correct metadata and internal targets
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-390px-gns3-agent-rend-af1c6-tadata-and-internal-targets/error-context.md
+
+  31) tests/integration/site.spec.ts:36:5 › closed mobile menu is absent from tab order; Escape restores toggle focus
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-closed-mobile-menu-is-bf008-scape-restores-toggle-focus/error-context.md
+
+  32) tests/integration/site.spec.ts:56:5 › menu route changes, same-route click and desktop resize close navigation
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-menu-route-changes-sa-9a78f-top-resize-close-navigation/error-context.md
+
+  33) tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 1440px ─────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-WCAG-automated-regression-sample-at-1440px/error-context.md
+
+  34) tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 390px ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-WCAG-automated-regression-sample-at-390px/error-context.md
+
+  35) tests/integration/site.spec.ts:86:5 › project filters still hydrate and announce count ───────
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-project-filters-still-hydrate-and-announce-count/error-context.md
+
+  36) tests/integration/site.spec.ts:95:5 › contact and privacy describe the same mailto-only flow ─
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-contact-and-privacy-describe-the-same-mailto-only-flow/error-context.md
+
+  37) tests/integration/site.spec.ts:105:5 › production CSP reaches HTTP clients and blocks inline event handlers
+
+    Error: browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell
+    ╔════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just installed or updated.       ║
+    ║ Please run the following command to download new browsers: ║
+    ║                                                            ║
+    ║     npx playwright install                                 ║
+    ║                                                            ║
+    ║ <3 Playwright Team                                         ║
+    ╚════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/site-production-CSP-reache-c3165-locks-inline-event-handlers/error-context.md
+
+  37 failed
+    tests/integration/site.spec.ts:12:11 › 1440px › / renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /projects renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /research renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /about renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /build-log renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /contact renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /security renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /privacy renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /terms renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 1440px › /gns3-agent renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › / renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /projects renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /research renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /about renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /build-log renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /contact renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /security renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /privacy renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /terms renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 768px › /gns3-agent renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › / renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /projects renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /research renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /about renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /build-log renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /contact renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /security renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /privacy renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /terms renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:12:11 › 390px › /gns3-agent renders with correct metadata and internal targets
+    tests/integration/site.spec.ts:36:5 › closed mobile menu is absent from tab order; Escape restores toggle focus
+    tests/integration/site.spec.ts:56:5 › menu route changes, same-route click and desktop resize close navigation
+    tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 1440px ───────────────
+    tests/integration/site.spec.ts:76:7 › WCAG automated regression sample at 390px ────────────────
+    tests/integration/site.spec.ts:86:5 › project filters still hydrate and announce count ─────────
+    tests/integration/site.spec.ts:95:5 › contact and privacy describe the same mailto-only flow ───
+    tests/integration/site.spec.ts:105:5 › production CSP reaches HTTP clients and blocks inline event handlers
+  2 passed (17.8s)

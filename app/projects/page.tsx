@@ -1,44 +1,48 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { PageHero } from "@/components/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+import { Intro, Section, Action } from "@/components/ui";
 import { ProjectsGallery } from "@/components/ProjectsGallery";
-
-export const metadata: Metadata = {
-  title: "Projects",
-  description:
-    "Explore Omnia flagship products, public-interest hackathon builds, and resilient security tools with clear status, evidence, and links.",
-};
-
+export const metadata = pageMetadata(
+  "/projects",
+  "Work",
+  "Inspect historical prototypes, experiments and research concepts with original attribution, source links and explicit maturity limits.",
+);
 export default function ProjectsPage() {
   return (
     <>
-      <PageHero
-        eyebrow="PROJECTS / VERIFIED WORK"
-        title={<>Built in public.<br /><span>Judged by evidence.</span></>}
-        copy="A focused archive of flagship systems, public-interest hackathon work, and compact security tools—each clearly labeled by maturity, context, and proof."
-      />
-
-      <section className="section projects-gallery-section">
-        <div className="section-heading projects-gallery-heading">
-          <div>
-            <div className="section-kicker">01 / PROJECT INDEX</div>
-            <h2>Find the relevant build fast.</h2>
+      <Intro title="Useful work leaves evidence.">
+        <p>
+          A growing archive of research concepts, experiments and prototypes.
+          Follow the source, distinguish intent from tested capability, and keep
+          the original contributors in view.
+        </p>
+      </Intro>
+      <section className="or-section">
+        <div className="or-shell">
+          <div className="or-section-heading">
+            <h2>Examine the artifacts.</h2>
+            <p>
+              Artifact type is separate from readiness. Inclusion here does not
+              establish current maintenance, independent validation, commercial
+              availability or customer use.
+            </p>
           </div>
-          <p>Filter by strategic role, then open the strongest available artifact: a live demo, a product architecture, a case study, or source code.</p>
-        </div>
-        <ProjectsGallery />
-      </section>
-
-      <section className="section projects-contact-section">
-        <div className="wide-cta">
-          <div>
-            <span>COLLABORATE</span>
-            <h2>Have a hard system to verify?</h2>
-            <p>Bring the workflow, the constraints, and the evidence standard.</p>
-          </div>
-          <Link className="button button-primary" href="/contact">Start a conversation <span aria-hidden="true">↗</span></Link>
+          <ProjectsGallery />
         </div>
       </section>
+      <Section title="What a mature record needs." pale>
+        <p>
+          A clear problem, an inspectable artifact, contributors and ownership,
+          a dated test, reproducibility where possible, and an honest account of
+          limitations. Archived material is not promoted to a product by
+          changing its label.
+        </p>
+        <div className="or-actions">
+          <Action href="/research/method">Read the evidence standard</Action>
+          <Action href="/collaborate" primary>
+            Contribute to the next question
+          </Action>
+        </div>
+      </Section>
     </>
   );
 }

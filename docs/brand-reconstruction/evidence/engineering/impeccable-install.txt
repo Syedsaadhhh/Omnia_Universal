@@ -1,0 +1,6 @@
+
+Downloading impeccable skills...
+Installed impeccable into: .agents (project)
+Installed impeccable engine v0.1.15 (linux-x64) into: /workspace/Omnia_Universal/.agents/skills/impeccable/scripts/bin/linux-x64/impeccable
+
+Done! Now type /impeccable init in your AI coding agent's chat (not in this terminal) to set up design context.

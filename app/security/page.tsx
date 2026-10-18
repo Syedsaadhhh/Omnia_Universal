@@ -1,24 +1,70 @@
-import type { Metadata } from "next";
-import { PageHero } from "@/components/PageHero";
+import Link from "next/link";
+import { pageMetadata } from "@/lib/metadata";
+import { ReadPage } from "@/components/ui";
 import { site } from "@/lib/site";
-
-export const metadata: Metadata = { title: "Security", description: "Security principles and responsible disclosure guidance for Omnia Sec AI Labs." };
-
+export const metadata = pageMetadata(
+  "/security",
+  "Security",
+  "Security boundaries, responsible disclosure and evidence for the Omniasec Labs website. No complete-security or compliance guarantee.",
+);
 export default function SecurityPage() {
   return (
-    <>
-      <PageHero eyebrow="SECURITY POSTURE" title={<>Autonomy earns authority<br />through <span>control.</span></>} copy="Security is treated as architecture: least privilege, visible execution, bounded tools, verification gates, recovery paths, and honest capability labels." />
-      <section className="section security-grid">
-        {[
-          ["01", "Least authority", "Agents should receive the narrowest tools and permissions required for the current operation."],
-          ["02", "Observable execution", "Material actions should produce traces that a human can inspect, understand, and challenge."],
-          ["03", "Verification gates", "High-impact operations should pause for checks, policy evaluation, or explicit approval."],
-          ["04", "Recoverable state", "Systems should know how to stop, retry safely, roll back when possible, and return control."],
-          ["05", "Local-first options", "Sensitive tasks should be able to minimize data movement and unnecessary third-party dependence."],
-          ["06", "Truthful maturity", "Experimental capabilities are not described as hardened security controls or production deployments."],
-        ].map(([id, title, copy]) => <article key={id}><span>{id}</span><h2>{title}</h2><p>{copy}</p></article>)}
-      </section>
-      <section className="section disclosure-panel"><div><span>RESPONSIBLE DISCLOSURE</span><h2>Found a security issue?</h2><p>Email <a href={`mailto:${site.email}?subject=Security%20disclosure`}>{site.email}</a> with a clear description, reproduction steps, affected component, and potential impact. Do not access data that is not yours, disrupt services, or publish an unresolved issue.</p></div></section>
-    </>
+    <ReadPage
+      title="Security needs evidence and boundaries."
+      description="A practical reporting channel and an honest account of limits. This page is not a security certification or a guarantee that every issue has been found."
+    >
+      <h2>Report a security issue</h2>
+      <p>
+        Email{" "}
+        <a href={`mailto:${site.email}?subject=Security%20disclosure`}>
+          {site.email}
+        </a>{" "}
+        with the affected component, a clear description, minimal reproduction
+        steps and potential impact. Keep sensitive details out of a public
+        issue. No response-time or bounty commitment is established here.
+      </p>
+      <p>
+        Do not access data that is not yours, disrupt services or test beyond
+        your authorization. For disputed scope, ask before testing.
+      </p>
+      <h2>Website boundaries</h2>
+      <p>
+        The website is informational. Contact uses direct email links; the
+        retained submission API is closed for delivery. Do not assume a form,
+        account system or data store exists because it appears in a historical
+        project.
+      </p>
+      <p>
+        Dependency checks, input handling, metadata, keyboard operation, builds
+        and containers have documented regression evidence. A passing check
+        describes its tested scope, not a vulnerability-free system.
+      </p>
+      <h2>Research and software principles</h2>
+      <p>
+        Use the least authority required for the task. Make material actions
+        inspectable, obtain approval where needed, protect sensitive data, and
+        preserve a way to stop or recover. Experimental capability must not be
+        marketed as a verified production control.
+      </p>
+      <h2>Source changes and deployed behavior</h2>
+      <p>
+        Work under review is not automatically deployed. Consult the linked
+        change record and its release status before relying on a source fix.
+        Provider configuration, hosting availability and operational practices
+        need their own review.
+      </p>
+      <p>
+        See the{" "}
+        <Link href="/build-log/security-foundation">
+          dated engineering checkpoint
+        </Link>{" "}
+        and{" "}
+        <a href="https://github.com/Syedsaadhhh/Omnia_Universal/pull/6">
+          security foundation PR
+        </a>
+        . No SOC 2 certification, full hardening or complete security is
+        claimed.
+      </p>
+    </ReadPage>
   );
 }

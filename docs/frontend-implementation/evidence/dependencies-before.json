@@ -1,0 +1,16 @@
+{
+  "@types/node": {
+    "current": "24.19.2",
+    "wanted": "24.19.2",
+    "latest": "26.6.5",
+    "dependent": "Omnia_Universal",
+    "location": "/workspace/Omnia_Universal/node_modules/@types/node"
+  },
+  "typescript": {
+    "current": "5.9.3",
+    "wanted": "5.9.3",
+    "latest": "7.0.2",
+    "dependent": "Omnia_Universal",
+    "location": "/workspace/Omnia_Universal/node_modules/typescript"
+  }
+}

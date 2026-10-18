@@ -1,0 +1,38 @@
+{
+  "tool": "FontTools4.61.1/brotli1.2.0, authoring only",
+  "files": [
+    {
+      "font": "literata-latin-regular.woff2",
+      "bytes": 35408,
+      "sha256": "c99be8afdabc79ad5c4bef3d622842deec6b194c752f90fbe35b5ac6e114aecb",
+      "original": "literata-Literata-opsz-wght.ttf",
+      "axes": {
+        "wght": 400,
+        "opsz": 48
+      },
+      "ranges": [
+        "U+0020\u2013017E",
+        "U+2000\u2013206F"
+      ],
+      "license": "SIL OFL1.1"
+    },
+    {
+      "font": "schibsted-latin.woff2",
+      "bytes": 51236,
+      "sha256": "c3422e84d57cef9f18bfff755800136b0452c50fd6d44f15ef0c41c100497e38",
+      "original": "schibstedgrotesk-SchibstedGrotesk-wght.ttf",
+      "axes": {
+        "wght": [
+          400,
+          700
+        ]
+      },
+      "ranges": [
+        "U+0020\u2013017E",
+        "U+2000\u2013206F"
+      ],
+      "license": "SIL OFL1.1"
+    }
+  ],
+  "totalBytes": 86644
+}

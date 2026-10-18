@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { site } from "@/lib/site";
+import { detailEntries } from "@/lib/work";
+import { siteUrl } from "@/lib/site-origin";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
@@ -13,11 +14,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/security",
     "/privacy",
     "/terms",
+    "/collaborate",
+    "/for-organizations",
+    "/research/method",
+    "/build-log/security-foundation",
+    ...detailEntries.map((project) => project.detail),
   ];
   return routes.map((route, index) => ({
-    url: `${site.url}${route}`,
-    lastModified: new Date(),
+    url: siteUrl(route || "/"),
     changeFrequency: index === 0 ? "weekly" : "monthly",
-    priority: index === 0 ? 1 : route === "/gns3-agent" ? 0.9 : 0.7,
+    priority: index === 0 ? 1 : 0.7,
   }));
 }

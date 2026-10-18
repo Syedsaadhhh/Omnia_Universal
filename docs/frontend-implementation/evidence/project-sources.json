@@ -1,0 +1,92 @@
+[
+  {
+    "name": "reproforge-sentinel",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/reproforge-sentinel",
+    "description": "AI claim-to-evidence verification system for repo/workflow risk scoring and reproducibility passports.",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-07-13T08:10:54Z",
+    "license": "MIT"
+  },
+  {
+    "name": "FaangRilla",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/FaangRilla",
+    "description": null,
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-09-14T21:10:33Z",
+    "license": "MIT"
+  },
+  {
+    "name": "DwellGuard-AI",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/DwellGuard-AI",
+    "description": null,
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-09-14T15:40:11Z",
+    "license": "MIT"
+  },
+  {
+    "name": "COMMONS-ALIBABA",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/COMMONS-ALIBABA",
+    "description": null,
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-10-02T17:55:11Z",
+    "license": "MIT"
+  },
+  {
+    "name": "VoltHacks",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/VoltHacks",
+    "description": null,
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-09-13T20:34:19Z",
+    "license": "MIT"
+  },
+  {
+    "name": "ciro-khi",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/ciro-khi",
+    "description": "CIRO \u2014 Crisis Intelligence & Response Orchestrator AISeekho 2026 \u00b7 Challenge 3 \u00b7 Crisis Intelligence & Response Orchestrator",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-06-03T03:54:06Z",
+    "license": null
+  },
+  {
+    "name": "credscan-lite",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/credscan-lite",
+    "description": " \ud83d\udee1\ufe0f Local-first AI that converts transcripts, lectures, and voice notes into actionable tasks and summaries \u2014 runs offline with Ollama/Whisper, designed for students, teams, and emerging-market workflows.",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-09-27T04:56:16Z",
+    "license": "MIT"
+  },
+  {
+    "name": "actionscribe-local",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/actionscribe-local",
+    "description": null,
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-04-17T19:31:46Z",
+    "license": "NOASSERTION"
+  },
+  {
+    "name": "revise-lite",
+    "available": true,
+    "url": "https://github.com/Syedsaadhhh/revise-lite",
+    "description": "Offline study note summarizer for fast exam revision workflows",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-04-27T10:15:20Z",
+    "license": "MIT"
+  }
+]

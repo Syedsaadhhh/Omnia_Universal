@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-18T11:00:31.566890+00:00",
+  "securityBase": "c5d250040b1f8507b617d5d32593d23802fce567",
+  "frontendSourceCommit": "b636923040ecfd2d363cce77da0ca54dc6b54355",
+  "pathsCompared": [
+    "app/api",
+    "lib/http-input.ts",
+    "lib/security-headers.ts",
+    "lib/site-origin.ts",
+    "Dockerfile",
+    ".github/workflows"
+  ],
+  "changedPaths": [],
+  "interpretation": "No changes in retained API/parsing/header/origin/container/workflow source. New www redirect leaves existing CSP construction intact; HTTP/browser regressions exercise final response behavior."
+}

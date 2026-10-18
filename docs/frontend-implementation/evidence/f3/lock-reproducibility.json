@@ -1,0 +1,7 @@
+{
+  "command": "npm ci --ignore-scripts --no-audit --no-fund",
+  "sha256Before": "6b01e35b55d1a433e16772b32979add0af1c803b5031ebf492e8eb976b464b8f",
+  "sha256After": "6b01e35b55d1a433e16772b32979add0af1c803b5031ebf492e8eb976b464b8f",
+  "unchanged": true,
+  "node": "v24.19.0"
+}

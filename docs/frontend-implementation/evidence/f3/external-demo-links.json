@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-18T10:57:52.159511+00:00",
+  "scope": "One ordinary HEAD per five preserved original demo URLs; no interactions or submissions; status is not a behavior/security/maintenance test. Protection/cold starts/proxy may affect result.",
+  "results": [
+    {
+      "url": "https://reproforge-sentinel.onrender.com",
+      "method": "HEAD",
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://opendoor-relay.vercel.app",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://opendoor-relay.vercel.app"
+    },
+    {
+      "url": "https://dwellguard-ai.vercel.app",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://dwellguard-ai.vercel.app/demo"
+    },
+    {
+      "url": "https://commons-alibaba.vercel.app",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://commons-alibaba.vercel.app"
+    },
+    {
+      "url": "https://cuthush-live.onrender.com",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cuthush-live.onrender.com"
+    }
+  ]
+}

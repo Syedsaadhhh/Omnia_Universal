@@ -1,0 +1,36 @@
+{
+  "date_utc": "2026-10-15",
+  "kind": "curated observations from system resolver, Google Public DNS HTTPS, urllib, curl and Chromium",
+  "apex": {
+    "hostname": "omniaseclabs.com",
+    "A": ["216.198.79.1"],
+    "AAAA": [],
+    "CNAME": [],
+    "NS": ["ns1.hosting.businessidentity.llc.", "ns2.hosting.businessidentity.llc."],
+    "http_status": 308,
+    "http_location": "https://omniaseclabs.com/",
+    "https_status": 200,
+    "hsts": "max-age=63072000",
+    "tls_browser_protocol": "TLS 1.3",
+    "observed_certificate_issuer": "openai.com",
+    "certificate_limit": "Environment interception; origin certificate issuer, expiry and public chain not independently verified"
+  },
+  "www": {
+    "hostname": "www.omniaseclabs.com",
+    "A": ["66.223.49.89"],
+    "AAAA": [],
+    "CNAME": [],
+    "http_followed_response_status": 503,
+    "https_status": 503,
+    "browser_status": 503,
+    "body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+    "limit": "Only this cloud environment; no global outage or root cause established; intended www role unverified"
+  },
+  "email": {
+    "MX": ["10 mailserver.businessidentity.llc."],
+    "SPF": "v=spf1 a mx include:spf.postal.businessidentity.llc ~all",
+    "DMARC": "v=DMARC1; p=quarantine; rua=mailto:bounce@dmarc.businessidentity.llc; ruf=mailto:bounce@dmarc.businessidentity.llc; fo=1",
+    "resend._domainkey_TXT_status": "NXDOMAIN",
+    "limit": "Single DKIM selector only; actual selectors/subdomains, sender verification, credentials, retention, permissions and inbox delivery unverified; no email sent"
+  }
+}

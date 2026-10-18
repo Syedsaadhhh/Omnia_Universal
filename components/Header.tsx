@@ -2,65 +2,94 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Logo } from "./Logo";
+import { Arrow } from "./ui";
 import { navItems } from "@/lib/site";
 
 export function Header() {
   const pathname = usePathname();
+  const activePath = pathname === "/gns3-agent" ? "/projects" : pathname;
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const menuButton = useRef<HTMLButtonElement>(null);
 
   useEffect(() => setOpen(false), [pathname]);
 
+  useEffect(() => {
+    const viewport = window.matchMedia("(max-width: 1100px)");
+    const onChange = (event: MediaQueryListEvent) => {
+      if (!event.matches) setOpen(false);
+    };
+    viewport.addEventListener("change", onChange);
+    return () => viewport.removeEventListener("change", onChange);
+  }, []);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setOpen(false);
+        menuButton.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [open]);
+
   return (
-    <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
-      <div className="header-shell">
+    <header className="or-header" id="top">
+      <div className="or-shell or-header-row">
         <Logo />
-        <nav className="desktop-nav" aria-label="Primary navigation">
+        <nav className="or-desktop-nav" aria-label="Primary navigation">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={pathname.startsWith(item.href) ? "active" : ""}
+              className={activePath.startsWith(item.href) ? "active" : ""}
+              aria-current={
+                activePath.startsWith(item.href) ? "page" : undefined
+              }
             >
               {item.label}
             </Link>
           ))}
         </nav>
-        <div className="header-actions">
-          <Link className="button button-primary button-small desktop-cta" href="/contact">
-            Start a conversation <span aria-hidden="true">↗</span>
-          </Link>
+        <div className="or-header-actions">
           <button
-            className={`menu-button ${open ? "open" : ""}`}
+            ref={menuButton}
+            className="or-menu-button"
             type="button"
-            aria-label={open ? "Close navigation" : "Open navigation"}
+            aria-label={open ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={open}
+            aria-controls="mobile-navigation"
             onClick={() => setOpen((value) => !value)}
           >
-            <span />
-            <span />
+            {open ? "Close" : "Menu"}
           </button>
         </div>
       </div>
-      <div className={`mobile-menu ${open ? "open" : ""}`}>
+      <div
+        id="mobile-navigation"
+        className="or-mobile-menu or-shell"
+        hidden={!open}
+      >
         <nav aria-label="Mobile navigation">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href}>
+            <Link
+              key={item.href}
+              href={item.href}
+              aria-current={
+                activePath.startsWith(item.href) ? "page" : undefined
+              }
+              onClick={() => setOpen(false)}
+            >
               {item.label}
-              <i aria-hidden="true">↗</i>
+              <Arrow />
             </Link>
           ))}
-          <Link className="mobile-contact" href="/contact">
-            Contact Omnia
+          <Link href="/contact" onClick={() => setOpen(false)}>
+            Contact Omniasec Labs
+            <Arrow />
           </Link>
         </nav>
       </div>

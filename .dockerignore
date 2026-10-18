@@ -4,3 +4,15 @@ node_modules
 .env*
 *.log
 README*.png
+docs
+tests
+test-results
+playwright-report
+.gitignore
+.github
+WORK_STATE.md
+AUDIT_BASELINE.md
+SECURITY_FINDINGS.md
+POSITIONING_AND_IA.md
+IMPLEMENTATION_PLAN.md
+*.bundle

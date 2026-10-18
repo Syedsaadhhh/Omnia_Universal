@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-16",
+  "scope": "passive GET and DNS only; no production POST",
+  "observations": [
+    {
+      "host": "omniaseclabs.com",
+      "dns_type": "A",
+      "status": 0,
+      "answers": [
+        {
+          "name": "omniaseclabs.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "216.198.79.1"
+        }
+      ]
+    },
+    {
+      "host": "omniaseclabs.com",
+      "dns_type": "AAAA",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "host": "omniaseclabs.com",
+      "dns_type": "CNAME",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "host": "omniaseclabs.com",
+      "scheme": "http",
+      "final_status": 200,
+      "final_url": "https://omniaseclabs.com/",
+      "etag": "\"4e3e14c2a0af520cf4374892a7d37f07\"",
+      "hsts": "max-age=63072000",
+      "canonical_old_host_present": true,
+      "body_if_error": null
+    },
+    {
+      "host": "omniaseclabs.com",
+      "scheme": "https",
+      "final_status": 200,
+      "final_url": "https://omniaseclabs.com",
+      "etag": "\"4e3e14c2a0af520cf4374892a7d37f07\"",
+      "hsts": "max-age=63072000",
+      "canonical_old_host_present": true,
+      "body_if_error": null
+    },
+    {
+      "host": "www.omniaseclabs.com",
+      "dns_type": "A",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.omniaseclabs.com.",
+          "type": 1,
+          "TTL": 60,
+          "data": "66.223.49.89"
+        }
+      ]
+    },
+    {
+      "host": "www.omniaseclabs.com",
+      "dns_type": "AAAA",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "host": "www.omniaseclabs.com",
+      "dns_type": "CNAME",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "host": "www.omniaseclabs.com",
+      "scheme": "http",
+      "final_status": 503,
+      "final_url": "http://www.omniaseclabs.com",
+      "etag": null,
+      "hsts": null,
+      "canonical_old_host_present": false,
+      "body_if_error": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+    },
+    {
+      "host": "www.omniaseclabs.com",
+      "scheme": "https",
+      "final_status": 503,
+      "final_url": "https://www.omniaseclabs.com",
+      "etag": null,
+      "hsts": null,
+      "canonical_old_host_present": false,
+      "body_if_error": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+    }
+  ]
+}
