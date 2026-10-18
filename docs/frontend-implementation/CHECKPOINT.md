@@ -1,5 +1,7 @@
 # Open Register frontend checkpoint — 18 October 2026
 
+**Historical pre-release record.** The approved release and current production state are tracked in [WORK_STATE.md](../../WORK_STATE.md); the draft/deployment restrictions below describe the earlier design checkpoint.
+
 A — Open Register is the founder-selected direction. This checkpoint implements it in review branches; it is not a production release or trademark clearance. The original reference remains main@9cc1399 and the security foundation remains PR #6@c5d2500. Vercel is the current host. The founder clarified that Cloudflare is historical/future scope; the still-visible legacy Workers check is tracked separately and its settings are unchanged.
 
 ## Review boundaries
