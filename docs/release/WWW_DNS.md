@@ -1,11 +1,35 @@
-# `www.omniaseclabs.com` DNS correction
+# `www.omniaseclabs.com` — resolved DNS correction
 
-Verified 18 October 2026. The apex `omniaseclabs.com` is live on Vercel. The authoritative DNS for this domain is external to Vercel, on `ns1.hosting.businessidentity.llc` and `ns2.hosting.businessidentity.llc`. Vercel's configuration check reports `www` as misconfigured: it has an A record to `66.223.49.89`, no CNAME, and public HTTPS requests return 503.
+Verified 18 October 2026. The founder manages the domain through Northwest Registered Agent. The public registry names DomainRegistry.com LLC, but that registry entry did not establish the founder's customer portal; the earlier suggestion to use DomainRegistry's login was incorrect for this account. Use the founder's [Northwest dashboard](https://accounts.northwestregisteredagent.com/#/dashpanel) for domain administration. Authoritative nameservers remain `ns1.hosting.businessidentity.llc` and `ns2.hosting.businessidentity.llc`.
 
-With the owner's approval, `www.omniaseclabs.com` has been added to the existing Vercel project as a **308 redirect to `omniaseclabs.com`**. Vercel reports the project-domain association as verified. This association alone does not change the external DNS record or fix public traffic.
+## Root cause and completed change
 
-The remaining action is at the current external DNS host: remove only the `www` A record to `66.223.49.89` and create a `www` CNAME to `c60ac4e8c8c23db1.vercel-dns-017.com.` (Vercel's first-ranked project-specific target on 18 October). Do not change the apex A record, MX/TXT records, email routing, or nameservers. No authenticated tool for this DNS host is connected in the workspace, so this external record change was not performed here.
+Before the correction, `www` resolved through the wildcard `*.omniaseclabs.com` A record to `66.223.49.89`, rather than Vercel. The earlier interpretation that there was a dedicated `www` A record was incorrect; the founder's Northwest dashboard screenshot clarified the wildcard record. Neither existing A record needed removal.
 
-The public `.com` registry identifies **DomainRegistry.com LLC** as the registrar, with the same `businessidentity.llc` nameservers. Its [official login page](https://www.domainregistry.com/login/) links to the Client Portal; it says some accounts need a one-time password reset. After signing in, select `omniaseclabs.com` and locate its DNS/zone-record editor. The exact menu labels are not independently visible without an account login. If the portal does not offer DNS edits, use the contact link on that official page to ask the registrar/DNS host to make only the record change above. Do not share account credentials in a chat or repository issue.
+With the founder's approval, this agent configured `www.omniaseclabs.com` on the existing Vercel project as a **308 redirect to `omniaseclabs.com`**. The founder then used Northwest's Mark assistant to add an explicit CNAME:
 
-After DNS propagates, verify that the Vercel domain configuration reports `misconfigured: false`, and that `https://www.omniaseclabs.com/projects?source=check` returns HTTP 308 with `Location: https://omniaseclabs.com/projects?source=check`. Check TLS and both desktop/mobile entry points. The Next.js application also has an apex redirect for requests arriving with the `www` host, but it cannot act until DNS and TLS route that host to Vercel.
+| Name | Type | Target |
+|---|---|---|
+| `www` | CNAME | `c60ac4e8c8c23db1.vercel-dns-017.com.` |
+
+The explicit record takes precedence over the wildcard for `www`. Mark reported that the root/wildcard A records, MX, TXT, other CNAMEs and nameservers were preserved. This agent received no account credentials and did not log into the Northwest account.
+
+## Independent verification
+
+Google's public DNS-over-HTTPS resolver returned these successful answers after the change:
+
+- `www.omniaseclabs.com` CNAME → `c60ac4e8c8c23db1.vercel-dns-017.com.` (TTL 300).
+- `omniaseclabs.com` A → `216.198.79.1` (TTL 300).
+- `*.omniaseclabs.com` A → `66.223.49.89` (TTL 60).
+
+Vercel's authenticated domain-configuration check reports `misconfigured: false`, with no conflicts and resolved addresses `216.198.79.1` and `64.29.17.1`. Its summary omits the CNAME chain; the public CNAME lookup above separately confirms the record.
+
+Bounded public HTTPS checks, with TLS verification enabled, returned:
+
+| Request | Status | Location |
+|---|---|---|
+| `https://www.omniaseclabs.com/` | 308 | `https://omniaseclabs.com/` |
+| `https://www.omniaseclabs.com/projects?source=dns-check` | 308 | `https://omniaseclabs.com/projects?source=dns-check` |
+| `https://omniaseclabs.com/` | 200 | — |
+
+The hostname defect is closed. These observations confirm DNS routing, HTTPS reachability and the redirect from this environment; they do not independently verify every resolver or mailbox operation. No apex, wildcard, email or nameserver change is required for this fix.
