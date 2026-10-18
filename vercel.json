@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
   "git": {
     "deploymentEnabled": {
       "fix/security-engineering-foundation": false,
