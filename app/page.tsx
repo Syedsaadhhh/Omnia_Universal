@@ -171,13 +171,14 @@ export default function HomePage() {
             <p>What changed, what was tested and what remains uncertain.</p>
           </div>
           <article className="or-update">
-            <time dateTime="2026-10-16">16 October 2026</time>
+            <time dateTime="2026-10-18">18 October 2026</time>
             <div>
-              <h3>The engineering foundation checkpoint</h3>
+              <h3>The engineering foundation and website release</h3>
               <p>
-                Security and reproducibility work is documented in draft PR #6.
-                It remains under review; source improvements are not deployed
-                improvements.
+                The research-led website and its tested engineering foundation
+                are now live. The dated record links the checks and names the
+                remaining limits; a passing release does not settle every
+                security or operational question.
               </p>
             </div>
             <Link

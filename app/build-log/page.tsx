@@ -49,13 +49,34 @@ export default function UpdatesPage() {
             </p>
           </div>
           <article className="or-update">
+            <time dateTime="2026-10-18">18 October 2026</time>
+            <div>
+              <h3>Open Register website released</h3>
+              <p>
+                The audit, security foundation and research-led website were
+                released together through the linked change. Engineering checks
+                and a Vercel preview passed before release. The legacy Cloudflare
+                Workers check still fails, and the www hostname needs separate
+                DNS correction.
+              </p>
+            </div>
+            <a
+              className="or-text-link"
+              href="https://github.com/Syedsaadhhh/Omnia_Universal/pull/10"
+            >
+              Inspect the release
+              <Arrow />
+            </a>
+          </article>
+          <article className="or-update">
             <time dateTime="2026-10-16">16 October 2026</time>
             <div>
               <h3>The engineering foundation checkpoint</h3>
               <p>
-                Draft security PR #6, deterministic builds, disabled contact
-                delivery and bounded regression evidence. Source improvements
-                under review, not a release announcement.
+                The security foundation checkpoint recorded deterministic builds,
+                disabled contact delivery and bounded regression evidence while
+                PR #6 was still a draft. It was included in the 18 October
+                release above.
               </p>
             </div>
             <Link
